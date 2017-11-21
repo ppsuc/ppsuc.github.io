@@ -13,7 +13,17 @@
     <entry>
       <title><![CDATA[hello vicen]]></title>
       <url>/2017/11/20/hello-vicen/</url>
-      <content type="html"><![CDATA[<h2 id="Welcome-to-MarkdownPad-2"><a href="#Welcome-to-MarkdownPad-2" class="headerlink" title="Welcome to MarkdownPad 2"></a>Welcome to MarkdownPad 2</h2><p><strong>MarkdownPad</strong> is a full-featured Markdown editor for Windows.</p>
+      <content type="html"><![CDATA[<ul>
+<li>blog使用的环境是git+nodejs+<strong><strong>Hexo</strong></strong>+github,至于为什么是因为穷。别问我网址为什么是ppsuc,我也不知道为什么当初注册的github账户名是这个，希望以后的师弟搜github搜ppsuc的时候不要打我2333，主题是yilia,地址在<blockquote>
+<p><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia</a></p>
+</blockquote>
+</li>
+</ul>
+<ul>
+<li>markdown编辑器用的软件是<strong><strong>MarkdownPAd</strong></strong>，个人觉得灰常好用，输入code处理上面不是特别给力，无伤大雅</li>
+</ul>
+<p><strong>ps:贴一下MarkdownPad的语法文档</strong></p>
+<h2 id="Welcome-to-MarkdownPad-2"><a href="#Welcome-to-MarkdownPad-2" class="headerlink" title="Welcome to MarkdownPad 2"></a>Welcome to MarkdownPad 2</h2><p><strong>MarkdownPad</strong> is a full-featured Markdown editor for Windows.</p>
 <h3 id="Built-exclusively-for-Markdown"><a href="#Built-exclusively-for-Markdown" class="headerlink" title="Built exclusively for Markdown"></a>Built exclusively for Markdown</h3><p>Enjoy first-class Markdown support with easy access to  Markdown syntax and convenient keyboard shortcuts.</p>
 <p>Give them a try:</p>
 <ul>
