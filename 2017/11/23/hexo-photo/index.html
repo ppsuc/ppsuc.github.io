@@ -6,20 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Vicen Blog</title>
+  <title>hexo插件-图片墙功能 | Vicen Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="礼物 - 3.8 	 	 	 	   	 	 		3.8节礼物，来了… 		 		 			 				 					首先，你要输入我的生日 					 					接着，摇一摇… 					 					最后，这就是见证奇迹的时刻… 				 				 					3.8节快乐！ 					祝身体健康,平安长乐 					请打开">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Vicen Blog">
-<meta property="og:url" content="http://yoursite.com/assets/demo/gift/index.html">
+  <meta name="description" content="1、关于其实yilia主题的博主的blog是有一个相册功能的，源码在他的github上，但是用的是Instagram的api接口，网上好多人说ins的api已经关闭了，那么也就获取不了照片信息了。所以还是决定选择从本地上传图片到github做图片墙。参考原博在  http://blog.csdn.net/u013082">
+<meta name="keywords" content="Hexo美化">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo插件-图片墙功能">
+<meta property="og:url" content="http://yoursite.com/2017/11/23/hexo-photo/index.html">
 <meta property="og:site_name" content="Vicen Blog">
-<meta property="og:description" content="礼物 - 3.8 	 	 	 	   	 	 		3.8节礼物，来了… 		 		 			 				 					首先，你要输入我的生日 					 					接着，摇一摇… 					 					最后，这就是见证奇迹的时刻… 				 				 					3.8节快乐！ 					祝身体健康,平安长乐 					请打开音量收听…">
-<meta property="og:image" content="http://yoursite.com/assets/demo/gift/img/shake.png">
-<meta property="og:updated_time" content="2017-07-28T18:51:08.000Z">
+<meta property="og:description" content="1、关于其实yilia主题的博主的blog是有一个相册功能的，源码在他的github上，但是用的是Instagram的api接口，网上好多人说ins的api已经关闭了，那么也就获取不了照片信息了。所以还是决定选择从本地上传图片到github做图片墙。参考原博在  http://blog.csdn.net/u013082989/article/details/70162293">
+<meta property="og:image" content="https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=a23013e971cb0a469a228d395b62f63e/7dd98d1001e939018ffc7c2d71ec54e736d19623.jpg">
+<meta property="og:image" content="http://img.blog.csdn.net/20170413212556724?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzA4Mjk4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:image" content="http://img.blog.csdn.net/20170413212609912?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzA4Mjk4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
+<meta property="og:updated_time" content="2017-11-23T15:04:37.975Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vicen Blog">
-<meta name="twitter:description" content="礼物 - 3.8 	 	 	 	   	 	 		3.8节礼物，来了… 		 		 			 				 					首先，你要输入我的生日 					 					接着，摇一摇… 					 					最后，这就是见证奇迹的时刻… 				 				 					3.8节快乐！ 					祝身体健康,平安长乐 					请打开音量收听…">
-<meta name="twitter:image" content="http://yoursite.com/assets/demo/gift/img/shake.png">
+<meta name="twitter:title" content="hexo插件-图片墙功能">
+<meta name="twitter:description" content="1、关于其实yilia主题的博主的blog是有一个相册功能的，源码在他的github上，但是用的是Instagram的api接口，网上好多人说ins的api已经关闭了，那么也就获取不了照片信息了。所以还是决定选择从本地上传图片到github做图片墙。参考原博在  http://blog.csdn.net/u013082989/article/details/70162293">
+<meta name="twitter:image" content="https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=a23013e971cb0a469a228d395b62f63e/7dd98d1001e939018ffc7c2d71ec54e736d19623.jpg">
   
     <link rel="alternative" href="/atom.xml" title="Vicen Blog" type="application/atom+xml">
   
@@ -159,93 +162,60 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
+            <article id="post-hexo-photo" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      hexo插件-图片墙功能
+    </h1>
+  
+
+        
+        <a href="/2017/11/23/hexo-photo/" class="archive-article-date">
+  	<time datetime="2017-11-23T13:52:21.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-11-23</time>
+</a>
+        
+      </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <!doctype html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no">
-	<title>礼物 - 3.8</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/index.css">
-	<script src="js/zepto.min.js"></script>
-	<script src="js/shake.js"></script>
-</head>
-<body>
-	<!-- <div id="my_player"></div> -->
-	<header>
-		<p>3.8节礼物，来了…</p>
-		<div class="paper-t"></div>
-		<div class="main">
-			<div class="main-top top2">
-				<section id="se1">
-					<p>首先，你要输入我的生日</p>
-					<input id="myBir" type="text" placeholder="4位数，格式为:mmdd">
-					<p>接着，摇一摇…</p>
-					<img src="img/shake.png">
-					<p>最后，这就是见证奇迹的时刻…</p>
-				</section>
-				<section id="se2" class="hide">
-					<p>3.8节快乐！</p>
-					<p>祝身体健康,平安长乐</p>
-					<p>请打开音量收听…</p>
-				</section>
-			</div>
-		</div>
-		<div class="paper-b"></div>
-	</header>
-</body>
-	<script>
-		var Main = (function() {
-			function playAudio(src) {
-			    if (typeof Audio != "undefined") { 
-			        new Audio(src).play() ;
-			    } else if (typeof device != "undefined") {
-			        if (device.platform == 'Android') {
-			            console.log(src);
-			        }
-			        var mediaRes = new Media(src,
-			            function onSuccess() {
-			                mediaRes.release();
-			            },
-			            function onError(e){
-			                console.log("error playing sound: " + JSON.stringify(e));
-			            });
-			        mediaRes.play();
+        <h1 id="1、关于"><a href="#1、关于" class="headerlink" title="1、关于"></a>1、关于</h1><p>其实yilia主题的博主的blog是有一个相册功能的，源码在他的github上，但是用的是Instagram的api接口，网上好多人说ins的api已经关闭了，那么也就获取不了照片信息了。所以还是决定选择从本地上传图片到github做图片墙。参考原博在</p>
+<blockquote>
+<p><a href="http://blog.csdn.net/u013082989/article/details/70162293" target="_blank" rel="noopener">http://blog.csdn.net/u013082989/article/details/70162293</a>  </p>
+</blockquote>
+<p><img src="https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=a23013e971cb0a469a228d395b62f63e/7dd98d1001e939018ffc7c2d71ec54e736d19623.jpg" alt=""></p>
+<a id="more"></a>
+<h1 id="2、方案"><a href="#2、方案" class="headerlink" title="2、方案"></a>2、方案</h1><ul>
+<li>在github上新建一个仓库，主要用于存储图片，可以通过url访问到，也方便管理</li>
+</ul>
+<ul>
+<li><p>将要放到相册的图片处理成json格式的数据，然后进行访问，这里json的格式需要配</p>
+</li>
+<li><p>合要使用的样式，所以需要处理成特定格式的json数据，下面会给出</p>
+</li>
+</ul>
+<ul>
+<li>图片裁剪，因为相册显示的样式最好是正方形的的图片，这里使用脚本处理一下</li>
+</ul>
+<ul>
+<li>图片压缩，相册显示的图片是压缩后的图片，提高加载的速度，打开后的图片是原图。<h1 id="3、实现"><a href="#3、实现" class="headerlink" title="3、实现"></a>3、实现</h1></li>
+<li>在git上新建一个仓库来存储照片，样式文件参考<a href="https://github.com/lawlite19/Blog-Back-Up" target="_blank" rel="noopener">lawlite19</a>的github。</li>
+<li><p>修改ins.js文件，其中的url对应到你的github放图片的地址（就是打开github上的照片时显示的网址信息）</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> render = <span class="function"><span class="keyword">function</span> <span class="title">render</span>(<span class="params">res</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> ulTmpl = <span class="string">""</span>;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> j = <span class="number">0</span>, len2 = res.list.length; j &lt; len2; j++) &#123;</span><br><span class="line">    <span class="keyword">var</span> data = res.list[j].arr;</span><br><span class="line">    <span class="keyword">var</span> liTmpl = <span class="string">""</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>, len = data.link.length; i &lt; len; i++) &#123;</span><br><span class="line">      <span class="keyword">var</span> minSrc = <span class="string">'https://raw.githubusercontent.com/lawlite19/blog-back-up/master/min_photos/'</span> + data.link[i];</span><br><span class="line">      <span class="keyword">var</span> src = <span class="string">'https://raw.githubusercontent.com/lawlite19/blog-back-up/master/photos/'</span> + data.link[i];</span><br><span class="line">      <span class="keyword">var</span> type = data.type[i];</span><br><span class="line">      <span class="keyword">var</span> target = src + (type === <span class="string">'video'</span> ? <span class="string">'.mp4'</span> : <span class="string">'.jpg'</span>);</span><br><span class="line">      src += <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">      liTmpl += <span class="string">'&lt;figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"&gt;\</span></span><br><span class="line"><span class="string">            &lt;a href="'</span> + src + <span class="string">'" itemprop="contentUrl" data-size="1080x1080" data-type="'</span> + type + <span class="string">'" data-target="'</span> + src + <span class="string">'"&gt;\</span></span><br><span class="line"><span class="string">              &lt;img class="reward-img" data-type="'</span> + type + <span class="string">'" data-src="'</span> + minSrc + <span class="string">'" src="/assets/img/empty.png" itemprop="thumbnail" onload="lzld(this)"&gt;\</span></span><br><span class="line"><span class="string">            &lt;/a&gt;\</span></span><br><span class="line"><span class="string">            &lt;figcaption style="display:none" itemprop="caption description"&gt;'</span> + data.text[i] + <span class="string">'&lt;/figcaption&gt;\</span></span><br><span class="line"><span class="string">        &lt;/figure&gt;'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    ulTmpl = ulTmpl + <span class="string">'&lt;section class="archives album"&gt;&lt;h1 class="year"&gt;'</span> + data.year + <span class="string">'年&lt;em&gt;'</span> + data.month + <span class="string">'月&lt;/em&gt;&lt;/h1&gt;\</span></span><br><span class="line"><span class="string">    &lt;ul class="img-box-ul"&gt;'</span> + liTmpl + <span class="string">'&lt;/ul&gt;\</span></span><br><span class="line"><span class="string">    &lt;/section&gt;'</span>;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>源码的<strong>Blog-Back-Up</strong>里面包含图片的python处理脚本文件<strong>tool.py</strong>，可以去图片的中间部分，裁剪为正方形。</p>
+<ul>
+<li>处理完成之后可以将处理后的图片提交到github上，需要输入github的账号信息。</li>
+<li>然后将图片信息处理成json数据格式<br><img src="http://img.blog.csdn.net/20170413212556724?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzA4Mjk4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="">  </li>
+<li>这里采用的方式是读取图片的名字作为其中的text的内容，最前面是日期，然后用<em>进行分隔，后面是图片的描述信息，注意不要包含</em>和.符号。<br><img src="http://img.blog.csdn.net/20170413212609912?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzA4Mjk4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="">  </li>
+<li>注意代码中../lawlite19.github.io/source/photos/data.json要根据需要改成自己博客的路径，另外，我的环境是我windows，编码方式是gbk,直接提取图片命名会报错，所以对于file_list要先解码GBK然后再utf8编码。<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">def handle_photo():</span><br><span class="line">    <span class="string">''</span><span class="string">'根据图片的文件名处理成需要的json格式的数据</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    -----------</span></span><br><span class="line"><span class="string">    最后将data.json文件存到博客的source/photos文件夹下</span></span><br><span class="line"><span class="string">    '</span><span class="string">''</span></span><br><span class="line">    src_dir, des_dir = <span class="string">"photos/"</span>, <span class="string">"min_photos/"</span></span><br><span class="line">    file_list = list_img_file(src_dir)</span><br><span class="line">    list_info = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(file_list)):</span><br><span class="line">        filename = file_list[i].decode(<span class="string">'gbk'</span>).encode(<span class="string">'utf-8'</span>)</span><br><span class="line">        date_str, info = filename.split(<span class="string">"_"</span>)</span><br><span class="line">        info, _ = info.split(<span class="string">"."</span>)</span><br><span class="line">        date = datetime.strptime(date_str, <span class="string">"%Y-%m-%d"</span>)</span><br><span class="line">        year_month = date_str[<span class="number">0</span>:<span class="number">7</span>]            </span><br><span class="line">        if i == 0:  # 处理第一个文件</span><br><span class="line">            new_dict = &#123;<span class="string">"date"</span>: year_month, <span class="string">"arr"</span>:&#123;<span class="string">'year'</span>: date.year,</span><br><span class="line">                                                                   <span class="string">'month'</span>: date.month,</span><br><span class="line">                                                                   <span class="string">'link'</span>: [filename],</span><br><span class="line">                                                                   <span class="string">'text'</span>: [info],</span><br><span class="line">                                                                   <span class="string">'type'</span>: [<span class="string">'image'</span>]</span><br><span class="line">                                                                   &#125;</span><br><span class="line">                                        &#125; </span><br><span class="line">            list_info.append(new_dict)</span><br><span class="line">        elif year_month != list_info[-1]['date']:  # 不是最后的一个日期，就新建一个dict</span><br><span class="line">            new_dict = &#123;<span class="string">"date"</span>: year_month, <span class="string">"arr"</span>:&#123;<span class="string">'year'</span>: date.year,</span><br><span class="line">                                                   <span class="string">'month'</span>: date.month,</span><br><span class="line">                                                   <span class="string">'link'</span>: [filename],</span><br><span class="line">                                                   <span class="string">'text'</span>: [info],</span><br><span class="line">                                                   <span class="string">'type'</span>: [<span class="string">'image'</span>]</span><br><span class="line">                                                   &#125;</span><br><span class="line">                        &#125;</span><br><span class="line">            list_info.append(new_dict)</span><br><span class="line">        else:  # 同一个日期</span><br><span class="line">            list_info[<span class="number">-1</span>][<span class="string">'arr'</span>][<span class="string">'link'</span>].append(filename)</span><br><span class="line">            list_info[<span class="number">-1</span>][<span class="string">'arr'</span>][<span class="string">'text'</span>].append(info)</span><br><span class="line">            list_info[<span class="number">-1</span>][<span class="string">'arr'</span>][<span class="string">'type'</span>].append(<span class="string">'image'</span>)</span><br><span class="line">    list_info.reverse()  # 翻转</span><br><span class="line">    final_dict = &#123;<span class="string">"list"</span>: list_info&#125;</span><br><span class="line">    <span class="keyword">with</span> open(<span class="string">"../../git/source/photos/data.json"</span>,<span class="string">"w"</span>) <span class="keyword">as</span> fp:</span><br><span class="line">        json.dump(final_dict, fp)</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
 
-			    } else {
-			        alert("no sound API to play: " + src);
-			    }
-			}
-			window.addEventListener('shake', autoRun, false);
-			function autoRun(){
-				if($("#myBir").val() == "0425"){
-					$("#se1").hide();
-					$("#se2").show();
-					playAudio("media/gift.ogg");
-				}else{
-					alert("生日错误");
-				}
-				
-			}
-			var init = function() {
-				
-			}
-			return {
-				init: init
-			}
-		})();
-
-		$(Main.init());
-	</script>
-</html>
       
 
       
@@ -284,6 +254,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Hexo美化</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -334,7 +315,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/assets/demo/gift/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2017/11/23/hexo-photo/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -346,6 +327,16 @@
 </article>
 
   
+<nav id="article-nav">
+  
+  
+    <a href="/2017/11/22/[摘]《今日说法》里最悬疑复杂的一案/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">[摘]《今日说法》里最悬疑复杂的一案</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -396,7 +387,7 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
