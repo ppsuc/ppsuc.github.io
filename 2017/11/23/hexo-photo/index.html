@@ -18,7 +18,7 @@
 <meta property="og:image" content="https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=a23013e971cb0a469a228d395b62f63e/7dd98d1001e939018ffc7c2d71ec54e736d19623.jpg">
 <meta property="og:image" content="http://img.blog.csdn.net/20170413212556724?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzA4Mjk4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
 <meta property="og:image" content="http://img.blog.csdn.net/20170413212609912?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzA4Mjk4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast">
-<meta property="og:updated_time" content="2017-11-23T15:04:37.975Z">
+<meta property="og:updated_time" content="2017-11-23T15:08:12.491Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo插件-图片墙功能">
 <meta name="twitter:description" content="1、关于其实yilia主题的博主的blog是有一个相册功能的，源码在他的github上，但是用的是Instagram的api接口，网上好多人说ins的api已经关闭了，那么也就获取不了照片信息了。所以还是决定选择从本地上传图片到github做图片墙。参考原博在  http://blog.csdn.net/u013082989/article/details/70162293">
@@ -65,7 +65,7 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/photos">影集</a></li>
+				<li><a href="/photos">生活</a></li>
 	        
 			</ul>
 		</nav>
@@ -147,7 +147,7 @@
 				
 					<li style="width: 50%"><a href="/">主页</a></li>
 		        
-					<li style="width: 50%"><a href="/photos">影集</a></li>
+					<li style="width: 50%"><a href="/photos">生活</a></li>
 		        
 				</ul>
 			</nav>
@@ -201,7 +201,9 @@
 <li>图片裁剪，因为相册显示的样式最好是正方形的的图片，这里使用脚本处理一下</li>
 </ul>
 <ul>
-<li>图片压缩，相册显示的图片是压缩后的图片，提高加载的速度，打开后的图片是原图。<h1 id="3、实现"><a href="#3、实现" class="headerlink" title="3、实现"></a>3、实现</h1></li>
+<li>图片压缩，相册显示的图片是压缩后的图片，提高加载的速度，打开后的图片是原图。  </li>
+</ul>
+<h1 id="3、实现"><a href="#3、实现" class="headerlink" title="3、实现"></a>3、实现</h1><ul>
 <li>在git上新建一个仓库来存储照片，样式文件参考<a href="https://github.com/lawlite19/Blog-Back-Up" target="_blank" rel="noopener">lawlite19</a>的github。</li>
 <li><p>修改ins.js文件，其中的url对应到你的github放图片的地址（就是打开github上的照片时显示的网址信息）</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> render = <span class="function"><span class="keyword">function</span> <span class="title">render</span>(<span class="params">res</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> ulTmpl = <span class="string">""</span>;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> j = <span class="number">0</span>, len2 = res.list.length; j &lt; len2; j++) &#123;</span><br><span class="line">    <span class="keyword">var</span> data = res.list[j].arr;</span><br><span class="line">    <span class="keyword">var</span> liTmpl = <span class="string">""</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>, len = data.link.length; i &lt; len; i++) &#123;</span><br><span class="line">      <span class="keyword">var</span> minSrc = <span class="string">'https://raw.githubusercontent.com/lawlite19/blog-back-up/master/min_photos/'</span> + data.link[i];</span><br><span class="line">      <span class="keyword">var</span> src = <span class="string">'https://raw.githubusercontent.com/lawlite19/blog-back-up/master/photos/'</span> + data.link[i];</span><br><span class="line">      <span class="keyword">var</span> type = data.type[i];</span><br><span class="line">      <span class="keyword">var</span> target = src + (type === <span class="string">'video'</span> ? <span class="string">'.mp4'</span> : <span class="string">'.jpg'</span>);</span><br><span class="line">      src += <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">      liTmpl += <span class="string">'&lt;figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"&gt;\</span></span><br><span class="line"><span class="string">            &lt;a href="'</span> + src + <span class="string">'" itemprop="contentUrl" data-size="1080x1080" data-type="'</span> + type + <span class="string">'" data-target="'</span> + src + <span class="string">'"&gt;\</span></span><br><span class="line"><span class="string">              &lt;img class="reward-img" data-type="'</span> + type + <span class="string">'" data-src="'</span> + minSrc + <span class="string">'" src="/assets/img/empty.png" itemprop="thumbnail" onload="lzld(this)"&gt;\</span></span><br><span class="line"><span class="string">            &lt;/a&gt;\</span></span><br><span class="line"><span class="string">            &lt;figcaption style="display:none" itemprop="caption description"&gt;'</span> + data.text[i] + <span class="string">'&lt;/figcaption&gt;\</span></span><br><span class="line"><span class="string">        &lt;/figure&gt;'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    ulTmpl = ulTmpl + <span class="string">'&lt;section class="archives album"&gt;&lt;h1 class="year"&gt;'</span> + data.year + <span class="string">'年&lt;em&gt;'</span> + data.month + <span class="string">'月&lt;/em&gt;&lt;/h1&gt;\</span></span><br><span class="line"><span class="string">    &lt;ul class="img-box-ul"&gt;'</span> + liTmpl + <span class="string">'&lt;/ul&gt;\</span></span><br><span class="line"><span class="string">    &lt;/section&gt;'</span>;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
