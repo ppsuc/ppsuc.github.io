@@ -3,7 +3,7 @@
   
     
     <entry>
-      <title><![CDATA[wp-2017-hxb]]></title>
+      <title><![CDATA[writeup for 2017湖湘杯]]></title>
       <url>/2017/11/26/wp-2017-hxb/</url>
       <content type="html"><![CDATA[<p>趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了3题逆向，2题misc,1道pwn，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。</p>
 <p>#1、Re4newer<br>peid查壳，发现是upx，脱壳后拖进ida查看源码<br>主程序就是和字符串异或对比  </p>
