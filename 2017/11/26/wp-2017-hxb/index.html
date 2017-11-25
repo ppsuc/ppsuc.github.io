@@ -8,13 +8,13 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>wp-2017-hxb | Vicen Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了3题逆向，2题misc,1道pwn，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。 #1、Re4newer和字符串异或对比    123456789101112#include &amp;lt;stdio.h&amp;gt;#include &amp;l">
+  <meta name="description" content="趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了3题逆向，2题misc,1道pwn，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。 #1、Re4newerpeid查壳，发现是upx，脱壳后拖进ida查看源码主程序就是和字符串异或对比    123456789101112#include &amp;lt">
 <meta name="keywords" content="ctf,re,writeup">
 <meta property="og:type" content="article">
 <meta property="og:title" content="wp-2017-hxb">
 <meta property="og:url" content="http://yoursite.com/2017/11/26/wp-2017-hxb/index.html">
 <meta property="og:site_name" content="Vicen Blog">
-<meta property="og:description" content="趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了3题逆向，2题misc,1道pwn，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。 #1、Re4newer和字符串异或对比    123456789101112#include &amp;lt;stdio.h&amp;gt;#include &amp;lt;math.h&amp;gt;int main()&amp;#123;	int i;	char v[100]=&amp;#12">
+<meta property="og:description" content="趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了3题逆向，2题misc,1道pwn，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。 #1、Re4newerpeid查壳，发现是upx，脱壳后拖进ida查看源码主程序就是和字符串异或对比    123456789101112#include &amp;lt;stdio.h&amp;gt;#include &amp;lt;math.h&amp;gt;int main(">
 <meta property="og:image" content="http://i4.bvimg.com/620384/69750cc1d85ab06b.png">
 <meta property="og:image" content="http://i4.bvimg.com/620384/97f6767af0d8638e.png">
 <meta property="og:image" content="http://i4.bvimg.com/620384/b98a2047da99ec24.png">
@@ -35,10 +35,10 @@
 <meta property="og:image" content="http://i1.bvimg.com/620384/6b5fa7f98b64dc3e.png">
 <meta property="og:image" content="http://i1.bvimg.com/620384/e5b0c930de5a21d4.png">
 <meta property="og:image" content="http://i1.bvimg.com/620384/68ff2a60797987e6.png">
-<meta property="og:updated_time" content="2017-11-25T16:45:41.124Z">
+<meta property="og:updated_time" content="2017-11-25T16:48:58.152Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="wp-2017-hxb">
-<meta name="twitter:description" content="趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了3题逆向，2题misc,1道pwn，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。 #1、Re4newer和字符串异或对比    123456789101112#include &amp;lt;stdio.h&amp;gt;#include &amp;lt;math.h&amp;gt;int main()&amp;#123;	int i;	char v[100]=&amp;#12">
+<meta name="twitter:description" content="趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了3题逆向，2题misc,1道pwn，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。 #1、Re4newerpeid查壳，发现是upx，脱壳后拖进ida查看源码主程序就是和字符串异或对比    123456789101112#include &amp;lt;stdio.h&amp;gt;#include &amp;lt;math.h&amp;gt;int main(">
 <meta name="twitter:image" content="http://i4.bvimg.com/620384/69750cc1d85ab06b.png">
   
     <link rel="alternative" href="/atom.xml" title="Vicen Blog" type="application/atom+xml">
@@ -200,7 +200,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了3题逆向，2题misc,1道pwn，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。</p>
-<p>#1、Re4newer<br>和字符串异或对比  </p>
+<p>#1、Re4newer<br>peid查壳，发现是upx，脱壳后拖进ida查看源码<br>主程序就是和字符串异或对比  </p>
 <p><img src="http://i4.bvimg.com/620384/69750cc1d85ab06b.png" alt=""></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;math.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int i;</span><br><span class="line">	char v[100]=&#123;0x44,0x4E,0x43,0x45,0x59,0x76,0x4A,0x13,0x51,0x7D,0x4B,0x71,0x7D,0x63,0x7D,0x54</span><br><span class="line">,0x11,0x50,0x5B,0x7D,0x51,0x4B,0x4F,0x52,0x4E,0x47,0x7D,0x70,0x70,0x70,0x67,0x67</span><br><span class="line">,0x67,0x7D,0x57,0x7D,0x52,0x63,0x51,0x71,0x7D,0x13,0x56,0x5F&#125;;</span><br><span class="line">	for (i=0;i&lt;44;i++)</span><br><span class="line">	printf(&quot;%c&quot;,v[i]^0x22);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>得到flag{Th1s_iS_A_v3ry_simple_RRREEE_u_pAsS_1t}</p>
@@ -513,6 +513,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">警察</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Hexo美化</a>
               </li>
              
@@ -526,10 +530,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">writeup</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">警察</a>
               </li>
             
             <div class="clearfix"></div>
