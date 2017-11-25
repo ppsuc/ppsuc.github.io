@@ -338,14 +338,16 @@
     </entry>
     
     <entry>
-      <title><![CDATA[hello vicen]]></title>
+      <title><![CDATA[博客环境]]></title>
       <url>/2017/11/20/hello-vicen/</url>
       <content type="html"><![CDATA[<ul>
-<li>blog使用的环境是git+nodejs+<strong><strong>Hexo</strong></strong>+github,至于为什么用hexo还不是因为穷。<img src="http://ww1.rs.fanjian.net/c/ca/72/2d/55caa1800872a8677e2dd43c4be4b58f.jpg" alt="">我的网址是ppsuc.github.io让我有点惶恐,我也不知道为什么当初注册的github账户名是这个，希望以后的师弟搜github闲着无聊试着搜学校的时候却搜到一个莫名其妙的用户的时候不要打我2333，hexo主题是yilia,地址在<blockquote>
+<li>blog使用的环境是git+nodejs+<strong><strong>Hexo</strong></strong>+github,至于为什么用hexo还不是因为穷。</li>
+</ul>
+<p><img src="http://ww1.rs.fanjian.net/c/ca/72/2d/55caa1800872a8677e2dd43c4be4b58f.jpg" alt="">  </p>
+<p>我的网址是ppsuc.github.io让我有点惶恐,我也不知道为什么当初注册的github账户名是这个，希望以后的师弟搜github闲着无聊试着搜学校的时候却搜到一个莫名其妙的用户的时候不要打我2333，hexo主题是yilia,地址在</p>
+<blockquote>
 <p><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia</a>  </p>
 </blockquote>
-</li>
-</ul>
 <ul>
 <li>markdown编辑器用的软件是<strong><strong>MarkdownPAd</strong></strong>，个人觉得灰常好用，输入code处理上面不是特别给力，无伤大雅</li>
 </ul>
