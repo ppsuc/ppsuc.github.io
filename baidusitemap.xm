@@ -19,7 +19,6 @@
 
     
     
-    
   <url>
     <loc>http://yoursite.com/2017/11/20/hello-vicen/</loc>
     <lastmod>2017-11-25T17:06:52.420Z</lastmod>
