@@ -158,4 +158,25 @@
     
   </entry>
   
+  <entry>
+    <title>留言板</title>
+    <link href="http://yoursite.com/2000/01/01/board/"/>
+    <id>http://yoursite.com/2000/01/01/board/</id>
+    <published>1999-12-31T16:00:00.000Z</published>
+    <updated>2017-11-27T12:45:42.133Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="来都来了，留下点痕迹吧"><a href="#来都来了，留下点痕迹吧" class="headerlink" title="来都来了，留下点痕迹吧~~~"></a><div align="center">来都来了，留下点痕迹吧~~~</div></h3><p><img src="/assets/img/liuyanban-1.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;来都来了，留下点痕迹吧&quot;&gt;&lt;a href=&quot;#来都来了，留下点痕迹吧&quot; class=&quot;headerlink&quot; title=&quot;来都来了，留下点痕迹吧~~~&quot;&gt;&lt;/a&gt;&lt;div align=&quot;center&quot;&gt;来都来了，留下点痕迹吧~~~&lt;/div&gt;&lt;/h3&gt;&lt;p&gt;&lt;i
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
 </feed>
