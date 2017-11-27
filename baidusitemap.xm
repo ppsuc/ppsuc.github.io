@@ -3,21 +3,6 @@
 
 
     
-  <url>
-    <loc>http://yoursite.com/2000/01/01/board/</loc>
-    <lastmod>2017-11-27T12:45:42.133Z</lastmod>
-    <data>
-        <display>
-        <title>留言板</title>
-        <pubTime>1999-12-31T16:00:00.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
     
   <url>
     <loc>http://yoursite.com/2017/11/20/hello-vicen/</loc>
