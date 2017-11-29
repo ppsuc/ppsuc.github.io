@@ -5,6 +5,7 @@
     
     
     
+    
   <url>
     <loc>http://yoursite.com/2000/01/01/board/</loc>
     <lastmod>2017-11-27T12:45:42.133Z</lastmod>
