@@ -3,20 +3,6 @@
 
 
     
-  <url>
-    <loc>http://yoursite.com/2017/11/29/tags/</loc>
-    <lastmod>2017-11-29T13:35:56.748Z</lastmod>
-    <data>
-        <display>
-        <title>tags</title>
-        <pubTime>2017-11-29T13:35:03.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
     
     
   <url>
