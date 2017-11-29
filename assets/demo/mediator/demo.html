@@ -508,7 +508,7 @@
                 <span class="links-of-author-item">
                   <a href="https://www.zhihu.com/people/wang-xiao-48-48?utm_source=wechat_session&utm_medium=social&from=singlemessage" target="_blank" title="Zhihu">
                     
-                      <i class="fa fa-fw fa-th"></i>Zhihu</a>
+                      <i class="fa fa-fw fa-bolt"></i>Zhihu</a>
                 </span>
               
             
@@ -548,6 +548,10 @@
                 
                   <li class="links-of-blogroll-item">
                     <a href="http://www.sqlsec.com/" title="国光" target="_blank">国光</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://cherryblog.site/" title="cherry" target="_blank">cherry</a>
                   </li>
                 
               </ul>
@@ -742,26 +746,33 @@
 
 
 
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   
-    <script type="text/javascript">
-    (function(){
-      var appid = 'cytkWHfbK';
-      var conf = 'bcb28f4ece95ff2018c1f67cae138d36';
-      var width = window.innerWidth || document.documentElement.clientWidth;
-      if (width < 960) {
-      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){
-        window.changyan.api.config({appid:appid,conf:conf})});
-      }
-    })();
-    </script>
-    <script type="text/javascript" src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
-  
-
-
-
-
-
-
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: '2EPHRxB2tHtAq6o5EDRC9MQ-gzGzHsz',
+        appKey: '5WXd3xJgCp0tnQ9XAEMkmoB',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
