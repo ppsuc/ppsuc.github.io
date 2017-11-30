@@ -5,7 +5,7 @@
     <entry>
       <title><![CDATA[Hexo-Next-折腾笔记]]></title>
       <url>/2017/11/30/hexo-all/</url>
-      <content type="html"><![CDATA[<h1 id="Hexo环境搭建"><a href="#Hexo环境搭建" class="headerlink" title="Hexo环境搭建"></a>Hexo环境搭建</h1><p>这两天终于把自己的博客搭建起来了，折腾了好多东西，总结一下。<br>关于利用hexo搭建博客的文章实在太多，这里就不再论述太多东西了，可以自行百度一下,这里提几个小点。  </p>
+      <content type="html"><![CDATA[<h1 id="Hexo环境搭建"><a href="#Hexo环境搭建" class="headerlink" title="Hexo环境搭建"></a>Hexo环境搭建</h1><p><img src="http://img.blog.csdn.net/20170810182823396?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvc3Vuc2hpbmU5NDAzMjY=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""><br>这两天终于把自己的博客搭建起来了，折腾了好多东西，总结一下。<br>关于利用hexo搭建博客的文章实在太多，这里就不再论述太多东西了，可以自行百度一下,这里提几个小点。  </p>
 <a id="more"></a>
 <h2 id="报错总结"><a href="#报错总结" class="headerlink" title="报错总结"></a>报错总结</h2><blockquote>
 <p>ERROR Deployer not found: git 或者 ERROR Deployer not found: github<br>解决方法： npm install hexo-deployer-git –save<br>ERROR Process failed: layout/.DS_Store<br>解决方法： 进入主题里面layout和_partial目录下，使用删除命令：<br>rm-rf.DS_Store<br>ERROR Plugin load failed: hexo-server<br>解决方法： sudo npm install hexo-server<br>执行命令hexo server，提示：Usage: hexo ….<br>解决方法： npm install hexo-server –save  </p>
