@@ -3,6 +3,23 @@
 
 
     
+  <url>
+    <loc>http://yoursite.com/2017/11/30/hexo-all/</loc>
+    <lastmod>2017-11-30T18:24:37.675Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo-Next-折腾笔记</title>
+        <pubTime>2017-11-30T15:52:56.000Z</pubTime>
+        
+        <tag>Hexo美化</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
     
     
     
