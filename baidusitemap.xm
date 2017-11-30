@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/11/30/hexo-all/</loc>
-    <lastmod>2017-11-30T18:27:12.717Z</lastmod>
+    <lastmod>2017-11-30T18:33:28.724Z</lastmod>
     <data>
         <display>
         <title>Hexo-Next-折腾笔记</title>
