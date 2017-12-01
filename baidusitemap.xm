@@ -4,6 +4,27 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/11/26/wp-2017-hxb/</loc>
+    <lastmod>2017-12-01T02:12:47.404Z</lastmod>
+    <data>
+        <display>
+        <title>writeup for 2017湖湘杯</title>
+        <pubTime>2017-11-25T16:00:47.000Z</pubTime>
+        
+        <tag>ctf</tag>
+         
+        <tag>re</tag>
+         
+        <tag>writeup</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/11/30/hexo-all/</loc>
     <lastmod>2017-11-30T18:38:29.123Z</lastmod>
     <data>
@@ -54,27 +75,6 @@
         <tag>警察</tag>
          
         <tag>摘录</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/11/26/wp-2017-hxb/</loc>
-    <lastmod>2017-11-25T17:01:56.703Z</lastmod>
-    <data>
-        <display>
-        <title>writeup for 2017湖湘杯</title>
-        <pubTime>2017-11-25T16:00:47.000Z</pubTime>
-        
-        <tag>ctf</tag>
-         
-        <tag>re</tag>
-         
-        <tag>writeup</tag>
          
          
            

@@ -132,9 +132,8 @@
       <title><![CDATA[writeup for 2017湖湘杯]]></title>
       <url>/2017/11/26/wp-2017-hxb/</url>
       <content type="html"><![CDATA[<p>趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了<strong>3R2M1P</strong>，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。</p>
-<h1 id="1、Re4newer"><a href="#1、Re4newer" class="headerlink" title="1、Re4newer"></a>1、Re4newer</h1><p>peid查壳，发现是upx，脱壳后拖进ida查看源码<br>主程序就是和字符串异或对比  </p>
-<p><img src="http://i4.bvimg.com/620384/69750cc1d85ab06b.png" alt=""></p>
-<a id="more"></a>
+<p><img src="http://i1.bvimg.com/620384/69d2e3e298491d4b.png" alt="">  </p>
+<h1 id="1、Re4newer"><a href="#1、Re4newer" class="headerlink" title="1、Re4newer"></a>1、Re4newer</h1><p>peid查壳，发现是upx，脱壳后拖进ida查看源码<br>主程序就是和字符串异或对比<br><a id="more"></a><br><img src="http://i4.bvimg.com/620384/69750cc1d85ab06b.png" alt=""></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;math.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	int i;</span><br><span class="line">	char v[100]=&#123;0x44,0x4E,0x43,0x45,0x59,0x76,0x4A,0x13,0x51,0x7D,0x4B,0x71,0x7D,0x63,0x7D,0x54</span><br><span class="line">,0x11,0x50,0x5B,0x7D,0x51,0x4B,0x4F,0x52,0x4E,0x47,0x7D,0x70,0x70,0x70,0x67,0x67</span><br><span class="line">,0x67,0x7D,0x57,0x7D,0x52,0x63,0x51,0x71,0x7D,0x13,0x56,0x5F&#125;;</span><br><span class="line">	for (i=0;i&lt;44;i++)</span><br><span class="line">	printf(&quot;%c&quot;,v[i]^0x22);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>得到flag{Th1s_iS_A_v3ry_simple_RRREEE_u_pAsS_1t}</p>
 <h1 id="2、简单的android"><a href="#2、简单的android" class="headerlink" title="2、简单的android"></a>2、简单的android</h1><p>查看源码，flag就在源码里面……  </p>
