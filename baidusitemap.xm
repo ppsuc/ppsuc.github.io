@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/11/26/wp-2017-hxb/</loc>
-    <lastmod>2017-12-01T02:12:47.404Z</lastmod>
+    <lastmod>2017-12-01T02:18:35.371Z</lastmod>
     <data>
         <display>
         <title>writeup for 2017湖湘杯</title>
