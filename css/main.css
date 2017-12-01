@@ -1007,9 +1007,9 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 20px;
   font-size: 14px;
-  color: #fff;
-  background: #8deeee;
-  border: 2px solid #8deeee;
+  color: #38dede;
+  background: #fff;
+  border: 2px solid #38dede;
   text-decoration: none;
   border-radius: 0;
   transition-property: background-color;
@@ -1019,9 +1019,9 @@ pre .javascript .function {
   line-height: 2;
 }
 .btn:hover {
-  border-color: #8deeee;
-  color: #8deeee;
-  background: #fff;
+  border-color: #38dede;
+  color: #fff;
+  background: #38dede;
 }
 .btn +.btn {
   margin: 0 0 8px 8px;
@@ -2113,7 +2113,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #5d26a6;
+  background: #13b45c;
 }
 .links-of-blogroll {
   font-size: 13px;
