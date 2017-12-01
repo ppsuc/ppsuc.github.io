@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/11/22/zl-jinrishuofa-xuanyi/</loc>
+    <lastmod>2017-12-01T02:34:20.786Z</lastmod>
+    <data>
+        <display>
+        <title>[摘]《今日说法》里最悬疑复杂的一案</title>
+        <pubTime>2017-11-22T04:37:19.000Z</pubTime>
+        
+        <tag>警察</tag>
+         
+        <tag>摘录</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/11/26/wp-2017-hxb/</loc>
     <lastmod>2017-12-01T02:18:35.371Z</lastmod>
     <data>
@@ -56,25 +75,6 @@
         <tag>Hexo</tag>
          
         <tag>胡言乱语</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/11/22/zl-jinrishuofa-xuanyi/</loc>
-    <lastmod>2017-11-25T17:03:39.987Z</lastmod>
-    <data>
-        <display>
-        <title>[摘]《今日说法》里最悬疑复杂的一案</title>
-        <pubTime>2017-11-22T04:37:19.000Z</pubTime>
-        
-        <tag>警察</tag>
-         
-        <tag>摘录</tag>
          
          
            
