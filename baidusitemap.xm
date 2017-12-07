@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/12/04/study-pachong/</loc>
-    <lastmod>2017-12-07T12:16:32.838Z</lastmod>
+    <lastmod>2017-12-07T12:24:21.189Z</lastmod>
     <data>
         <display>
         <title>爬虫初探-春雨医生网页数据收集</title>
