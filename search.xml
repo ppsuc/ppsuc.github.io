@@ -19,8 +19,7 @@
 </li>
 </ol>
 <p>或者使用表弟跟我说的selenium库，每次调用都会打开浏览器访问网址，这样就可以把加载完成后的网页源码爬取下来了，我觉得太暴力了，未果。</p>
-<h1 id="解析库的选取"><a href="#解析库的选取" class="headerlink" title="解析库的选取"></a>解析库的选取</h1><p>对于爬虫库BeautifulSoup和Xpath,主要是有以下几点区别:</p>
-<ul>
+<h1 id="解析库的选取"><a href="#解析库的选取" class="headerlink" title="解析库的选取"></a>解析库的选取</h1><h2 id="对于爬虫库BeautifulSoup和Xpath-主要是有以下几点区别"><a href="#对于爬虫库BeautifulSoup和Xpath-主要是有以下几点区别" class="headerlink" title="对于爬虫库BeautifulSoup和Xpath,主要是有以下几点区别:"></a>对于爬虫库BeautifulSoup和Xpath,主要是有以下几点区别:</h2><ul>
 <li><p>写法不同。BeautifulSoup的使用主要针对自带的api函数，支持css选择器，而Xpath主要使用正则，同样的代码，两者写起来不太一样，Xpath明显要麻烦许多：</p>
 <blockquote>
 <p>title = soup.select(‘.content div.title h3’)<br>title = tree.xpath(“//<em>[@class=’content’]/div[@class=’content’]/h3”)<br>但是chrome浏览器支持复制<em>*选中元素</em></em>的xpath值，使得开发效率大大提高。<br><img src="http://i2.bvimg.com/620384/6b3fbd659fa95e4e.png" alt=""></p>
@@ -32,34 +31,33 @@
 </li>
 </ul>
 <p>针对以上几点区别，我最后选取了Xpath库来对我爬到的html数据作处理。</p>
-<p>Xpath的用法如下：</p>
-<h3>主要路径表达式：</h3><br><table class="dataintable"><br><tbody><tr><br><th style="width:25%;">表达式</th><br><th>描述</th><br></tr><br><br><tr><br><td>nodename</td><br><td>选取此节点的所有子节点。</td><br></tr><br><br><tr><br><td>/</td><br><td>从根节点选取。</td><br></tr><br><br><tr><br><td>//</td><br><td>从匹配选择的当前节点选择文档中的节点，而不考虑它们的位置。</td><br></tr><br><br><tr><br><td>.</td><br><td>选取当前节点。</td><br></tr><br><br><tr><br><td>..</td><br><td>选取当前节点的父节点。</td><br></tr><br><br><tr><br><td>@</td><br><td>选取属性。</td><br></tr><br></tbody></table><br><br><h3>实例</h3>
+<h2 id="Xpath的用法如下："><a href="#Xpath的用法如下：" class="headerlink" title="Xpath的用法如下："></a>Xpath的用法如下：</h2><h3>主要路径表达式：</h3><br><img src="http://i1.bvimg.com/620384/e5cdfb1c56249dd6.png" alt=""><br><br><h3>实例</h3>
 
 <p>在下面的表格中，我们已列出了一些路径表达式以及表达式的结果：</p>
+<p><img src="http://i1.bvimg.com/620384/b8402621e1881254.png" alt=""></p>
+<h3>谓语（Predicates）</h3>
 
-<table class="dataintable"><br><tbody><tr><br><th style="width:25%;">路径表达式</th><br><th>结果</th><br></tr><br><br><tr><br><td>bookstore</td><br><td>选取 bookstore 元素的所有子节点。</td><br></tr><br><br><tr><br><td>/bookstore</td><br><td><br><p>选取根元素 bookstore。</p><br><p>注释：假如路径起始于正斜杠( / )，则此路径始终代表到某元素的绝对路径！</p><br></td><br></tr><br><br><tr><br><td>bookstore/book</td><br><td>选取属于 bookstore 的子元素的所有 book 元素。</td><br></tr><br><br><tr><br><td>//book</td><br><td>选取所有 book 子元素，而不管它们在文档中的位置。</td><br></tr><br><br><tr><br><td>bookstore//book</td><br><td>选择属于 bookstore 元素的后代的所有 book 元素，而不管它们位于 bookstore 之下的什么位置。</td><br></tr><br><br><tr><br><td>//@lang</td><br><td>选取名为 lang 的所有属性。</td><br></tr><br></tbody></table><br><br><br><br><div><br><h3>谓语（Predicates）</h3><br><br><p>谓语用来查找某个特定的节点或者包含某个指定的值的节点。</p><br><p>谓语被嵌在方括号中。</p><br><br><h3>实例</h3><br><br><p>在下面的表格中，我们列出了带有谓语的一些路径表达式，以及表达式的结果：</p><br><br><table class="dataintable"><br><tbody><tr><br><th style="width:35%;">路径表达式</th><br><th>结果</th><br></tr><br><br><tr><br><td>/bookstore/book[1]</td><br><td>选取属于 bookstore 子元素的第一个 book 元素。</td><br></tr><br><br><tr><br><td>/bookstore/book[last()]</td><br><td>选取属于 bookstore 子元素的最后一个 book 元素。</td><br></tr><br><br><tr><br><td>/bookstore/book[last()-1]</td><br><td>选取属于 bookstore 子元素的倒数第二个 book 元素。</td><br></tr><br><br><tr><br><td>/bookstore/book[position()&lt;3]</td><br><td>选取最前面的两个属于 bookstore 元素的子元素的 book 元素。</td><br></tr><br><br><tr><br><td>//title[@lang]</td><br><td>选取所有拥有名为 lang 的属性的 title 元素。</td><br></tr><br><br><tr><br><td>//title[@lang=’eng’]</td><br><td>选取所有 title 元素，且这些元素拥有值为 eng 的 lang 属性。</td><br></tr><br><br><tr><br><td>/bookstore/book[price&gt;35.00]</td><br><td>选取 bookstore 元素的所有 book 元素，且其中的 price 元素的值须大于 35.00。</td><br></tr><br><br><tr><br><td>/bookstore/book[price&gt;35.00]/title</td><br><td>选取 bookstore 元素中的 book 元素的所有 title 元素，且其中的 price 元素的值须大于 35.00。</td><br></tr><br></tbody></table><br></div><br><br><br><div><br><h3>选取未知节点</h3><br><br><p>XPath 通配符可用来选取未知的 XML 元素。</p><br><br><table class="dataintable"><br><tbody><tr><br><th style="width:25%;">通配符</th><br><th>描述</th><br></tr><br><br><tr><br><td><em></em></td><br><td>匹配任何元素节点。</td><br></tr><br><br><tr><br><td>@</td><br><td>匹配任何属性节点。</td><br></tr><br><br><tr><br><td>node()</td><br><td>匹配任何类型的节点。</td><br></tr><br></tbody></table>
+<p>谓语用来查找某个特定的节点或者包含某个指定的值的节点。<br>谓语被嵌在方括号中。</p>
+<h3>实例</h3>
 
+<p>在下面的表格中，我们列出了带有谓语的一些路径表达式，以及表达式的结果：</p>
+<p><img src="http://i1.bvimg.com/620384/cf754fcf29fd481e.png" alt=""></p>
+<h3>选取未知节点</h3>
+
+<p>XPath 通配符可用来选取未知的 XML 元素。</p>
+<p><img src="http://i1.bvimg.com/620384/d50f14df71eb4e03.png" alt=""></p>
 <h3>实例</h3>
 
 <p>在下面的表格中，我们列出了一些路径表达式，以及这些表达式的结果：</p>
 
-<p><table class="dataintable"></table></p>
-<p><tbody><tr></tr></tbody></p>
-<p><th style="width:25%;">路径表达式</th></p>
-<p><th>结果</th><br></p>
-<tr><br><td>/bookstore/*</td><br><td>选取 bookstore 元素的所有子元素。</td><br></tr>
+<p><img src="http://i1.bvimg.com/620384/e4720cc3b6e2bc5b.png" alt=""></p>
+<h3>选取若干路径</h3>
 
-<tr><br><td>//*</td><br><td>选取文档中的所有元素。</td><br></tr>
+<p>通过在路径表达式中使用“|”运算符，您可以选取若干个路径。</p>
+<h3>实例</h3>
 
-<tr><br><td>//title[@*]</td><br><td>选取所有带有属性的 title 元素。</td><br></tr><br><br></div><br><br><br><div><br><h3>选取若干路径</h3><br><br><p>通过在路径表达式中使用“|”运算符，您可以选取若干个路径。</p><br><br><h3>实例</h3><br><br><p>在下面的表格中，我们列出了一些路径表达式，以及这些表达式的结果：</p><br><br><table class="dataintable"><br><tbody><tr><br><th style="width:35%;">路径表达式</th><br><th>结果</th><br></tr>
-
-<tr><br><td>//book/title | //book/price</td><br><td>选取 book 元素的所有 title 和 price 元素。</td><br></tr>
-
-<tr><br><td>//title | //price</td><br><td>选取文档中的所有 title 和 price 元素。</td><br></tr>
-
-<p><tr></tr></p>
-<p><td>/bookstore/book/title | //price</td></p>
-<p><td>选取属于 bookstore 元素的 book 元素的所有 title 元素，以及文档中所有的 price 元素。</td><br><br></p></tbody></table><br></div><p></p>
+<p>在下面的表格中，我们列出了一些路径表达式，以及这些表达式的结果：</p>
+<p><img src="http://i1.bvimg.com/620384/de8aff83fe60dc46.png" alt=""></p>
 <p>选取我在实际运用中的实例说明：<br><img src="http://i1.bvimg.com/620384/d0221be1834877c1.png" alt=""><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">selectorill = etree.HTML(illhtml)</span><br><span class="line">xpathdetail=&apos;/html/body/div[4]/div[1]/div[1]/div[&apos;+str(i)+&apos;]/div/p/text() | /html/body/div[4]/div[1]/div[1]/div[&apos;+str(i)+&apos;]/div/p/a/text()&apos;  #选取p标签下的全部内容，因为中间有插入链接，所以使用&apos;&lt;p&gt;&apos;|&apos;&lt;p&gt;/a&apos;把链接的内容也加进去，text表示提取选择元素的文本内容，不包含再包含的标签内容。另外xpath解析时，遇到一个&lt;br&gt;算一个context</span><br><span class="line">contextill = selectorill.xpath(xpathdetail)</span><br><span class="line">text = &apos;&apos;</span><br><span class="line">for each in contextill:</span><br><span class="line">    text = text + each</span><br><span class="line">return text</span><br></pre></td></tr></table></figure></p>
 <h1 id="数据库的处理"><a href="#数据库的处理" class="headerlink" title="数据库的处理"></a>数据库的处理</h1><p>数据库的处理我用的是mysql和pymysql库。</p>
 <ul>
