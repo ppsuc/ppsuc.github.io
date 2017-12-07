@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/12/04/study-pachong/</loc>
+    <lastmod>2017-12-07T12:16:32.838Z</lastmod>
+    <data>
+        <display>
+        <title>爬虫初探-春雨医生网页数据收集</title>
+        <pubTime>2017-12-04T06:51:12.000Z</pubTime>
+        
+        <tag>爬虫</tag>
+         
+        <tag>Study</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/11/22/zl-jinrishuofa-xuanyi/</loc>
     <lastmod>2017-12-01T02:35:20.571Z</lastmod>
     <data>
