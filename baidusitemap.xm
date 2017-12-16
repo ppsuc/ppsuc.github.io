@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/12/16/sybg/</loc>
-    <lastmod>2017-12-16T14:48:40.844Z</lastmod>
+    <lastmod>2017-12-16T14:51:51.118Z</lastmod>
     <data>
         <display>
         <title>实验报告合集</title>
