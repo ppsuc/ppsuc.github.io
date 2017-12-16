@@ -4,6 +4,24 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/12/16/sybg/</loc>
+    <lastmod>2017-12-16T14:48:40.844Z</lastmod>
+    <data>
+        <display>
+        <title>实验报告合集</title>
+        <pubTime>2017-12-16T14:40:44.000Z</pubTime>
+        
+        <tag>课程</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
     <loc>http://yoursite.com/2017/12/04/study-pachong/</loc>
     <lastmod>2017-12-07T12:40:38.125Z</lastmod>
     <data>
