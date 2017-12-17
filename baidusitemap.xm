@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/12/18/map/</loc>
-    <lastmod>2017-12-17T17:09:33.375Z</lastmod>
+    <lastmod>2017-12-17T17:17:01.868Z</lastmod>
     <data>
         <display>
         <title>中国人民公安大学全景地图</title>
