@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-16T14:51:51.118Z</updated>
+  <updated>2017-12-17T16:29:30.540Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中国人民公安大学全景地图</title>
+    <link href="http://yoursite.com/2017/12/18/map/"/>
+    <id>http://yoursite.com/2017/12/18/map/</id>
+    <published>2017-12-17T16:02:54.000Z</published>
+    <updated>2017-12-17T16:29:30.540Z</updated>
+    
+    <content type="html"><![CDATA[<p><iframe width="670" height="580" frameborder="0" scrolling="auto" src="http://720yun.com/t/849j50wyOv7?pano_id=8096803"></iframe><br><a id="more"></a><br>北纬N39°45′58.67″ 东经E116°21′30.74″<br>这里是我的母校——<strong>中国人民公安大学</strong><br>（感谢团宣摄影师们的辛勤付出）<br><a href="http://720yun.com/t/849j50wyOv7?pano_id=8096803" target="_blank" rel="noopener">全屏地图</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;iframe width=&quot;670&quot; height=&quot;580&quot; frameborder=&quot;0&quot; scrolling=&quot;auto&quot; src=&quot;http://720yun.com/t/849j50wyOv7?pano_id=8096803&quot;&gt;&lt;/iframe&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="课程" scheme="http://yoursite.com/tags/%E8%AF%BE%E7%A8%8B/"/>
+    
+      <category term="警察" scheme="http://yoursite.com/tags/%E8%AD%A6%E5%AF%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>实验报告合集</title>
