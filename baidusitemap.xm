@@ -5,15 +5,15 @@
     
   <url>
     <loc>http://yoursite.com/2017/12/18/map/</loc>
-    <lastmod>2017-12-17T16:57:08.824Z</lastmod>
+    <lastmod>2017-12-17T17:09:33.375Z</lastmod>
     <data>
         <display>
         <title>中国人民公安大学全景地图</title>
         <pubTime>2017-12-17T16:02:54.000Z</pubTime>
         
-        <tag>课程</tag>
-         
         <tag>警察</tag>
+         
+        <tag>课程</tag>
          
          
            
