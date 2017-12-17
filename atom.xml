@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-12-17T16:34:10.943Z</updated>
+  <updated>2017-12-17T16:57:08.824Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2017/12/18/map/"/>
     <id>http://yoursite.com/2017/12/18/map/</id>
     <published>2017-12-17T16:02:54.000Z</published>
-    <updated>2017-12-17T16:34:10.943Z</updated>
+    <updated>2017-12-17T16:57:08.824Z</updated>
     
-    <content type="html"><![CDATA[<p><iframe width="670" height="580" frameborder="0" scrolling="auto" src="http://720yun.com/t/849j50wyOv7?pano_id=8096803"></iframe><br><a id="more"></a><br>北纬N39°45′58.67″ 东经E116°21′30.74″<br>这里是我的母校——<strong>中国人民公安大学</strong><br>（感谢团宣摄影师们的辛勤付出）<br><a href="http://720yun.com/t/849j50wyOv7?pano_id=8096803" target="_blank" rel="noopener">全屏地图</a><br><img src="assets/img/2.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<p><iframe width="670" height="580" frameborder="0" scrolling="auto" src="http://720yun.com/t/849j50wyOv7?pano_id=8096803"></iframe><br><a id="more"></a><br>北纬N39°45′58.67″ 东经E116°21′30.74″<br>这里是我的母校——<strong>中国人民公安大学</strong><br>（感谢团宣摄影师们的辛勤付出）<br><a href="http://720yun.com/t/849j50wyOv7?pano_id=8096803" target="_blank" rel="noopener">全屏地图</a><br><img src="2.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
@@ -32,9 +32,9 @@
     </summary>
     
     
-      <category term="警察" scheme="http://yoursite.com/tags/%E8%AD%A6%E5%AF%9F/"/>
-    
       <category term="课程" scheme="http://yoursite.com/tags/%E8%AF%BE%E7%A8%8B/"/>
+    
+      <category term="警察" scheme="http://yoursite.com/tags/%E8%AD%A6%E5%AF%9F/"/>
     
   </entry>
   
