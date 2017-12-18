@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/12/12/study-pwn/</loc>
+    <lastmod>2017-12-18T16:07:04.354Z</lastmod>
+    <data>
+        <display>
+        <title>Pwn思路</title>
+        <pubTime>2017-12-12T15:53:16.000Z</pubTime>
+        
+        <tag>摘录</tag>
+         
+        <tag>pwn</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/12/15/lay-wlaqf/</loc>
     <lastmod>2017-12-18T15:43:27.245Z</lastmod>
     <data>
