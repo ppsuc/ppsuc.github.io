@@ -97,16 +97,16 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/12/18/map/</loc>
+    <loc>http://yoursite.com/2017/12/18/ppsuc-map/</loc>
     <lastmod>2017-12-17T17:17:01.868Z</lastmod>
     <data>
         <display>
         <title>中国人民公安大学全景地图</title>
         <pubTime>2017-12-17T16:02:54.000Z</pubTime>
         
-        <tag>警察</tag>
-         
         <tag>课程</tag>
+         
+        <tag>警察</tag>
          
          
            
@@ -116,7 +116,7 @@
 
     
   <url>
-    <loc>http://yoursite.com/2017/12/16/sybg/</loc>
+    <loc>http://yoursite.com/2017/12/16/ppsuc-sybg/</loc>
     <lastmod>2017-12-16T14:51:51.118Z</lastmod>
     <data>
         <display>
