@@ -1012,16 +1012,8 @@
     </entry>
     
     <entry>
-      <title><![CDATA[今天开始写博客]]></title>
-      <url>/2017/11/20/%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B%E5%86%99%E5%8D%9A%E5%AE%A2/</url>
-      <content type="html"></content>
-      
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[博客环境]]></title>
-      <url>/2017/11/20/hello-vicen/</url>
+      <url>/2017/11/20/hexo-environment/</url>
       <content type="html"><![CDATA[<ul>
 <li>blog使用的环境是git+nodejs+<strong><strong>Hexo</strong></strong>+github,至于为什么用hexo还不是因为穷。</li>
 </ul>
@@ -1059,6 +1051,15 @@
             <tag> 胡言乱语 </tag>
             
         </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[今天开始写博客]]></title>
+      <url>/2017/11/20/blog-start/</url>
+      <content type="html"><![CDATA[<p>Vicen，大三在读警校生一枚，多多指教~~~</p>
+]]></content>
+      
         
     </entry>
     

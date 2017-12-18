@@ -4,6 +4,21 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/11/20/blog-start/</loc>
+    <lastmod>2017-12-18T16:21:17.688Z</lastmod>
+    <data>
+        <display>
+        <title>今天开始写博客</title>
+        <pubTime>2017-11-20T12:20:20.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/12/12/study-pwn/</loc>
     <lastmod>2017-12-18T16:15:30.437Z</lastmod>
     <data>
@@ -159,7 +174,7 @@
     
     
   <url>
-    <loc>http://yoursite.com/2017/11/20/hello-vicen/</loc>
+    <loc>http://yoursite.com/2017/11/20/hexo-environment/</loc>
     <lastmod>2017-11-25T17:06:52.420Z</lastmod>
     <data>
         <display>
@@ -191,21 +206,6 @@
         
         <tag>Hexo美化</tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/11/20/%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B%E5%86%99%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2017-11-20T12:31:45.041Z</lastmod>
-    <data>
-        <display>
-        <title>今天开始写博客</title>
-        <pubTime>2017-11-20T12:31:45.000Z</pubTime>
-        
          
            
         </display>
