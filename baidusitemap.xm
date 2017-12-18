@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>http://yoursite.com/2017/12/15/lay-wlaqf/</loc>
+    <lastmod>2017-12-18T15:43:27.245Z</lastmod>
+    <data>
+        <display>
+        <title>中华人民共和国网络安全法</title>
+        <pubTime>2017-12-15T14:40:44.000Z</pubTime>
+        
+        <tag>警察</tag>
+         
+        <tag>法律</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/12/04/study-pachong/</loc>
     <lastmod>2017-12-17T17:24:36.855Z</lastmod>
     <data>
@@ -167,21 +186,6 @@
         <display>
         <title>今天开始写博客</title>
         <pubTime>2017-11-20T12:31:45.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://yoursite.com/2017/11/20/hello-world/</loc>
-    <lastmod>2017-11-20T11:06:31.636Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-11-20T11:06:31.636Z</pubTime>
         
          
            
