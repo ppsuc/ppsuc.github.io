@@ -32,9 +32,9 @@
     </summary>
     
     
-      <category term="课程" scheme="http://yoursite.com/tags/%E8%AF%BE%E7%A8%8B/"/>
-    
       <category term="警察" scheme="http://yoursite.com/tags/%E8%AD%A6%E5%AF%9F/"/>
+    
+      <category term="课程" scheme="http://yoursite.com/tags/%E8%AF%BE%E7%A8%8B/"/>
     
   </entry>
   

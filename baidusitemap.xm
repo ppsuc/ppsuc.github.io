@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>http://yoursite.com/2017/11/20/blog-start/</loc>
     <lastmod>2017-12-18T16:21:17.688Z</lastmod>
@@ -104,9 +105,9 @@
         <title>中国人民公安大学全景地图</title>
         <pubTime>2017-12-17T16:02:54.000Z</pubTime>
         
-        <tag>课程</tag>
-         
         <tag>警察</tag>
+         
+        <tag>课程</tag>
          
          
            
@@ -131,7 +132,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://yoursite.com/2017/11/22/zl-jinrishuofa-xuanyi/</loc>
