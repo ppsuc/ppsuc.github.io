@@ -3,6 +3,21 @@
 
 
     
+  <url>
+    <loc>http://yoursite.com/2018/01/07/wp-xmandly/</loc>
+    <lastmod>2018-01-06T17:32:33.512Z</lastmod>
+    <data>
+        <display>
+        <title>Xman冬令营writeup</title>
+        <pubTime>2018-01-06T16:38:56.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://yoursite.com/2017/11/20/blog-start/</loc>
@@ -105,9 +120,9 @@
         <title>中国人民公安大学全景地图</title>
         <pubTime>2017-12-17T16:02:54.000Z</pubTime>
         
-        <tag>警察</tag>
-         
         <tag>课程</tag>
+         
+        <tag>警察</tag>
          
          
            
