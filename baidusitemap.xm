@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2018/01/07/wp-xmandly/</loc>
-    <lastmod>2018-01-06T17:32:33.512Z</lastmod>
+    <lastmod>2018-01-06T17:48:28.007Z</lastmod>
     <data>
         <display>
         <title>Xman冬令营writeup</title>

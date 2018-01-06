@@ -19,7 +19,7 @@
 <p>,写脚本爆破，发现就一组满足条件<br><img src="/2018/01/07/wp-xmandly/5.png" alt=""><br>根据a,b的值带入程序方程组很容易就能求出所有密文的值d2lu-bmVy-Y7hp-bgtl，即为flag。</p>
 <h1 id="神秘的TXT"><a href="#神秘的TXT" class="headerlink" title="神秘的TXT"></a>神秘的TXT</h1><p>发现有三个横坐标，三个纵坐标，因为是mobile题目，猜测对应着手机键盘密码。<br><img src="/2018/01/07/wp-xmandly/2.png" alt=""><br>因为不知道坐标顺序，所以把8种可能的反转情况都列出来，一个一个试，其中有一个是对的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">XCTF&#123;974856321&#125;</span><br><span class="line">XCTF&#123;932658741&#125;</span><br><span class="line">XCTF&#123;398652147&#125;</span><br><span class="line">XCTF&#123;178452369&#125;</span><br><span class="line">XCTF&#123;712458963&#125;</span><br><span class="line">XCTF&#123;314256987&#125;</span><br><span class="line">XCTF&#123;136254789&#125;</span><br><span class="line">XCTF&#123;796854123&#125;</span><br></pre></td></tr></table></figure></p>
 <p>好像是第四个，忘了。</p>
-]]></content>
+<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1317858&mode=js"></script>]]></content>
       
         
     </entry>
