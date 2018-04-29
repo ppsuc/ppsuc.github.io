@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2018/04/30/wp-2018-ciscn/</loc>
-    <lastmod>2018-04-29T19:05:20.137Z</lastmod>
+    <lastmod>2018-04-29T19:06:42.426Z</lastmod>
     <data>
         <display>
         <title>CISCN2018 Writeup</title>
@@ -150,24 +150,6 @@
     </url>
 
     
-  <url>
-    <loc>http://yoursite.com/2017/12/18/ppsuc-map/</loc>
-    <lastmod>2017-12-17T17:17:01.868Z</lastmod>
-    <data>
-        <display>
-        <title>中国人民公安大学全景地图</title>
-        <pubTime>2017-12-17T16:02:54.000Z</pubTime>
-        
-        <tag>警察</tag>
-         
-        <tag>课程</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://yoursite.com/2017/12/16/ppsuc-sybg/</loc>
