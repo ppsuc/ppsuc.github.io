@@ -1157,7 +1157,7 @@ pre .javascript .function {
   bottom: 19px;
 }
 .header {
-  background-image: url("/assets/img/bj.jpg?height=428&width=1280&fixed=true");
+  background-image: url("/assets/img/bg.jpg?height=428&width=1280&fixed=true");
 }
 .header-inner {
   position: relative;
@@ -2113,7 +2113,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffedff;
+  background: #06ff87;
 }
 .links-of-blogroll {
   font-size: 13px;
