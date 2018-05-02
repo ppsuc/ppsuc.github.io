@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/05/02/heap-study/</loc>
+    <lastmod>2018-05-02T14:20:07.126Z</lastmod>
+    <data>
+        <display>
+        <title>heap-study</title>
+        <pubTime>2018-05-02T14:05:30.000Z</pubTime>
+        
+        <tag>ctf</tag>
+         
+        <tag>heap</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/12/12/study-pwn/</loc>
     <lastmod>2018-05-02T12:29:27.509Z</lastmod>
     <data>

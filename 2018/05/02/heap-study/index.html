@@ -85,7 +85,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="ctf,heap," />
 
 
 
@@ -98,16 +98,17 @@
 
 
 
-<meta name="description" content="To Be a Better Me">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Vicen Blog">
-<meta property="og:url" content="http://yoursite.com/tags/re/index.html">
+<meta name="keywords" content="ctf,heap">
+<meta property="og:type" content="article">
+<meta property="og:title" content="heap-study">
+<meta property="og:url" content="http://yoursite.com/2018/05/02/heap-study/index.html">
 <meta property="og:site_name" content="Vicen Blog">
-<meta property="og:description" content="To Be a Better Me">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://yoursite.com/2018/05/02/heap-study/1.jpg">
+<meta property="og:updated_time" content="2018-05-02T14:20:07.126Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vicen Blog">
-<meta name="twitter:description" content="To Be a Better Me">
+<meta name="twitter:title" content="heap-study">
+<meta name="twitter:image" content="http://yoursite.com/2018/05/02/heap-study/1.jpg">
 
 
 
@@ -137,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/re/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/02/heap-study/"/>
 
 
 
 
 
-  <title>标签: re | Vicen Blog</title>
+  <title>heap-study | Vicen Blog</title>
   
 
 
@@ -162,7 +163,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -310,82 +311,191 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>re<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/02/heap-study/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Vicen">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/assets/img/touxiang.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Vicen Blog">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/04/30/mips/" itemprop="url">
-              
-                <span itemprop="name">mips程序调试</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">heap-study</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-04-30T02:23:54+08:00"
-              content="2018-04-30" >
-          04-30
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-02T22:05:30+08:00">
+                2018-05-02
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+              <span class="post-meta-divider">|</span>
+              <span class="post-meta-item-icon">
+                <i class="fa fa-comment-o"></i>
+              </span>
+              
+                <a href="/2018/05/02/heap-study/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/05/02/heap-study/" itemprop="commentsCount"></span>
+                </a>
+              
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-        
+      
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/11/26/wp-2017-hxb/" itemprop="url">
-              
-                <span itemprop="name">writeup for 2017湖湘杯</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-11-26T00:00:47+08:00"
-              content="2017-11-26" >
-          11-26
-        </time>
-      </div>
-
-    </header>
-  </article>
-
+      
+        <p><img src="/2018/05/02/heap-study/1.jpg" alt=""><br><a id="more"></a></p>
+<h1 id="ptmalloc下堆的分配和回收"><a href="#ptmalloc下堆的分配和回收" class="headerlink" title="ptmalloc下堆的分配和回收"></a>ptmalloc下堆的分配和回收</h1><h2 id="ptmalloc内存分配"><a href="#ptmalloc内存分配" class="headerlink" title="ptmalloc内存分配"></a>ptmalloc内存分配</h2><p>1)  获取分配区的锁，为了防止多个线程同时访问同一个分配区，在进行分配之前需要取得分配区域的锁。线程先查看线程私有实例中是否已经存在一个分配区，如果存在尝试对该分配区加锁，如果加锁成功，使用该分配区分配内存，否则，该线程搜索分配区循环链表试图获得一个空闲（没有加锁）的分配区。如果所有的分配区都已经加锁，那么ptmalloc 会开辟一个新的分配区，把该分配区加入到全局分配区循环链表和线程的私有实例中并加锁，然后使用该分配区进行分配操作。开辟出来的新分配区一定为非主分配区，因为主分配区是从父进程那里继承来的。开辟非主分配区时会调用mmap()创建一个sub-heap，并设置好top chunk 。<br>2)  将用户的请求大小转换为实际需要分配的chunk 空间大小。<br>3)  判断所需分配chunk 的大小是否满足chunk_size &lt;= max_fast (max_fast  默认为  64B)， 如果是的话，则转下一步，否则跳到第5 步。<br>4)  首先尝试在fast  bins 中取一个所需大小的chunk 分配给用户。如果可以找到，则分配结束。否则转到下一步。<br>5)  判断所需大小是否处在small   bins  中，即判断chunk_size  &lt;  512B 是否成立。如果 chunk 大小处在small  bins 中，则转下一步，否则转到第6 步。<br>6)  根据所需分配的chunk 的大小，找到具体所在的某个small bin，从该bin 的尾部摘取一个恰好满足大小的chunk 。若成功，则分配结束，否则，转到下一步。<br>7)  到了这一步，说明需要分配的是一块大的内存，或者 small  bins中找不到合适的chunk。于是，ptmalloc 首先会遍历fast  bins 中的chunk，将相邻的chunk 进行合并，并链接到unsorted bin 中，然后遍历unsorted bin 中的chunk，如果unsorted bin 只有一个chunk，并且这个chunk 在上次分配时被使用过，并且所需分配的chunk 大小属于small  bins，并且chunk 的大小大于等于需要分配的大小，这种情况下就直接将该chunk 进行切割，分配结束，否则将根据chunk  的空间大小将其放入smallbins 或是large  bins 中，遍历完成后，转入下一步。<br>8)  到了这一步，说明需要分配的是一块大的内存，或者small  bins 和unsorted  bin 中都找不到合适的  chunk，并且fast  bins 和unsorted bin 中所有的chunk 都清除干净了。从large bins 中按照“smallest-first ，best-fit ”原则，找一个合适的  chunk，从中划分一块所需大小的chunk，并将剩下的部分链接回到bins 中。若操作成功，则分配结束，否则转到下一步。<br>9)  如果搜索fast  bins 和bins 都没有找到合适的chunk，那么就需要操作top chunk来<br>进行分配了。判断top  chunk 大小是否满足所需chunk  的大小，如果是，则从top chunk中分出一块来。否则转到下一步。<br>10)  到了这一步，说明top chunk 也不能满足分配要求，所以，于是就有了两个选择:<br>如果是主分配区，调用sbrk()，增加top chunk 大小；如果是非主分配区，调用mmap来分配一个新的sub-heap，增加top chunk 大小；或者使用mmap()来直接分配。在这里，需要依靠 chunk的大小来决定到底使用哪种方法。判断所需分配的 chunk大小是否大于等于mmap分配阈值，如果是的话，则转下一步，调用mmap 分配，否则跳到第12 步，增加top chunk的大小。<br>11)  使用mmap 系统调用为程序的内存空间映射一块chunk_size align 4kB 大小的空间。然后将内存指针返回给用户。<br>12)  判断是否为第一次调用malloc，若是主分配区，则需要进行一次初始化工作，分配一块大小为(chunk_size+128KB)align4KB大小的空间作为初始的heap。若已经初始化过了，主分配区则调用sbrk()增加heap空间，分主分配区则在topchunk中切割出一个chunk，使之满足分配需求，并将内存指针返回给用户。<br>总结一下：根据用户请求分配的内存的大小，ptmalloc有可能会在两个地方为用户分配内存空间。在第一次分配内存时，一般情况下只存在一个主分配区，但也有可能从父进程那里继承来了多个非主分配区，在这里主要讨论主分配区的情况，brk值等于start_brk，所以实际上heap大小为0，topchunk大小也是0。这时，如果不增加heap大小，就不能满足任何分配要求。所以，若用户的请求的内存大小小于mmap分配阈值，则ptmalloc会初始heap。然后在heap中分配空间给用户，以后的分配就基于这个heap进行。若第一次用户的请求就大于mmap分配阈值，则ptmalloc直接使用mmap()分配一块内存给用户，而heap也就没有被初始化，直到用户第一次请求小于mmap分配阈值的内存分配。第一次以后的分配就比较复杂了，简单说来，ptmalloc首先会查找fastbins，如果不能找到匹配的chunk，则查找smallbins。若还是不行，合并fastbins，把chunk加入unsortedbin，在unsortedbin中查找，若还是不行，把unsortedbin中的chunk全加入largebins中，并查找largebins。在fastbins和smallbins中的查找都需要精确匹配，而在largebins中查找时，则遵循“smallest-first，best-fit”的原则，不需要精确匹配。若以上方法都失败了，则ptmalloc会考虑使用topchunk。若topchunk也不能满足分配要求。而且所需chunk大小大于mmap分配阈值，则使用mmap进行分配。否则增加heap，增大topchunk。以满足分配要求。</p>
+<h2 id="ptmalloc内存回收"><a href="#ptmalloc内存回收" class="headerlink" title="ptmalloc内存回收"></a>ptmalloc内存回收</h2><p>free()函数接受一个指向分配区域的指针作为参数，释放该指针所指向的chunk。而具体的释放方法则看该chunk所处的位置和该chunk的大小。free()函数的工作步骤如下：<br>1)   free()函数同样首先需要获取分配区的锁，来保证线程安全。<br>2)   判断传入的指针是否为0，如果为0，则什么都不做，直接return。否则转下一步。<br>3)   判断所需释放的chunk是否为mmapedchunk，如果是，则调用munmap()释放mmapedchunk，解除内存空间映射，该该空间不再有效。如果开启了mmap分配阈值的动态调整机制，并且当前回收的chunk大小大于mmap分配阈值，将mmap分配阈值设置为该chunk的大小，将mmap收缩阈值设定为mmap分配阈值的2倍，释放完成，否则跳到下一步。<br>4)   判断chunk的大小和所处的位置，若chunk_size&lt;=max_fast，并且chunk并不位于heap的顶部，也就是说并不与topchunk相邻，则转到下一步，否则跳到第6步。（因为与topchunk相邻的小chunk也和topchunk进行合并，所以这里不仅需要判断大小，还需要判断相邻情况）<br>5)   将chunk放到fastbins中，chunk放入到fastbins中时，并不修改该chunk使用状态位P。也不与相邻的chunk进行合并。只是放进去，如此而已。这一步做完之后释放便结束了，程序从free()函数中返回。<br>6)   判断前一个chunk是否处在使用中，如果前一个块也是空闲块，则合并。并转下一步。<br>7)   判断当前释放chunk的下一个块是否为topchunk，如果是，则转第9步，否则转下一步。<br>8)   判断下一个chunk是否处在使用中，如果下一个chunk也是空闲的，则合并，并将合并后的chunk放到unsortedbin中。注意，这里在合并的过程中，要更新chunk的大小，以反映合并后的chunk的大小。并转到第10步。<br>9)   如果执行到这一步，说明释放了一个与topchunk相邻的chunk。则无论它有多大，都将它与topchunk合并，并更新topchunk的大小等信息。转下一步。<br>10)  判断合并后的chunk的大小是否大于FASTBIN_CONSOLIDATION_THRESHOLD（默认64KB），如果是的话，则会触发进行fastbins的合并操作，fastbins中的chunk将被遍历，并与相邻的空闲chunk进行合并，合并后的chunk会被放到unsortedbin中。fastbins将变为空，操作完成之后转下一步。<br>11)  判断topchunk的大小是否大于mmap收缩阈值（默认为128KB），如果是的话，对于主分配区，则会试图归还topchunk中的一部分给操作系统。但是最先分配的128KB空间是不会归还的，ptmalloc会一直管理这部分内存，用于响应用户的分配请求；如果为非主分配区，会进行sub-heap收缩，将topchunk的一部分返回给操作系统，如果topchunk为整个sub-heap，会把整个sub-heap还回给操作系统。做完这一步之后，释放结束，从free()函数退出。可以看出，收缩堆的条件是当前free的chunk大小加上前后能合并chunk的大小大于64k，并且要topchunk的大小要达到mmap收缩阈值，才有可能收缩堆。</p>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>Thanks For Reward</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/assets/img/weixin.jpg" alt="Vicen 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/assets/img/alipay.jpg" alt="Vicen 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ctf/" rel="tag"><i class="fa fa-tag"></i> ctf</a>
+          
+            <a href="/tags/heap/" rel="tag"><i class="fa fa-tag"></i> heap</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/04/30/wp-2018-ciscn/" rel="next" title="CISCN2018 Writeup">
+                <i class="fa fa-chevron-left"></i> CISCN2018 Writeup
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -393,6 +503,15 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="SOHUCS"></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -413,8 +532,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -687,6 +815,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#ptmalloc下堆的分配和回收"><span class="nav-number">1.</span> <span class="nav-text">ptmalloc下堆的分配和回收</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#ptmalloc内存分配"><span class="nav-number">1.1.</span> <span class="nav-text">ptmalloc内存分配</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ptmalloc内存回收"><span class="nav-number">1.2.</span> <span class="nav-text">ptmalloc内存回收</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -827,6 +971,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
 
   
 
