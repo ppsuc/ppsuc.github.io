@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/04/06/linux-other/</loc>
+    <lastmod>2018-05-05T16:33:22.891Z</lastmod>
+    <data>
+        <display>
+        <title>linux折腾杂记</title>
+        <pubTime>2018-04-05T16:03:20.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2017/11/26/wp-2017-hxb/</loc>
     <lastmod>2018-05-03T03:59:50.135Z</lastmod>
     <data>

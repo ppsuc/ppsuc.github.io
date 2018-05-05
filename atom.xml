@@ -85,6 +85,26 @@
   </entry>
   
   <entry>
+    <title>linux折腾杂记</title>
+    <link href="http://yoursite.com/2018/04/06/linux-other/"/>
+    <id>http://yoursite.com/2018/04/06/linux-other/</id>
+    <published>2018-04-05T16:03:20.000Z</published>
+    <updated>2018-05-05T16:33:22.891Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2018/04/06/linux-other/1.jpg" alt=""><br>环境：Ubuntu 16<br>记录一下平时使用linux遇到的问题以及解决方式<br><a id="more"></a></p><h2 id="1-pip"><a href="#1-pip" class="headerlink" title="1.pip"></a>1.pip</h2><p>pip升级10.0.1之后执行</p><pre><code>sudo pip install</code></pre><p>会报错 </p><pre><code>ImportError: cannot import name &apos;Process&apos;</code></pre><p>查阅百度，基本都是sys.exit(main())改为sys.exit(<strong>main</strong>.main())，办法估计全是复制粘贴，根本无用，正确解决方式：</p><pre><code>from pip import main改为from pip._internal import main</code></pre><p>即可正常执行pip安装python包，如果不行，退出终端重试一下。</p><h2 id="2-fish-shell"><a href="#2-fish-shell" class="headerlink" title="2.fish shell"></a>2.fish shell</h2><p>fish shell 比自带的/bin/bash好用很多，尤其是选择tab时，会自动列出所有输入可能供其选择，特别方便</p><pre><code>sudo apt-get install fish</code></pre><p>设置默认shell（3种方式）</p><pre><code>1.chsh -s /usr/bin/fish2.set -g default-command /usr/bin/fish  set -g default-shell /usr/bin/fish3.vi /etc/passwd 把用户默认shell由/bin/bash改成/usr/bin/fish</code></pre><p>重启终端打开即可</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/2018/04/06/linux-other/1.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;环境：Ubuntu 16&lt;br&gt;记录一下平时使用linux遇到的问题以及解决方式&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Xman冬令营writeup</title>
     <link href="http://yoursite.com/2018/01/07/wp-xmandly/"/>
     <id>http://yoursite.com/2018/01/07/wp-xmandly/</id>
