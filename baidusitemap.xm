@@ -4,6 +4,59 @@
 
     
   <url>
+    <loc>http://yoursite.com/2018/05/28/bat-upan/</loc>
+    <lastmod>2018-05-27T17:03:22.291Z</lastmod>
+    <data>
+        <display>
+        <title>U盘文档偷取</title>
+        <pubTime>2018-05-27T16:46:32.000Z</pubTime>
+        
+        <tag>Study</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/05/26/termux-study/</loc>
+    <lastmod>2018-05-27T17:02:42.668Z</lastmod>
+    <data>
+        <display>
+        <title>安卓终端-termux</title>
+        <pubTime>2018-05-26T10:00:07.000Z</pubTime>
+        
+        <tag>Study</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/01/07/wp-xmandly/</loc>
+    <lastmod>2018-05-27T17:01:13.575Z</lastmod>
+    <data>
+        <display>
+        <title>Xman冬令营writeup</title>
+        <pubTime>2018-01-06T16:38:56.000Z</pubTime>
+        
+        <tag>ctf</tag>
+         
+        <tag>writeup</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yoursite.com/2018/04/06/linux-other/</loc>
     <lastmod>2018-05-05T16:33:22.891Z</lastmod>
     <data>
@@ -99,21 +152,6 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/01/07/wp-xmandly/</loc>
-    <lastmod>2018-05-02T11:52:41.029Z</lastmod>
-    <data>
-        <display>
-        <title>Xman冬令营writeup</title>
-        <pubTime>2018-01-06T16:38:56.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2018/04/30/mips/</loc>
     <lastmod>2018-05-02T11:45:23.241Z</lastmod>
     <data>
@@ -193,9 +231,9 @@
         <title>爬虫初探-春雨医生网页数据收集</title>
         <pubTime>2017-12-04T06:51:12.000Z</pubTime>
         
-        <tag>爬虫</tag>
-         
         <tag>Study</tag>
+         
+        <tag>爬虫</tag>
          
          
            
@@ -230,9 +268,9 @@
         <title>[摘]《今日说法》里最悬疑复杂的一案</title>
         <pubTime>2017-11-22T04:37:19.000Z</pubTime>
         
-        <tag>警察</tag>
-         
         <tag>摘录</tag>
+         
+        <tag>警察</tag>
          
          
            
