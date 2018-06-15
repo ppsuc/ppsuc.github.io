@@ -260,9 +260,9 @@
     </summary>
     
     
-      <category term="Study" scheme="http://yoursite.com/tags/Study/"/>
-    
       <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
+    
+      <category term="Study" scheme="http://yoursite.com/tags/Study/"/>
     
   </entry>
   
