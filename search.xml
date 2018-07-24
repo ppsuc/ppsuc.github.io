@@ -3,6 +3,63 @@
   
     
     <entry>
+      <title><![CDATA['pwn培训-1']]></title>
+      <url>/2018/07/24/ppt/</url>
+      <content type="html"><![CDATA[<p><img src="/2018/07/24/ppt/1.jpg" alt=""><br><a id="more"></a><br>PWN基础知识<br>
+
+	<div class="row">
+    <embed src="PWN基础知识.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+<br>CTF防护机制绕过<br>
+
+	<div class="row">
+    <embed src="CTF防护机制绕过.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+<br>Linux内核漏洞利用<br>
+
+	<div class="row">
+    <embed src="Linux内核漏洞利用.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+<br>堆漏洞讲解<br>
+
+	<div class="row">
+    <embed src="堆漏洞讲解.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+<br>恶意代码分析方法<br>
+
+	<div class="row">
+    <embed src="恶意代码分析方法.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+<br>缓冲区溢出漏洞讲解<br>
+
+	<div class="row">
+    <embed src="缓冲区溢出漏洞讲解.pdf" width="100%" height="550" type="application/pdf">
+	</div>
+
+
+</p>
+]]></content>
+      
+        
+        <tags>
+            
+            <tag> pwn </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[U盘文档偷取]]></title>
       <url>/2018/05/28/bat-upan/</url>
       <content type="html"><![CDATA[<p><img src="/2018/05/28/bat-upan/1.jpg" alt="">  </p>
@@ -800,9 +857,9 @@ from pip._internal import main
         
         <tags>
             
-            <tag> 爬虫 </tag>
-            
             <tag> Study </tag>
+            
+            <tag> 爬虫 </tag>
             
         </tags>
         

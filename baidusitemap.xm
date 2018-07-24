@@ -3,6 +3,23 @@
 
 
     
+  <url>
+    <loc>http://yoursite.com/2018/07/24/ppt/</loc>
+    <lastmod>2018-07-24T15:11:37.293Z</lastmod>
+    <data>
+        <display>
+        <title>'pwn培训-1'</title>
+        <pubTime>2018-07-24T14:42:48.000Z</pubTime>
+        
+        <tag>pwn</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://yoursite.com/2018/05/28/bat-upan/</loc>
@@ -231,9 +248,9 @@
         <title>爬虫初探-春雨医生网页数据收集</title>
         <pubTime>2017-12-04T06:51:12.000Z</pubTime>
         
-        <tag>爬虫</tag>
-         
         <tag>Study</tag>
+         
+        <tag>爬虫</tag>
          
          
            

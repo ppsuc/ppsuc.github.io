@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-27T17:03:22.291Z</updated>
+  <updated>2018-07-24T15:11:37.293Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-07-24T15:11:37.293Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2018/07/24/ppt/1.jpg" alt=""><br><a id="more"></a><br>PWN基础知识<br><div class="row">    <embed src="PWN基础知识.pdf" width="100%" height="550" type="application/pdf"></div><br>CTF防护机制绕过<br><div class="row">    <embed src="CTF防护机制绕过.pdf" width="100%" height="550" type="application/pdf"></div><br>Linux内核漏洞利用<br><div class="row">    <embed src="Linux内核漏洞利用.pdf" width="100%" height="550" type="application/pdf"></div><br>堆漏洞讲解<br><div class="row">    <embed src="堆漏洞讲解.pdf" width="100%" height="550" type="application/pdf"></div><br>恶意代码分析方法<br><div class="row">    <embed src="恶意代码分析方法.pdf" width="100%" height="550" type="application/pdf"></div><br>缓冲区溢出漏洞讲解<br><div class="row">    <embed src="缓冲区溢出漏洞讲解.pdf" width="100%" height="550" type="application/pdf"></div></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/2018/07/24/ppt/1.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
   
   <entry>
     <title>U盘文档偷取</title>
@@ -260,9 +280,9 @@
     </summary>
     
     
-      <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
-    
       <category term="Study" scheme="http://yoursite.com/tags/Study/"/>
+    
+      <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
