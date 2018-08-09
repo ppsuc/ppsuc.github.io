@@ -3,141 +3,13 @@
 
 
     
-  <url>
-    <loc>http://yoursite.com/2018/07/24/ppt/</loc>
-    <lastmod>2018-08-09T13:05:21.172Z</lastmod>
-    <data>
-        <display>
-        <title>'pwn培训-1'</title>
-        <pubTime>2018-07-24T14:42:48.000Z</pubTime>
-        
-        <tag>pwn</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
-  <url>
-    <loc>http://yoursite.com/2018/07/24/ppt/CTF%E9%98%B2%E6%8A%A4%E6%9C%BA%E5%88%B6%E7%BB%95%E8%BF%87/</loc>
-    <lastmod>2018-08-09T10:53:30.571Z</lastmod>
-    <data>
-        <display>
-        <title>'pwn培训-1'</title>
-        <pubTime>2018-07-24T14:42:48.000Z</pubTime>
-        
-        <tag>pwn</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
-  <url>
-    <loc>http://yoursite.com/2018/07/24/ppt/Linux%E5%86%85%E6%A0%B8%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8/</loc>
-    <lastmod>2018-08-09T10:53:29.742Z</lastmod>
-    <data>
-        <display>
-        <title>'pwn培训-1'</title>
-        <pubTime>2018-07-24T14:42:48.000Z</pubTime>
-        
-        <tag>pwn</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
-  <url>
-    <loc>http://yoursite.com/2018/07/24/ppt/PWN%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
-    <lastmod>2018-08-09T10:53:28.888Z</lastmod>
-    <data>
-        <display>
-        <title>'pwn培训-1'</title>
-        <pubTime>2018-07-24T14:42:48.000Z</pubTime>
-        
-        <tag>pwn</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
-  <url>
-    <loc>http://yoursite.com/2018/07/24/ppt/XMan-Pwn-%E5%A0%86/</loc>
-    <lastmod>2018-08-09T10:53:28.156Z</lastmod>
-    <data>
-        <display>
-        <title>'pwn培训-1'</title>
-        <pubTime>2018-07-24T14:42:48.000Z</pubTime>
-        
-        <tag>pwn</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
-  <url>
-    <loc>http://yoursite.com/2018/07/24/ppt/%E5%A0%86%E6%BC%8F%E6%B4%9E%E8%AE%B2%E8%A7%A3/</loc>
-    <lastmod>2018-08-09T10:53:27.262Z</lastmod>
-    <data>
-        <display>
-        <title>'pwn培训-1'</title>
-        <pubTime>2018-07-24T14:42:48.000Z</pubTime>
-        
-        <tag>pwn</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
-  <url>
-    <loc>http://yoursite.com/2018/07/24/ppt/%E6%81%B6%E6%84%8F%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/</loc>
-    <lastmod>2018-08-09T10:53:26.602Z</lastmod>
-    <data>
-        <display>
-        <title>'pwn培训-1'</title>
-        <pubTime>2018-07-24T14:42:48.000Z</pubTime>
-        
-        <tag>pwn</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
-  <url>
-    <loc>http://yoursite.com/2018/07/24/ppt/%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA%E6%BC%8F%E6%B4%9E%E8%AE%B2%E8%A7%A3/</loc>
-    <lastmod>2018-08-09T10:53:25.184Z</lastmod>
-    <data>
-        <display>
-        <title>'pwn培训-1'</title>
-        <pubTime>2018-07-24T14:42:48.000Z</pubTime>
-        
-        <tag>pwn</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
     
   <url>
@@ -276,9 +148,9 @@
         <title>Pwn思路</title>
         <pubTime>2017-12-12T15:53:16.000Z</pubTime>
         
-        <tag>pwn</tag>
-         
         <tag>摘录</tag>
+         
+        <tag>pwn</tag>
          
          
            
@@ -367,9 +239,9 @@
         <title>爬虫初探-春雨医生网页数据收集</title>
         <pubTime>2017-12-04T06:51:12.000Z</pubTime>
         
-        <tag>爬虫</tag>
-         
         <tag>Study</tag>
+         
+        <tag>爬虫</tag>
          
          
            
@@ -377,7 +249,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://yoursite.com/2017/12/16/ppsuc-sybg/</loc>
