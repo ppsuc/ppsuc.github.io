@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-09T10:53:31.406Z</updated>
+  <updated>2018-08-09T10:55:29.078Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,91 +21,13 @@
     <link href="http://yoursite.com/2018/07/24/ppt/"/>
     <id>http://yoursite.com/2018/07/24/ppt/</id>
     <published>2018-07-24T14:42:48.000Z</published>
-    <updated>2018-08-09T10:53:31.406Z</updated>
+    <updated>2018-08-09T10:55:29.078Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/2018/07/24/ppt/1.jpg" alt=""><br><a id="more"></a></p><h1 id="PWN基础知识"><a href="#PWN基础知识" class="headerlink" title="PWN基础知识"></a>PWN基础知识</h1><ul><li><a href="CTF防护机制绕过">CTF防护机制绕过</a></li><li><a href="Linux内核漏洞利用">Linux内核漏洞利用</a></li><li><a href="PWN基础知识">PWN基础知识</a></li><li><a href="XMan-Pwn-堆">XMan-Pwn-堆</a></li><li><a href="堆漏洞讲解">堆漏洞讲解</a></li><li><a href="恶意代码分析方法">恶意代码分析方法</a></li><li><a href="缓冲区溢出漏洞讲解">缓冲区溢出漏洞讲解</a></li></ul>]]></content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;img src=&quot;/2018/07/24/ppt/1.jpg&quot; alt=&quot;&quot;&gt;&lt;br&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&#39;pwn培训-1&#39;</title>
-    <link href="http://yoursite.com/2018/07/24/ppt/%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA%E6%BC%8F%E6%B4%9E%E8%AE%B2%E8%A7%A3/"/>
-    <id>http://yoursite.com/2018/07/24/ppt/缓冲区溢出漏洞讲解/</id>
-    <published>2018-07-24T14:42:48.000Z</published>
-    <updated>2018-08-09T10:53:25.184Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="缓冲区溢出漏洞讲解"><a href="#缓冲区溢出漏洞讲解" class="headerlink" title="缓冲区溢出漏洞讲解"></a>缓冲区溢出漏洞讲解</h2><div class="row">    <embed src="缓冲区溢出漏洞讲解.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;缓冲区溢出漏洞讲解&quot;&gt;&lt;a href=&quot;#缓冲区溢出漏洞讲解&quot; class=&quot;headerlink&quot; title=&quot;缓冲区溢出漏洞讲解&quot;&gt;&lt;/a&gt;缓冲区溢出漏洞讲解&lt;/h2&gt;
-
-	&lt;div class=&quot;row&quot;&gt;
-    &lt;embed src=&quot;缓冲区溢出漏洞讲
-      
-    
-    </summary>
-    
-    
-      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&#39;pwn培训-1&#39;</title>
-    <link href="http://yoursite.com/2018/07/24/ppt/XMan-Pwn-%E5%A0%86/"/>
-    <id>http://yoursite.com/2018/07/24/ppt/XMan-Pwn-堆/</id>
-    <published>2018-07-24T14:42:48.000Z</published>
-    <updated>2018-08-09T10:53:28.156Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="XMan-Pwn-堆"><a href="#XMan-Pwn-堆" class="headerlink" title="XMan-Pwn-堆"></a>XMan-Pwn-堆</h2><div class="row">    <embed src="XMan-Pwn-堆.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;XMan-Pwn-堆&quot;&gt;&lt;a href=&quot;#XMan-Pwn-堆&quot; class=&quot;headerlink&quot; title=&quot;XMan-Pwn-堆&quot;&gt;&lt;/a&gt;XMan-Pwn-堆&lt;/h2&gt;
-
-	&lt;div class=&quot;row&quot;&gt;
-    &lt;embed src=&quot;XMan
-      
-    
-    </summary>
-    
-    
-      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&#39;pwn培训-1&#39;</title>
-    <link href="http://yoursite.com/2018/07/24/ppt/CTF%E9%98%B2%E6%8A%A4%E6%9C%BA%E5%88%B6%E7%BB%95%E8%BF%87/"/>
-    <id>http://yoursite.com/2018/07/24/ppt/CTF防护机制绕过/</id>
-    <published>2018-07-24T14:42:48.000Z</published>
-    <updated>2018-08-09T10:53:30.571Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="CTF防护机制绕过"><a href="#CTF防护机制绕过" class="headerlink" title="CTF防护机制绕过"></a>CTF防护机制绕过</h2><div class="row">    <embed src="CTF防护机制绕过.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;CTF防护机制绕过&quot;&gt;&lt;a href=&quot;#CTF防护机制绕过&quot; class=&quot;headerlink&quot; title=&quot;CTF防护机制绕过&quot;&gt;&lt;/a&gt;CTF防护机制绕过&lt;/h2&gt;
-
-	&lt;div class=&quot;row&quot;&gt;
-    &lt;embed src=&quot;CTF防护机制绕
-      
     
     </summary>
     
@@ -131,32 +53,6 @@
 
 	&lt;div class=&quot;row&quot;&gt;
     &lt;embed src=&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>&#39;pwn培训-1&#39;</title>
-    <link href="http://yoursite.com/2018/07/24/ppt/%E6%81%B6%E6%84%8F%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/"/>
-    <id>http://yoursite.com/2018/07/24/ppt/恶意代码分析方法/</id>
-    <published>2018-07-24T14:42:48.000Z</published>
-    <updated>2018-08-09T10:53:26.602Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="恶意代码分析方法"><a href="#恶意代码分析方法" class="headerlink" title="恶意代码分析方法"></a>恶意代码分析方法</h2><div class="row">    <embed src="恶意代码分析方法.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;恶意代码分析方法&quot;&gt;&lt;a href=&quot;#恶意代码分析方法&quot; class=&quot;headerlink&quot; title=&quot;恶意代码分析方法&quot;&gt;&lt;/a&gt;恶意代码分析方法&lt;/h2&gt;
-
-	&lt;div class=&quot;row&quot;&gt;
-    &lt;embed src=&quot;恶意代码分析方法.pdf
       
     
     </summary>
@@ -194,6 +90,32 @@
   
   <entry>
     <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/XMan-Pwn-%E5%A0%86/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/XMan-Pwn-堆/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:28.156Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="XMan-Pwn-堆"><a href="#XMan-Pwn-堆" class="headerlink" title="XMan-Pwn-堆"></a>XMan-Pwn-堆</h2><div class="row">    <embed src="XMan-Pwn-堆.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;XMan-Pwn-堆&quot;&gt;&lt;a href=&quot;#XMan-Pwn-堆&quot; class=&quot;headerlink&quot; title=&quot;XMan-Pwn-堆&quot;&gt;&lt;/a&gt;XMan-Pwn-堆&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;XMan
+      
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
     <link href="http://yoursite.com/2018/07/24/ppt/PWN%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
     <id>http://yoursite.com/2018/07/24/ppt/PWN基础知识/</id>
     <published>2018-07-24T14:42:48.000Z</published>
@@ -209,6 +131,84 @@
 
 	&lt;div class=&quot;row&quot;&gt;
     &lt;embed src=&quot;PWN基础知识.pdf&quot; wid
+      
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/CTF%E9%98%B2%E6%8A%A4%E6%9C%BA%E5%88%B6%E7%BB%95%E8%BF%87/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/CTF防护机制绕过/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:30.571Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="CTF防护机制绕过"><a href="#CTF防护机制绕过" class="headerlink" title="CTF防护机制绕过"></a>CTF防护机制绕过</h2><div class="row">    <embed src="CTF防护机制绕过.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;CTF防护机制绕过&quot;&gt;&lt;a href=&quot;#CTF防护机制绕过&quot; class=&quot;headerlink&quot; title=&quot;CTF防护机制绕过&quot;&gt;&lt;/a&gt;CTF防护机制绕过&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;CTF防护机制绕
+      
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/%E6%81%B6%E6%84%8F%E4%BB%A3%E7%A0%81%E5%88%86%E6%9E%90%E6%96%B9%E6%B3%95/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/恶意代码分析方法/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:26.602Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="恶意代码分析方法"><a href="#恶意代码分析方法" class="headerlink" title="恶意代码分析方法"></a>恶意代码分析方法</h2><div class="row">    <embed src="恶意代码分析方法.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;恶意代码分析方法&quot;&gt;&lt;a href=&quot;#恶意代码分析方法&quot; class=&quot;headerlink&quot; title=&quot;恶意代码分析方法&quot;&gt;&lt;/a&gt;恶意代码分析方法&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;恶意代码分析方法.pdf
+      
+    
+    </summary>
+    
+    
+      <category term="pwn" scheme="http://yoursite.com/tags/pwn/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;pwn培训-1&#39;</title>
+    <link href="http://yoursite.com/2018/07/24/ppt/%E7%BC%93%E5%86%B2%E5%8C%BA%E6%BA%A2%E5%87%BA%E6%BC%8F%E6%B4%9E%E8%AE%B2%E8%A7%A3/"/>
+    <id>http://yoursite.com/2018/07/24/ppt/缓冲区溢出漏洞讲解/</id>
+    <published>2018-07-24T14:42:48.000Z</published>
+    <updated>2018-08-09T10:53:25.184Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="缓冲区溢出漏洞讲解"><a href="#缓冲区溢出漏洞讲解" class="headerlink" title="缓冲区溢出漏洞讲解"></a>缓冲区溢出漏洞讲解</h2><div class="row">    <embed src="缓冲区溢出漏洞讲解.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;缓冲区溢出漏洞讲解&quot;&gt;&lt;a href=&quot;#缓冲区溢出漏洞讲解&quot; class=&quot;headerlink&quot; title=&quot;缓冲区溢出漏洞讲解&quot;&gt;&lt;/a&gt;缓冲区溢出漏洞讲解&lt;/h2&gt;
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;缓冲区溢出漏洞讲
       
     
     </summary>

@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2018/07/24/ppt/</loc>
-    <lastmod>2018-08-09T10:53:31.406Z</lastmod>
+    <lastmod>2018-08-09T10:55:29.078Z</lastmod>
     <data>
         <display>
         <title>'pwn培训-1'</title>
